@@ -51,7 +51,7 @@ gulp.task('images', function() {
     .pipe(gulp.dest('./dist/images'));
 });
 
-gulp.task('deploy', function() {
+gulp.task('gh-pages', function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages());
 });
@@ -69,4 +69,5 @@ gulp.task('serve-dist', serve({
 
 gulp.task('build', ['html', 'css', 'images']);
 gulp.task('serve', ['build', 'watch', 'serve-dist']);
+gulp.task('deploy', ['build', 'gh-pages']);
 gulp.task('default', ['serve']);
