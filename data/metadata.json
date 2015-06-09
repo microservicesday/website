@@ -1,0 +1,29 @@
+{
+  "title": "Microservices Day - July 13th 2015 - New York, NY",
+  "description": "Add a description",
+  "opengraph": {
+    "title": "Microservices Day 2015, NY",
+    "url": "http://microservicesday.com",
+    "type": "website",
+    "description": "Add a description",
+    "image": "http://microservicesday.com/path/to/image.png",
+    "twitter": {
+      "card": "summary",
+      "site": "@microserviceday",
+      "author": "@microserviceday"
+    }
+  },
+  "conf": {
+    "tagline": "The NodeJS conference for the enterprise, by the enterprise",
+    "name": "Microservices Day",
+    "date": "July 13th, 2015",
+    "tickets": "http://tickets.com/foobar",
+    "location": {
+      "human": "New York, NY",
+      "name": "McKinsey & Company, 12th Floor",
+      "address": "1111 43rd Street, New York",
+      "lat": 40.7130,
+      "lng": -74.0135
+    }
+  }
+}

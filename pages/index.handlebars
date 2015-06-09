@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{{ metadata.title }}</title>
+        <meta name="description" content="{{ metadata.description }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:title" content="{{ metadata.opengraph.title }}" />
+        <meta property="og:url" content="{{ metadata.opengraph.url }}" />
+        <meta property="og:type" content="{{ metadata.opengraph.type }}" />
+        <meta property="og:description" content="{{ metadata.opengraph.description }}" />
+        <meta property="og:image" content="{{ metadata.opengraph.image }}" />
+        <meta property="og:twitter" content="{{ metadata.opengraph.twitter.card }}" />
+        <meta property="og:site" content="{{ metadata.opengraph.twitter.site }}" />
+        <meta property="og:author" content="{{ metadata.opengraph.twitter.author }}" />
+
+        <link rel="stylesheet" href="microservices-day.css">
+    </head>
+    <body>
+      {{> header}}
+
+      <section id="masthead">
+        
+        <img src="images/logo-large.svg" alt="Microservices Day">
+        <h4>{{ metadata.conf.tagline }}</h4>
+        <h2>{{ metadata.conf.name }}</h2>
+        <h3>{{ metadata.conf.date }} / {{ metadata.conf.location.human }}</h3>
+
+        <a href="{{ metadata.conf.tickets }}">Register Now</a>
+
+      </section>
+
+      <section id="about">
+
+        <h2>{{ about.title }}</h2>
+        <p>{{ about.blurb }}</p>
+
+      </section>
+
+      <section id="agenda">
+
+        <h2>Agenda</h2>
+        
+        {{#each agenda}}
+        <article>
+          
+          <div class="time">
+            {{ time.start }} - {{ time.end }}
+          </div>
+
+          <div class="content">
+            
+            <h3>{{ title }}</h3>
+
+            {{#if presenters}}
+
+              <div class="presenters">
+              
+                {{#each presenters}}
+                <div class="presenter">
+                  <h4>{{ name }}, {{ title }}</h4>
+                  <p>{{ organisation }}</p>
+
+                  {{#if twitter}}
+                  <a href="https://twitter.com/{{ twitter }}" class="twitter">Twitter</a>
+                  {{/if}}
+                  {{#if github}}
+                  <a href="https://github.com/{{ github }}" class="github">Github</a>
+                  {{/if}}
+
+                  <p>{{ blurb }}</p>
+
+                  <img src="{{ image }}" alt="{{ name }}">
+                </div>
+                {{/each}}
+
+              </div>
+
+            {{/if}}
+
+          </div>
+
+        </article>
+        {{/each}}
+
+      </section>
+
+      <section id="location"></section>
+
+      <div id="infowindow-template">
+        <h3>{{ metadata.conf.location.name }}</h3>
+        <p>{{ metadata.conf.location.address }}</p>
+      </div>
+
+      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+      <script>
+        var loc = new google.maps.LatLng({{ metadata.conf.location.lat }}, {{ metadata.conf.location.lng }});
+        var map = new google.maps.Map(document.getElementById('location'), {
+          zoom: 13,
+          center: loc
+        });
+        var infowindow = new google.maps.InfoWindow({
+            content: document.getElementById('infowindow-template').innerHTML
+        });
+        var marker = new google.maps.Marker({
+            position: loc,
+            map: map,
+            title: 'Microservices day location'
+        });
+
+        infowindow.open(map, marker);
+      </script>
+
+    </body>
+</html>
