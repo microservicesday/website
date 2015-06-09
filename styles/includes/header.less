@@ -1,0 +1,58 @@
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  nav {
+    width: @width;
+    margin: 0 auto;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: block;
+        float: right;
+        
+        &:first-of-type {
+          float: left;
+          margin-top: -4px;
+          a {
+            position: relative;
+            padding: 3px 0 0 32px;
+            &:hover {
+              text-decoration: none;
+              opacity: 0.5;
+            }
+            img {
+              position: absolute;
+              display: block;
+              width: 25px;
+              left: 0;
+              top: 0;
+            }
+          }
+        }
+
+        a {
+          color: @white;
+          text-decoration: none;
+          font-size: 0.9rem;
+          text-transform: lowercase;
+          display: block;
+          margin: 2rem 1rem;
+
+          &:hover,
+          &:active,
+          &:focus {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    
+  }
+}

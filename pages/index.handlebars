@@ -23,12 +23,18 @@
 
       <section id="masthead">
         
-        <img src="images/logo-large.svg" alt="Microservices Day">
+        <img src="images/logo.svg" alt="Microservices Day">
         <h4>{{ metadata.conf.tagline }}</h4>
         <h2>{{ metadata.conf.name }}</h2>
         <h3>{{ metadata.conf.date }} / {{ metadata.conf.location.human }}</h3>
 
-        <a href="{{ metadata.conf.tickets }}">Register Now</a>
+        <div id="sponsors" class="clearfix">
+          <p>Brought to you by</p>
+          <img src="images/nearform.svg" alt="NearForm">
+          <img src="images/mckinsey.svg" alt="McKinsey's Digital Labs">
+        </div>
+
+        <a href="{{ metadata.conf.tickets }}" class="button">Register Now</a>
 
       </section>
 
@@ -44,46 +50,15 @@
         <h2>Agenda</h2>
         
         {{#each agenda}}
-        <article>
-          
-          <div class="time">
-            {{ time.start }} - {{ time.end }}
-          </div>
-
-          <div class="content">
-            
-            <h3>{{ title }}</h3>
-
-            {{#if presenters}}
-
-              <div class="presenters">
-              
-                {{#each presenters}}
-                <div class="presenter">
-                  <h4>{{ name }}, {{ title }}</h4>
-                  <p>{{ organisation }}</p>
-
-                  {{#if twitter}}
-                  <a href="https://twitter.com/{{ twitter }}" class="twitter">Twitter</a>
-                  {{/if}}
-                  {{#if github}}
-                  <a href="https://github.com/{{ github }}" class="github">Github</a>
-                  {{/if}}
-
-                  <p>{{ blurb }}</p>
-
-                  <img src="{{ image }}" alt="{{ name }}">
-                </div>
-                {{/each}}
-
-              </div>
-
-            {{/if}}
-
-          </div>
-
-        </article>
+          {{> session}}
         {{/each}}
+
+      </section>
+
+      <section id="conduct">
+
+        <h2>{{ conduct.title }}</h2>
+        <p>{{ conduct.blurb }}</p>
 
       </section>
 

@@ -1,0 +1,78 @@
+#agenda {
+
+  h2 {
+    color: darken(@orange, 40%);
+    margin: 0 auto 0;
+    padding: 3rem 0 3rem;
+    width: @width;
+  }
+
+  article {
+    width: @width;
+    margin: 0 auto 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #ccc;
+
+    &:last-of-type {
+      border-bottom: 0px;
+      padding-bottom: 0;
+    }
+
+    .time {
+      float: left;
+      width: 20%;
+      font-size: 1.1rem;
+      color: #aaa;
+    }
+
+    .content {
+      float: left;
+      width: 80%;
+
+      h3 {
+        color: darken(@orange, 20%);
+        margin: 0;
+      }
+
+      p {
+        line-height: 140%;
+      }
+
+      .presenter {
+
+        margin-top: 2rem;
+
+        h4 {
+          margin: 0.3rem 0;
+        }
+
+        .twitter,
+        .github {
+          opacity: 0.7;
+          &:hover,
+          &:active {
+            opacity: 1;
+          }
+        }
+
+        .bio {
+          
+          p {
+            float: left;
+            width: 75%;
+          }
+
+          .presenter-image {
+            float: right;
+            width: 15%;
+            border-radius: 100%;
+            border: 1px solid #ccc;
+          }
+
+        }
+
+      }
+    }
+  }
+
+}

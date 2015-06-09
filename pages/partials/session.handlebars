@@ -1,0 +1,43 @@
+<article class="clearfix">
+          
+  <div class="time">
+    {{ time.start }} - {{ time.end }}
+  </div>
+
+  <div class="content">
+    
+    <h3>{{ title }}</h3>
+
+    {{#if blurb}}
+      <p>{{ blurb }}</p>
+    {{/if}}
+
+    {{#if presenters}}
+
+      <div class="presenters">
+      
+        {{#each presenters}}
+        <div class="presenter">
+          <h4>{{ name }}, {{ title }} @ {{ organisation }}</h4>
+
+          {{#if twitter}}
+          <a href="https://twitter.com/{{ twitter }}" class="twitter"><img src="images/twitter.svg" alt="Twitter"></a>
+          {{/if}}
+          {{#if github}}
+          <a href="https://github.com/{{ github }}" class="github"><img src="images/github.svg" alt="Github"></a>
+          {{/if}}
+
+          <div class="bio clearfix">
+            <p>{{ blurb }}</p>
+            <img src="{{ image }}" alt="{{ name }}" class="presenter-image">
+          </div>
+        </div>
+        {{/each}}
+
+      </div>
+
+    {{/if}}
+
+  </div>
+
+</article>

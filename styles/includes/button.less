@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  background: @red;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  color: @white;
+  font-family: @header-font-family;
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+    background: darken(@red, 10%);
+  }
+}

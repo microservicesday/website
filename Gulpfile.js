@@ -15,7 +15,8 @@ var ghPages        = require('gulp-gh-pages');
 var templateData = {
     metadata: require('./data/metadata'),
     about:    require('./data/about'),
-    agenda:   require('./data/agenda')
+    agenda:   require('./data/agenda'),
+    conduct:  require('./data/conduct')
 };
 
 gulp.task('html', function () {
@@ -23,13 +24,18 @@ gulp.task('html', function () {
         .pipe(handlebars(templateData, {
             // Options
             batch : ['./pages/partials'],
+            helpers: {
+                json: function(context) {
+                    return JSON.stringify(context);
+                }
+            }
         }))
         .pipe(rename('index.html'))
         .pipe(gulp.dest('dist'));
 });
 
 gulp.task('css', function () {
-  return gulp.src('./styles/**/*.less')
+  return gulp.src('./styles/*.less')
     .pipe(less({
         paths: [path.join(__dirname, 'styles', 'includes')],
         plugins: [
@@ -40,6 +46,11 @@ gulp.task('css', function () {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('images', function() {
+   gulp.src('./images/**/*')
+    .pipe(gulp.dest('./dist/images'));
+});
+
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages());
@@ -48,6 +59,7 @@ gulp.task('deploy', function() {
 gulp.task('watch', function() {
   gulp.watch(['./pages/**/*.handlebars', './data/*.json'], ['html']);
   gulp.watch('./styles/**/*.less', ['css']);
+  gulp.watch('./images/*', ['images']);
 });
 
 gulp.task('serve-dist', serve({
@@ -55,6 +67,6 @@ gulp.task('serve-dist', serve({
   port: 4000
 }));
 
-gulp.task('build', ['html', 'css']);
+gulp.task('build', ['html', 'css', 'images']);
 gulp.task('serve', ['build', 'watch', 'serve-dist']);
 gulp.task('default', ['serve']);
