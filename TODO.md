@@ -2,3 +2,6 @@
 * Finalise OpenGraph tags in `./data/metadata.json`
 * Robots.txt?
 * Add more location information to the map popup
+
+
+* Mobile and tablet versions
