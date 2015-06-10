@@ -13,8 +13,9 @@ var serve       = require('gulp-serve');
 var ghPages     = require('gulp-gh-pages');
 var uglify      = require('gulp-uglify');
 var concat      = require('gulp-concat');
-var babel       = require('gulp-babel');
-var sourcemaps  = require('gulp-sourcemaps');
+var babelify    = require('babelify');
+var browserify  = require('browserify');
+var source      = require('vinyl-source-stream');
 
 var templateData = {
     metadata: require('./data/metadata'),
@@ -65,13 +66,14 @@ gulp.task('js-vendor', function() {
 });
 
 gulp.task('js-src', function() {
-  gulp.src('./js/**/*.js')
-    .pipe(sourcemaps.init())
-    .pipe(babel())
-    .pipe(uglify())
-    .pipe(concat('app.js'))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./dist/js/'));
+    browserify({
+      entries: './js/main.js',
+      debug: true
+    })
+    .transform(babelify)
+    .bundle()
+    .pipe(source('app.js'))
+    .pipe(gulp.dest('./dist/js'));
 });
 
 gulp.task('gh-pages', function() {

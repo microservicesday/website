@@ -5,9 +5,10 @@ class Header {
     this.libInstance = new Headhesive(el, {offset});
   }
 
-  render() {
-    return _.template(this.template, this.model.toObject());
+  destrory() {
+    this.libInstance.destroy();
   }
+
 }
 
-new Header();
+module.exports = Header;
