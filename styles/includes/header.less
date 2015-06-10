@@ -55,6 +55,11 @@ header {
       li {
         display: block;
         float: right;
+
+        @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+          float: left;
+          margin-top: -1px;
+        }
         
         &:first-of-type {
           float: left;

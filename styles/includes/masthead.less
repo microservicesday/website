@@ -16,36 +16,78 @@
     height: 73vh;
   }
 
+  @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+    padding-top: 20vh;
+    height: 80vh;
+
+    img {
+      width: 10%;
+    }
+  }
+
   h4 {
     font-weight: normal;
     margin-bottom: 0;
     opacity: 0.6;
+
+    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+      font-size: 0.8rem;
+      margin-top: 0.5rem;
+    }
   }
   h2 {
     text-transform: uppercase;
     font-size: 3rem;
     letter-spacing: -0.15rem;
     margin: 0.3rem 0 0;
+
+    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+      font-size: 2.5rem;
+      margin-top: 0.1rem;
+    }
   }
   h3 {
     font-weight: normal;
     margin: 0.2rem 0 0;
     font-size: 1.4rem;
+
+    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+      font-size: 1rem;
+      margin-top: 0.1rem;
+    }
   }
 
   #sponsors {
     margin: 2.5rem auto 0;
     width: 320px;
+
+    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+      width: 170px;
+    }
+
+    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+      margin-top: 1rem;
+    }
+
     p {
       margin: 0;
       font-size: 0.7rem;
       opacity: 0.5;
       margin-bottom: 1rem;
+
+      @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+        margin-bottom: 0.5rem;
+      }
     }
     img {
       width: 150px;
       display: block;
       float: left;
+
+      @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+        width: 75px;
+      }
+
       &:first-of-type {
         margin: -5px 20px 0 0;
       }
@@ -58,6 +100,12 @@
 
     @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
       width: 20%;
+    }
+
+    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+      margin-top: 1rem;
+      width: 20%;
+      padding: 0.5rem;
     }
   }
 }

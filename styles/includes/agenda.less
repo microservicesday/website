@@ -9,6 +9,12 @@
     @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
       width: @tablet-width;
     }
+
+    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+      width: @mobile-width;
+      font-size: 1.2rem;
+      padding: 2rem 0 1rem;
+    }
   }
 
   article {
@@ -19,6 +25,12 @@
 
     @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
       width: @tablet-width;
+    }
+
+    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+      width: @mobile-width;
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.8rem;
     }
 
     &:last-of-type {
@@ -44,6 +56,9 @@
 
       p {
         line-height: 140%;
+        @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+          font-size: 0.9rem;
+        }
       }
 
       .presenter {
@@ -68,6 +83,9 @@
           p {
             float: left;
             width: 75%;
+            @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+              font-size: 0.9rem;
+            }
           }
 
           .presenter-image {
