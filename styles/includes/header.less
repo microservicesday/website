@@ -4,6 +4,35 @@ header {
   right: 0;
   left: 0;
 
+  &.headhesive {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: @image-overlay;
+    transform: translateY(-100%);
+    transition: all 300ms ease-in-out;
+
+    #register {
+      a {
+        background: @red;
+        padding: 1rem;
+        margin: 1rem 0 0;
+        &:hover,
+        &:active,
+        &:focus {
+          text-decoration: none;
+          outline: none;
+          background: darken(@red, 10%);
+        }
+      }
+    }
+  } 
+
+  &.headhesive--stick {
+    transform: translateY(0%);
+  }
+
   nav {
     width: @width;
     margin: 0 auto;
@@ -56,3 +85,68 @@ header {
     
   }
 }
+
+// /*----------------------------------------------------------------------------*\
+//   Headhesive Specific Styles
+// /*----------------------------------------------------------------------------*/
+
+// /**
+//  * Headhesive element clone
+//  * > `clone` class for the cloned element:
+//  *
+//  * @example
+//  * var options = {
+//  *   classes {
+//  *     clone: 'banner--clone';
+//  *   }
+//  * }
+//  */
+.headhesive--clone {
+
+  /* Required styles */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  /* Additional styles */
+  background: #c95a5d;
+
+          transform: translateY(-100%);
+
+          transition: all 300ms ease-in-out;
+
+}
+
+
+// /**
+//  * Headhesive stick
+//  * > `stick` class for the cloned element:
+//  *
+//  * @example
+//  * var options = {
+//  *   classes {
+//  *     stick: 'banner--stick';
+//  *   }
+//  * }
+//  */
+// .headhesive--stick {
+
+//           transform: translateY(0%);
+// }
+
+
+// /**
+//  * Headhesive unstick
+//  * > `unstick` class for the cloned element:
+//  *
+//  * @example
+//  * var options = {
+//  *   classes {
+//  *     unstick: 'banner--unstick';
+//  *   }
+//  * }
+//  */
+// .headhesive--unstick {
+//   /* Not required to use, but could be useful to have */
+// }

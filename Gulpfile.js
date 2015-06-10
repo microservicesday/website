@@ -10,7 +10,11 @@ var less        = require('gulp-less');
 var CleanCSS    = require('less-plugin-clean-css');
 var AutoPrefix  = require('less-plugin-autoprefix');
 var serve       = require('gulp-serve');
-var ghPages        = require('gulp-gh-pages');
+var ghPages     = require('gulp-gh-pages');
+var uglify      = require('gulp-uglify');
+var concat      = require('gulp-concat');
+var babel       = require('gulp-babel');
+var sourcemaps  = require('gulp-sourcemaps');
 
 var templateData = {
     metadata: require('./data/metadata'),
@@ -47,8 +51,27 @@ gulp.task('css', function () {
 });
 
 gulp.task('images', function() {
-   gulp.src('./images/**/*')
+  gulp.src('./images/**/*')
     .pipe(gulp.dest('./dist/images'));
+});
+
+gulp.task('js-vendor', function() {
+  gulp.src([
+    './node_modules/headhesive/dist/headhesive.js'
+    ])
+    .pipe(uglify())
+    .pipe(concat('vendor.js'))
+    .pipe(gulp.dest('./dist/js/'));
+});
+
+gulp.task('js-src', function() {
+  gulp.src('./js/**/*.js')
+    .pipe(sourcemaps.init())
+    .pipe(babel())
+    .pipe(uglify())
+    .pipe(concat('app.js'))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('./dist/js/'));
 });
 
 gulp.task('gh-pages', function() {
@@ -59,7 +82,8 @@ gulp.task('gh-pages', function() {
 gulp.task('watch', function() {
   gulp.watch(['./pages/**/*.handlebars', './data/*.json'], ['html']);
   gulp.watch('./styles/**/*.less', ['css']);
-  gulp.watch('./images/*', ['images']);
+  gulp.watch('./images/**/*', ['images']);
+  gulp.watch('./js/**/*', ['js']);
 });
 
 gulp.task('serve-dist', serve({
@@ -67,7 +91,8 @@ gulp.task('serve-dist', serve({
   port: 4000
 }));
 
-gulp.task('build', ['html', 'css', 'images']);
+gulp.task('js', ['js-src', 'js-vendor']);
+gulp.task('build', ['html', 'css', 'js', 'images']);
 gulp.task('serve', ['build', 'watch', 'serve-dist']);
 gulp.task('deploy', ['build', 'gh-pages']);
 gulp.task('default', ['serve']);
