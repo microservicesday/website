@@ -13,6 +13,12 @@ header {
     transform: translateY(-100%);
     transition: all 300ms ease-in-out;
 
+    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+      nav {
+        margin-left: 1rem;
+      }
+    }
+
     #register {
       a {
         background: @red;
@@ -36,6 +42,10 @@ header {
   nav {
     width: @width;
     margin: 0 auto;
+
+    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+    }
 
     ul {
       list-style: none;
@@ -85,68 +95,3 @@ header {
     
   }
 }
-
-// /*----------------------------------------------------------------------------*\
-//   Headhesive Specific Styles
-// /*----------------------------------------------------------------------------*/
-
-// /**
-//  * Headhesive element clone
-//  * > `clone` class for the cloned element:
-//  *
-//  * @example
-//  * var options = {
-//  *   classes {
-//  *     clone: 'banner--clone';
-//  *   }
-//  * }
-//  */
-.headhesive--clone {
-
-  /* Required styles */
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-
-  /* Additional styles */
-  background: #c95a5d;
-
-          transform: translateY(-100%);
-
-          transition: all 300ms ease-in-out;
-
-}
-
-
-// /**
-//  * Headhesive stick
-//  * > `stick` class for the cloned element:
-//  *
-//  * @example
-//  * var options = {
-//  *   classes {
-//  *     stick: 'banner--stick';
-//  *   }
-//  * }
-//  */
-// .headhesive--stick {
-
-//           transform: translateY(0%);
-// }
-
-
-// /**
-//  * Headhesive unstick
-//  * > `unstick` class for the cloned element:
-//  *
-//  * @example
-//  * var options = {
-//  *   classes {
-//  *     unstick: 'banner--unstick';
-//  *   }
-//  * }
-//  */
-// .headhesive--unstick {
-//   /* Not required to use, but could be useful to have */
-// }

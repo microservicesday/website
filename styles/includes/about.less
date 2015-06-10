@@ -7,6 +7,10 @@
     margin: 0 auto 0;
     padding: 3rem 0 2rem;
     width: @width;
+
+    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+    }
   }
 
   p {
@@ -16,5 +20,10 @@
     margin: 0 auto;
     padding-bottom: 3.8rem;
     color: darken(@orange, 40%);
+
+    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+      font-size: 1.2rem;
+    }
   }
 }

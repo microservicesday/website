@@ -5,6 +5,10 @@
     margin: 0 auto 0;
     padding: 3rem 0 3rem;
     width: @width;
+
+    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+    }
   }
 
   article {
@@ -12,6 +16,10 @@
     margin: 0 auto 3rem;
     padding-bottom: 3rem;
     border-bottom: 1px solid #ccc;
+
+    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+    }
 
     &:last-of-type {
       border-bottom: 0px;

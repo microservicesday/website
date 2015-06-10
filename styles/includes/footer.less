@@ -8,6 +8,10 @@ footer {
     margin: 0 auto;
     font-size: 0.9rem;
 
+    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+    }
+
     a {
       color: @white;
     }
