@@ -4,4 +4,4 @@
 * Add more location information to the map popup
 
 
-* Mobile and tablet versions
+* Mobile version
