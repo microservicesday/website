@@ -173,27 +173,16 @@
           The code and content of this site, excluding any trademarks or names, is licensed under the MIT License. The <a href="https://github.com/Joe8Bit/microservicesday-public-website">code is available on Github</a>. 
         </div>
       </footer>
+      <script>
+        var msGeo = {
+          lat: 40.713,
+          lng: -74.0135
+        };
+      </script>
+
+      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
       <script src="js/vendor.js"></script>
       <script src="js/app.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-
-      <script>
-        var loc = new google.maps.LatLng(40.713, -74.0135);
-        var map = new google.maps.Map(document.getElementById('location'), {
-          zoom: 13,
-          center: loc
-        });
-        var infowindow = new google.maps.InfoWindow({
-            content: document.getElementById('infowindow-template').innerHTML
-        });
-        var marker = new google.maps.Marker({
-            position: loc,
-            map: map,
-            title: 'Microservices day location'
-        });
-
-        infowindow.open(map, marker);
-      </script>
 
     </body>
 </html>
