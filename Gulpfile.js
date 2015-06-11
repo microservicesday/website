@@ -56,6 +56,11 @@ gulp.task('images', function() {
     .pipe(gulp.dest('./dist/images'));
 });
 
+gulp.task('static', function() {
+  gulp.src('./static/**/*')
+    .pipe(gulp.dest('./dist/'));
+});
+
 gulp.task('js-vendor', function() {
   gulp.src([
     './node_modules/headhesive/dist/headhesive.js'
@@ -94,7 +99,7 @@ gulp.task('serve-dist', serve({
 }));
 
 gulp.task('js', ['js-src', 'js-vendor']);
-gulp.task('build', ['html', 'css', 'js', 'images']);
+gulp.task('build', ['html', 'css', 'js', 'images', 'static']);
 gulp.task('serve', ['build', 'watch', 'serve-dist']);
 gulp.task('deploy', ['build', 'gh-pages']);
 gulp.task('default', ['serve']);
