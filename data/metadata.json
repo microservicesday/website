@@ -1,14 +1,14 @@
 {
   "title": "Microservices Day - July 13th 2015 - New York, NY",
   "description": "Add a description",
-  "github": "https://github.com/Joe8Bit/microservicesday-public-website",
+  "github": "https://github.com/microservicesday/website",
   "opengraph": {
     "title": "Microservices Day",
-    "url": "http://microservicesday.com",
+    "url": "http://www.microservicesday.com",
     "type": "website",
     "description": "Add a description",
-    "image": "http://microservicesday.com/path/to/image.png",
-    "logo": "http://microservicesday.com/path/to/image.png",
+    "image": "http://www.microservicesday.com/images/opengraph-image.jpg",
+    "logo": "http://www.microservicesday.com/images/opengraph-logo.png",
     "twitter": {
       "card": "summary",
       "site": "@microserviceday",
