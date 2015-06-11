@@ -3,11 +3,12 @@
   "description": "Add a description",
   "github": "https://github.com/Joe8Bit/microservicesday-public-website",
   "opengraph": {
-    "title": "Microservices Day 2015, NY",
+    "title": "Microservices Day",
     "url": "http://microservicesday.com",
     "type": "website",
     "description": "Add a description",
     "image": "http://microservicesday.com/path/to/image.png",
+    "logo": "http://microservicesday.com/path/to/image.png",
     "twitter": {
       "card": "summary",
       "site": "@microserviceday",
@@ -18,6 +19,7 @@
     "tagline": "The NodeJS conference for the enterprise, by the enterprise",
     "name": "Microservices Day",
     "date": "July 13th, 2015",
+    "timestamp": "2015-07-13T08:00",
     "tickets": "http://tickets.com/foobar",
     "location": {
       "human": "New York, NY",
