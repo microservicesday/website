@@ -3,5 +3,5 @@
 * Robots.txt?
 * Add more location information to the map popup
 
-
-* Mobile version
+* Move repo to organisation
+* Setup gh-pages custom domain
