@@ -58,8 +58,7 @@ gulp.task('images', function() {
 
 gulp.task('js-vendor', function() {
   gulp.src([
-    './node_modules/headhesive/dist/headhesive.js',
-    './js/snap.vendor.js'
+    './node_modules/headhesive/dist/headhesive.js'
     ])
     .pipe(uglify())
     .pipe(concat('vendor.js'))

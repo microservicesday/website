@@ -4,6 +4,10 @@ header {
   right: 0;
   left: 0;
 
+  @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+    display: none;
+  }
+
   #toggler {
     display: none;
   }

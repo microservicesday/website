@@ -25,6 +25,15 @@
     }
   }
 
+  @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+    padding-top: 25vh;
+    height: 75vh;
+
+    img {
+      width: 20%;
+    }
+  }
+
   h4 {
     font-weight: normal;
     margin-bottom: 0;
@@ -33,6 +42,10 @@
     @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
       font-size: 0.8rem;
       margin-top: 0.5rem;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      font-size: 0.8rem;
     }
   }
   h2 {
@@ -45,6 +58,11 @@
       font-size: 2.5rem;
       margin-top: 0.1rem;
     }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      font-size: 2.2rem;
+      margin-top: 0;
+    }
   }
   h3 {
     font-weight: normal;
@@ -54,6 +72,11 @@
     @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
       font-size: 1rem;
       margin-top: 0.1rem;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      font-size: 0.9rem;
+      margin-top: 0;
     }
   }
 
@@ -69,6 +92,11 @@
       margin-top: 1rem;
     }
 
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      margin-top: 2rem;
+      width: 220px;
+    }
+
     p {
       margin: 0;
       font-size: 0.7rem;
@@ -76,6 +104,10 @@
       margin-bottom: 1rem;
 
       @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+        margin-bottom: 0.5rem;
+      }
+
+      @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
         margin-bottom: 0.5rem;
       }
     }
@@ -86,6 +118,10 @@
 
       @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
         width: 75px;
+      }
+
+      @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+        width: 100px;
       }
 
       &:first-of-type {
@@ -106,6 +142,28 @@
       margin-top: 1rem;
       width: 20%;
       padding: 0.5rem;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      margin-top: 2rem;
+      width: 30%;
+    }
+  }
+
+  #down {
+    display: none;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 20px;
+    z-index: 10;
+    font-size: 2rem;
+    opacity: 0.5;
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      display: block;
     }
   }
 }
