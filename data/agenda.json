@@ -1,16 +1,18 @@
 [{
   "time": {
-    "start": "09:00 AM",
-    "end": "10:00 AM"
+    "start": "09:00",
+    "end": "10:00"
   },
-  "title": "Registration"
+  "title": "Registration",
+  "type": "logistics"
 }, {
   "time": {
-    "start": "10:00 AM",
-    "end": "11:00 AM"
+    "start": "10:00",
+    "end": "11:00"
   },
   "title": "Welcome",
   "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "type": "talk",
   "presenters": [{
     "name": "Edward Cudahy",
     "title": "VP of Engineering",
@@ -22,11 +24,12 @@
   }]
 }, {
   "time": {
-    "start": "11:00 AM",
-    "end": "12:00 AM"
+    "start": "11:00",
+    "end": "12:00"
   },
   "title": "Panel Discussion One",
   "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "type": "panel",
   "presenters": [{
     "name": "Edward Cudahy",
     "title": "VP of Engineering",
@@ -44,4 +47,11 @@
     "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "image": "images/speakers/edward.jpg"
   }]
+}, {
+  "time": {
+    "start": "12:00",
+    "end": "13:00"
+  },
+  "title": "Lunch",
+  "type": "break"
 }]

@@ -1,4 +1,5 @@
 #agenda {
+  padding-bottom: 3rem;
 
   h2 {
     color: darken(@orange, 40%);
@@ -25,9 +26,10 @@
 
   article {
     width: @width;
-    margin: 0 auto 3rem;
-    padding-bottom: 3rem;
+    margin: 0 auto;
+    padding: 3rem 0;
     border-bottom: 1px solid #ccc;
+    position: relative;
 
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: @tablet-width;
@@ -42,18 +44,44 @@
     @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
       width: @mobile-width-portrait;
       padding-bottom: 1.5rem;
-      margin-bottom: 1.8rem;
+      padding-top: 1.5rem;
+      margin-bottom: 0;
+    }
 
+    &.type-logistics {
+      .type {
+        background: #ccc;
+      }
+    }
+
+    &.type-break {
+      .type {
+        background: #20B9F1;
+      }
+    }
+
+    &.type-panel,
+    &.type-talk {
+      .type {
+        background: #666666;
+      }
     }
 
     &:last-of-type {
       border-bottom: 0px;
-      padding-bottom: 0;
+    }
+
+    .type {
+      position: absolute;
+      width: 5%;
+      height: 100%;
+      top: 0px;
     }
 
     .time {
       float: left;
-      width: 20%;
+      width: 13%;
+      margin-left: 7%;
       font-size: 1.1rem;
       color: #aaa;
 
@@ -61,6 +89,7 @@
         float: none;
         width: 100%;
         margin-bottom: 0.3rem;
+        margin-left: 10%;
       }
     }
 
@@ -70,7 +99,8 @@
 
       @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
         float: none;
-        width: 100%;
+        width: 90%;
+        margin-left: 10%;
       }
 
       h3 {
