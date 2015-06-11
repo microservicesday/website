@@ -4,6 +4,10 @@ header {
   right: 0;
   left: 0;
 
+  #toggler {
+    display: none;
+  }
+
   &.headhesive {
     position: fixed;
     z-index: 1;
@@ -13,7 +17,7 @@ header {
     transform: translateY(-100%);
     transition: all 300ms ease-in-out;
 
-    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       nav {
         margin-left: 1rem;
       }
@@ -43,7 +47,7 @@ header {
     width: @width;
     margin: 0 auto;
 
-    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: @tablet-width;
     }
 
@@ -56,7 +60,7 @@ header {
         display: block;
         float: right;
 
-        @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+        @media (max-width: @mobile-width-contraint) and (orientation: landscape) {
           float: left;
           margin-top: -1px;
         }

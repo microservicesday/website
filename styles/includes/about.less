@@ -8,11 +8,11 @@
     padding: 3rem 0 2rem;
     width: @width;
 
-    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: @tablet-width;
     }
 
-    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+    @media (max-width: @mobile-width-contraint) and (orientation: landscape) {
       width: @mobile-width;
       font-size: 1.2rem;
       padding: 2rem 0 1rem;
@@ -27,12 +27,12 @@
     padding-bottom: 3.8rem;
     color: darken(@orange, 40%);
 
-    @media (min-width: @tablet-width-contraint) and (orientation: portrait) {
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: @tablet-width;
       font-size: 1.2rem;
     }
 
-    @media (min-width: @mobile-width-contraint) and (orientation: landscape) {
+    @media (max-width: @mobile-width-contraint) and (orientation: landscape) {
       width: @mobile-width;
       font-size: 1rem;
       padding-bottom: 2rem;
