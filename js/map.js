@@ -4,7 +4,7 @@ class Map {
   constructor({
     el      = document.getElementById('location'),
     content = document.getElementById('infowindow-template').innerHTML,
-    zoom    = 13,
+    zoom    = 14,
     lat     = msGeo.lat,
     lng     = msGeo.lng
   } = {}) {

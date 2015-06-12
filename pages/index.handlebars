@@ -69,8 +69,15 @@
 
       <section id="location"></section>
 
+      <div id="location-images" class="clearfix">
+        <img src="images/venue/1.jpg" alt="Venue">
+        <img src="images/venue/2.jpg" alt="Venue">
+        <img src="images/venue/3.jpg" alt="Venue">
+        <img src="images/venue/4.jpg" alt="Venue">
+      </div>
+
       <div id="infowindow-template">
-        <h3>{{ metadata.conf.location.name }}</h3>
+        <h3><a href="{{ metadata.conf.location.link }}">{{ metadata.conf.location.name }}</a></h3>
         <p>{{ metadata.conf.location.address }}</p>
       </div>
 
