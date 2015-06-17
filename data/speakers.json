@@ -22,4 +22,20 @@
   "github": "Seanstoppable",
   "blurb": "Sean Smith is a Software Engineer from Canada. He currently works at Gilt Groupe as a Principal Software Engineer. He has worked on a variety of services at Gilt, ranging from third party warehouse systems integration to email content generation and delivery.",
   "image": "images/speakers/sean-smith.jpg"
+}, {
+  "name": "Richard Roger",
+  "title": "CTO",
+  "organisation": "NearForm",
+  "twitter": "rjrodger",
+  "github": "rjrodger",
+  "blurb": "Richard Rodger is co-founder and chief technical officer (CTO) of nearForm, a Node.js consultancy that builds large-scale enterprise systems. He is an internationally recognized thought leader and speaker on Node.js and microservices. He is also author of Mobile Application Development in the Cloud (Wiley, 2012), and former CTO of FeedHenry, a mobile applications platform that was recently acquired by RedHat. Richard is creator of a number of open source tools, including Senecajs.org and Nodezoo.com. Richard is a regular contributor to the Sunday Business Post newspaper in Ireland, and holds degrees in Mathematics and Philosophy, and Computer Science.",
+  "image": "images/speakers/richard-roger.jpg"
+}, {
+  "name": "Isaac Schlueter",
+  "title": "CEO",
+  "organisation": "npm, Inc",
+  "twitter": "isaacs",
+  "github": "isaacs",
+  "blurb": " Isaac bears the proud distinction of being one of the earliest Node users, having joined the IRC channel before Ryan Dahl’s pivotal 2009 JSConf EU talk. Fed up with complex interoperability, he built a package manager. He has spent much of his career backwards engineering parsing protocols in to JavaScript, and now serves as the CEO of npm, Inc, and sits on every Node-related committee, longing for the days when he coded for a living.",
+  "image": "images/speakers/isaac.jpg"
 }]
