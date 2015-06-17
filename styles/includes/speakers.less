@@ -1,0 +1,45 @@
+#speakers {
+
+  h2 {
+    color: darken(@orange, 40%);
+    margin: 0 auto 0;
+    padding: 3rem 0 3rem;
+    width: @width;
+
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+    }
+
+    @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+      width: @mobile-width;
+      font-size: 1.2rem;
+      padding: 2rem 0 1rem;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      width: @mobile-width-portrait;
+      font-size: 1.2rem;
+      padding: 2rem 0 1rem;
+    }
+  }
+
+  .presenter {
+    
+    width: @width;
+    margin: 0 auto 2rem;
+
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+    }
+
+    @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+      width: @mobile-width;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      width: @mobile-width-portrait;
+    }
+
+  }
+
+}

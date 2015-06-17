@@ -18,10 +18,11 @@ var browserify  = require('browserify');
 var source      = require('vinyl-source-stream');
 
 var templateData = {
-    metadata: require('./data/metadata'),
-    about:    require('./data/about'),
-    agenda:   require('./data/agenda'),
-    conduct:  require('./data/conduct')
+  metadata: require('./data/metadata'),
+  about:    require('./data/about'),
+  speakers: require('./data/speakers'),
+  agenda:   require('./data/agenda'),
+  conduct:  require('./data/conduct')
 };
 
 gulp.task('html', function () {

@@ -16,6 +16,12 @@ header {
     display: none;
   }
 
+  @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+    #twitter {
+      display: none !important;
+    }
+  }
+
   &.headhesive {
     position: fixed;
     z-index: 1;
