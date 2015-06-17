@@ -1,0 +1,15 @@
+<div class="presenter">
+  <h4>{{ name }}, {{ title }} @ {{ organisation }}</h4>
+
+  {{#if twitter}}
+  <a href="https://twitter.com/{{ twitter }}" class="twitter"><img src="images/twitter.svg" alt="Twitter"></a>
+  {{/if}}
+  {{#if github}}
+  <a href="https://github.com/{{ github }}" class="github"><img src="images/github.svg" alt="Github"></a>
+  {{/if}}
+
+  <div class="bio clearfix">
+    <p>{{ blurb }}</p>
+    <img src="{{ image }}" alt="{{ name }}" class="presenter-image">
+  </div>
+</div>
