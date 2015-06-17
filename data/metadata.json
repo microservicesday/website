@@ -4,9 +4,9 @@
   "github": "https://github.com/microservicesday/website",
   "opengraph": {
     "title": "Microservices Day",
-    "url": "http://www.microservicesday.com",
+    "url": "http://microservicesday.com",
     "type": "website",
-    "description": "Microservices Datt will have a range of talks and panels from industry leaders who have deep experience building and operating microservices systems at scale",
+    "description": "Microservices Day will have a range of talks and panels from industry leaders who have deep experience building and operating microservices systems at scale",
     "image": "http://www.microservicesday.com/images/opengraph-image.jpg",
     "logo": "http://www.microservicesday.com/images/opengraph-logo.png",
     "twitter": {
@@ -16,7 +16,7 @@
     }
   },
   "conf": {
-    "tagline": "The NodeJS conference for the enterprise, by the enterprise",
+    "tagline": "The Microservices conference for the enterprise, by the enterprise",
     "name": "Microservices Day",
     "date": "July 13th, 2015",
     "timestamp": "2015-07-13T08:00",
