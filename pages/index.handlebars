@@ -87,6 +87,21 @@
         <img src="images/venue/4.jpg" alt="Venue">
       </div>
 
+      <div id="hotels">
+        <h2>Hotels <a href="#" id="toggleHotelMap">Toggle hotels on map</a></h2>
+        <p id="description">Below you find a selection of unaffiliated hotels near to the event</p>
+        <ul class="clearfix">
+          {{#each hotels}}
+            <li>
+              <h3><a href="{{ href }}">{{ name }}</a></h3>
+              <h4>{{ address }}</h4>
+              <p class="price">{{ price }}</p>
+              <p class="des">"{{ description }}"</p>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+
       <div id="infowindow-template">
         <h3><a href="{{ metadata.conf.location.link }}">{{ metadata.conf.location.name }}</a></h3>
         <p>{{ metadata.conf.location.address }}</p>

@@ -22,7 +22,8 @@ var templateData = {
   about:    require('./data/about'),
   speakers: require('./data/speakers'),
   agenda:   require('./data/agenda'),
-  conduct:  require('./data/conduct')
+  conduct:  require('./data/conduct'),
+  hotels:   require('./data/hotels') 
 };
 
 gulp.task('html', function () {
