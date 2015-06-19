@@ -23,6 +23,14 @@
       font-size: 1.2rem;
       padding: 2rem 0 1rem;
     }
+
+    @media (max-width: @mobile-width-contraint-iphone5) and (orientation: portrait) {
+      width: @mobile-width-portrait-iphone5;
+    }
+
+    @media (max-width: @mobile-width-contraint-iphone5-landscape) and (orientation: landscape) {
+      width: @mobile-width-portrait-iphone5-landscape;
+    }
   }
 
   p {
@@ -48,6 +56,15 @@
       width: @mobile-width-portrait;
       font-size: 1rem;
       padding-bottom: 2.5rem;
+    }
+
+    @media (max-width: @mobile-width-contraint-iphone5) and (orientation: portrait) {
+      width: @mobile-width-portrait-iphone5;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: @mobile-width-contraint-iphone5-landscape) and (orientation: landscape) {
+      width: @mobile-width-portrait-iphone5-landscape;
     }
   }
 }

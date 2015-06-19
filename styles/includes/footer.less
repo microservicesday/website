@@ -7,6 +7,7 @@ footer {
     padding: 2rem 0;
     margin: 0 auto;
     font-size: 0.9rem;
+    line-height: 140%;
 
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: @tablet-width;
@@ -18,6 +19,14 @@ footer {
 
     @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
       width: @mobile-width-portrait;
+    }
+
+    @media (max-width: @mobile-width-contraint-iphone5) and (orientation: portrait) {
+      width: @mobile-width-portrait-iphone5;
+    }
+
+    @media (max-width: @mobile-width-contraint-iphone5-landscape) and (orientation: landscape) {
+      width: @mobile-width-portrait-iphone5-landscape;
     }
 
     a {
