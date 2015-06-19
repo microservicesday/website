@@ -7,10 +7,11 @@ class Map {
     zoom    = 14,
     lat     = msGeo.lat,
     lng     = msGeo.lng,
-    scrollwheel = false
+    scrollwheel = false,
+    draggable = false
   } = {}) {
     let center     = new google.maps.LatLng(lat, lng);
-    let map        = new google.maps.Map(el, { zoom, center, scrollwheel });
+    let map        = new google.maps.Map(el, { zoom, center, scrollwheel, draggable });
     let infowindow = new google.maps.InfoWindow({ content });
     let marker     = new google.maps.Marker({
       position: center,
