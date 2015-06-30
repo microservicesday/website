@@ -1,8 +1,4 @@
 #agenda {
-  
-  // Temporary, until we get the full speaker list
-  display: none;
-
   padding-bottom: 3rem;
 
   h2 {
@@ -64,10 +60,15 @@
       }
     }
 
-    &.type-panel,
     &.type-talk {
       .type {
         background: #666666;
+      }
+    }
+
+    &.type-panel {
+      .type {
+        background: lighten(#666666, 10%);
       }
     }
 
