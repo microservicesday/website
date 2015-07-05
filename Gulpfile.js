@@ -58,6 +58,11 @@ gulp.task('images', function() {
     .pipe(gulp.dest('./dist/images'));
 });
 
+gulp.task('data', function() {
+  gulp.src('./data/*.json')
+    .pipe(gulp.dest('./dist/data'));
+});
+
 gulp.task('static', function() {
   gulp.src('./static/**/*')
     .pipe(gulp.dest('./dist/'));
@@ -101,7 +106,7 @@ gulp.task('serve-dist', serve({
 }));
 
 gulp.task('js', ['js-src', 'js-vendor']);
-gulp.task('build', ['html', 'css', 'js', 'images', 'static']);
+gulp.task('build', ['html', 'css', 'js', 'images', 'static', 'data']);
 gulp.task('serve', ['build', 'watch', 'serve-dist']);
 gulp.task('deploy', ['build', 'gh-pages']);
 gulp.task('default', ['serve']);
