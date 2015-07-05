@@ -1,0 +1,34 @@
+{
+  "title": "Microservices Day - July 13th 2015 - New York, NY",
+  "description": "Microservices Day will have a range of talks and panels from industry leaders who have deep experience building and operating microservices systems at scale",
+  "github": "https://github.com/microservicesday/website",
+  "opengraph": {
+    "title": "Microservices Day",
+    "url": "http://microservicesday.com",
+    "type": "website",
+    "description": "Microservices Day will have a range of talks and panels from industry leaders who have deep experience building and operating microservices systems at scale",
+    "image": "http://www.microservicesday.com/images/opengraph-image.jpg",
+    "logo": "http://www.microservicesday.com/images/opengraph-logo.png",
+    "twitter": {
+      "card": "summary",
+      "site": "@microserviceday",
+      "author": "@microserviceday"
+    }
+  },
+  "conf": {
+    "tagline": "The Microservices conference for the enterprise, by the enterprise",
+    "name": "Microservices Day",
+    "date": "July 13th, 2015",
+    "time": "9:00 AM - 5:00 PM",
+    "timestamp": "2015-07-13T08:00",
+    "tickets": "https://ti.to/microservices-day/microservices-day-ny/with/5-vzgeb7ek0",
+    "location": {
+      "human": "New York, NY",
+      "name": "The Altman Building",
+      "address": "135 West 18th St, New York, NY",
+      "link": "http://www.altmanbldg.com/",
+      "lat": 40.740637,
+      "lng": -73.996357
+    }
+  }
+}

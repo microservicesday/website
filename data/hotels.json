@@ -1,0 +1,25 @@
+[{
+  "href": "http://hotel309.com",
+  "name": "Hotel 309",
+  "address": "309 West 14th Street",
+  "price": "$$",
+  "description": "Located in NYC's chic and historic Meatpacking district, bordering both Greenwich Village and Chelsea, Hotel 309 is the perfect choice for the economical traveler seeking a limited service, apartment-style hotel in the heart of downtown Manhattan."
+}, {
+  "href": "http://www.dreamhotels.com/downtown/default-en.html",
+  "name": "Dream Downtown",
+  "address": "355 West 16TH Street",
+  "price": "$$$",
+  "description": "While all Dream Hotels are drop-dead gorgeous, Dream Downtown is a show-stopper. A bombshell. A knockout. A perfect 10. Our competition gets left in the dust every time and our (temporary) inhabitants live like they’ve only imagined they could… until now."
+}, {
+  "href": "http://www.thejadenyc.com",
+  "name": "The Jade",
+  "address": "52 West 13th Street",
+  "price": "$$$",
+  "description": "The Jade Hotel is a charming 113-room boutique hotel in the heart of the wander-worthy Greenwich Village. It’s where you come to let your inner-New Yorker run free—to absorb the magnetic energy of the city, then retreat to a romantic nook with a bustling street view."
+}, {
+  "href": "http://washingtonsquarehotel.com",
+  "name": "Washington Square Hotel",
+  "address": "103 Waverly Place",
+  "price": "$$",
+  "description": "The Washington Square Hotel has provided a haven for writers, artists and visitors to Greenwich Village for more than a century. Today, our 152 room boutique hotel provides savvy travelers with stylish accommodations, warm service, fine dining and easy access to the best of lower Manhattan."
+}]
