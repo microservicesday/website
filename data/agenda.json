@@ -207,12 +207,13 @@
   "title": "Final Thoughts",
   "type": "talk",
   "presenters": [{
-    "name": "Cian ÓMaidin",
-    "title": "CEO",
-    "organisation": "NearForm",
-    "twitter": "cianomaidin",
-    "blurb": "Founder and CEO at nearForm, Europe’s leading Node.js consulting company nearForm focus on server side projects in Node.js optimising for large-scale Mobile and Hardware applications. Founded in 2012, nearForm have developed and deployed over 30 large scale systems in Node. Cian is a peer-to-peer and data-synchronisation enthusiast, and as a result nearForm have pushed the state-of-the-art in the Node eco-system. Cian is Curator of NodeConf.eu, creator of PeerConf and runs Dublin’s monthly Node meet-up.",
-    "image": "images/speakers/cian.jpeg"
+    "name": "Satty Bhens",
+    "title": "Co-founder of McKinsey Digital Labs",
+    "organisation": "McKinsey Digital Labs",
+    "twitter": "sattybhens",
+    "github": "sattybhens",
+    "blurb": "Satty is global practice leader and co-founder of McKinsey's Digital Labs.  He has extensive experience in digital transformations, defining and implementing modern technology platforms, radically re-designing technology functions and creating innovations labs in major cities across the globe. Satty has recently served clients in Retail, Transportation and Travel, Healthcare and Banking deploying cutting edge technology practices including agile, mobile, big data, devops and UX design. A geek at heart, Satty regularly teaches software development best practices. In 2010 he was selected by US Aid to teach programming in Rwanda, building local IT capabilities that enabled the design and agile development of a new health system using open source platforms.",
+    "image": "images/speakers/satty.jpg"
   }]
 }, {
   "time": {
