@@ -137,6 +137,22 @@
     "github": "sattybhens",
     "blurb": "Satty is global practice leader and co-founder of McKinsey's Digital Labs.  He has extensive experience in digital transformations, defining and implementing modern technology platforms, radically re-designing technology functions and creating innovations labs in major cities across the globe. Satty has recently served clients in Retail, Transportation and Travel, Healthcare and Banking deploying cutting edge technology practices including agile, mobile, big data, devops and UX design. A geek at heart, Satty regularly teaches software development best practices. In 2010 he was selected by US Aid to teach programming in Rwanda, building local IT capabilities that enabled the design and agile development of a new health system using open source platforms.",
     "image": "images/speakers/satty.jpg"
+  }, {
+    "name": "Pascal Laenen",
+    "title": "Head of Digital Lab",
+    "organisation": "Thomas Cook",
+    "twitter": "",
+    "github": "",
+    "blurb": "Pascal heads TC Digital Labs at Thomas Cook Group, one of the world’s biggest leisure companies with 22 thousand employees serving more than 22 million customers per year.  In his role, Pascal works on bringing innovative ideas to life with the prime focus on improving customer’s satisfaction and experience of digital personalisation.    He has a strong interest in tech trends and developments in omni-channel space, micro-services, graph databases, real-time data processing, software containers, to name but a few.",
+    "image": "images/speakers/pascal.jpg"
+  }, {
+    "name": "Amit Maimon",
+    "title": "Head of Product Innovation",
+    "organisation": "ADP Innovation Labs",
+    "twitter": "",
+    "github": "",
+    "blurb": "Amit is an entrepreneur, technologist and strategist focused on growth-innovation. In recent years Amit founded and sold several startup companies (Socrative, Lynxminer), defined business and technology strategies for Fortune 500s (as part of his work at McKinsey and Company) and most recently is leading ADP product innovation initiatives out of ADP’s Chelsea Innovation Lab.   Amit completed an MBA from MIT Sloan School of Management and while at MIT served as an advisor for MIT’s online education efforts which resulted in the recent launch of EDx – MIT’s next generation of online learning offerings & partnerships. Alongside his studies at MIT, Amit founded Socrative – a startup providing mobile-based assessment products for K12 schools that now serves over 10 million students across the US and the world.",
+    "image": "images/speakers/amit.jpg"
   }]
 }, {
   "time": {
@@ -150,15 +166,15 @@
     "start": "15:45",
     "end": "16:15"
   },
-  "title": "Docker in the Enterprise",
+  "title": "Microservices at ADP",
   "type": "talk",
   "presenters": [{
-    "name": "Henk Kolk",
+    "name": "Jason Melo",
     "title": "Chief Architect",
-    "organisation": "ING",
-    "twitter": "henkkolk",
-    "blurb": "Senior IT manager with a passion for software engineering. Loves talented people that want (need) to create software. Currently responsible for Enterprise Architecture, the ING IT Academy and Continuous Delivery pipelines, platforms and tooling at at ING Domestic Bank NL.",
-    "image": "images/speakers/henk.jpeg"
+    "organisation": "ADP Innovation Lab",
+    "twitter": "jasonmelo",
+    "blurb": "Jason is Chief Architect at the ADP Innovation Lab in NYC. A cross-domain technologist & entrepreneur having founded companies in E-Commerce, CRM & Fintech, currently delivering next generation HCM platform solutions @ ADP. Jason’s development & architectural expertise focuses on composable systems, distributed platforms, true enterprise scale computing & mentorship.",
+    "image": "images/speakers/jason.jpg"
   }]
 }, {
   "time": {
