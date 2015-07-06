@@ -1,0 +1,33 @@
+[{
+  "name": "Fred George",
+  "title": "Principal Consultant",
+  "organisation": "Fred George Consulting",
+  "twitter": "fgeorge52",
+  "github": "fredgeorge",
+  "blurb": "Fred George is an industry consultant, and has been writing code for over 46 years in (by his count) over 70 languages. He has delivered projects and products across his career, and in the last decade alone, has worked in the US, India, China, and the UK. He started ThoughtWorks University in Bangalore, India, based on a commercial programming training program he developed in the 90’s. An early adopter of OO and Agile, Fred continues to impact the industry with his leading​edge ideas, most recently advocating MicroS​ervice. Architectures and flat team structures (under the moniker of Programmer Anarchy). Oh, and he still writes code!",
+  "image": "images/speakers/fred-george.jpg"
+}, {
+  "name": "Boyan Dimitrov",
+  "title": "Platform Automation Lead",
+  "organisation": "Hailo",
+  "twitter": "Nathariel",
+  "github": "boyand",
+  "blurb": "Boyan is a passionate technologist who helps businesses build next generation cloud architectures. By focusing on technology innovation and lightweight processes he helps development teams and organisations improve their velocity and streamline their development workflows. He is heavily vested in building scalable self-healing services and applications and has a profound interest in distributed systems. Boyan holds a bachelors degree in Network Technology from New Bulgarian University and a masters degree in IT Project Management from Aston University. For the past two years as the Platform Automation Lead at Hailo, Boyan has been working on a micro services ecosystem based on Go. The main goal of this architecture is to improve the execution time for teams and individuals and remove cross-team dependencies. This resulted in shortening the software release cycle from weeks to hours and even minutes and constantly adding value to the business.",
+  "image": "images/speakers/boyan-dimitrov.png"
+}, {
+  "name": "Sean Smith",
+  "title": "Principal Software Engineer",
+  "organisation": "Gilt Groupe",
+  "twitter": "ssmith",
+  "github": "Seanstoppable",
+  "blurb": "Sean Smith is a Software Engineer from Canada. He currently works at Gilt Groupe as a Principal Software Engineer. He has worked on a variety of services at Gilt, ranging from third party warehouse systems integration to email content generation and delivery.",
+  "image": "images/speakers/sean-smith.jpg"
+}, {
+  "name": "Richard Rodger",
+  "title": "CTO",
+  "organisation": "nearForm",
+  "twitter": "rjrodger",
+  "github": "rjrodger",
+  "blurb": "Richard Rodger is co-founder and chief technical officer (CTO) of nearForm, a Node.js consultancy that builds large-scale enterprise systems. He is an internationally recognized thought leader and speaker on Node.js and microservices. He is also author of Mobile Application Development in the Cloud (Wiley, 2012), and former CTO of FeedHenry, a mobile applications platform that was recently acquired by RedHat. Richard is creator of a number of open source tools, including Senecajs.org and Nodezoo.com. Richard is a regular contributor to the Sunday Business Post newspaper in Ireland, and holds degrees in Mathematics and Philosophy, and Computer Science.",
+  "image": "images/speakers/richard-roger.jpg"
+}]
