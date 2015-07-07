@@ -103,7 +103,7 @@
     "start": "14:00",
     "end": "14:30"
   },
-  "title": "Talk title TBC",
+  "title": "Measuring Microservices",
   "type": "talk",
   "presenters": [{
     "name": "Richard Rodger",
