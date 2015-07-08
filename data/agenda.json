@@ -87,10 +87,34 @@
     "start": "12:15",
     "end": "13:00"
   },
-  "title": "So what are microservices?",
+  "title": "So What Are Microservices?",
   "type": "panel",
   "panel": true,
-  "presenters": []
+  "presenters": [{
+    "name": "Fred George",
+    "title": "Principal Consultant",
+    "organisation": "Fred George Consulting",
+    "twitter": "fgeorge52",
+    "github": "fredgeorge",
+    "blurb": "Fred George is an industry consultant, and has been writing code for over 46 years in (by his count) over 70 languages. He has delivered projects and products across his career, and in the last decade alone, has worked in the US, India, China, and the UK. He started ThoughtWorks University in Bangalore, India, based on a commercial programming training program he developed in the 90’s. An early adopter of OO and Agile, Fred continues to impact the industry with his leading​edge ideas, most recently advocating MicroS​ervice. Architectures and flat team structures (under the moniker of Programmer Anarchy). Oh, and he still writes code!",
+    "image": "images/speakers/fred-george.jpg"
+  }, {
+    "name": "Sean Smith",
+    "title": "Principal Software Engineer",
+    "organisation": "Gilt Groupe",
+    "twitter": "ssmith",
+    "github": "Seanstoppable",
+    "blurb": "Sean Smith is a Software Engineer from Canada. He currently works at Gilt Groupe as a Principal Software Engineer. He has worked on a variety of services at Gilt, ranging from third party warehouse systems integration to email content generation and delivery.",
+    "image": "images/speakers/sean-smith.jpg"
+  }, {
+    "name": "Diptanu Choudhury",
+    "title": "Senior Software Engineer",
+    "organisation": "Netflix",
+    "twitter": "diptanu",
+    "github": "diptanu",
+    "blurb": "Diptanu is a Senior Platform Engineer at Netflix. He works on core infrastructure like distributed scheduling, IPC libraries, service discovery, distributed tracing that powers various services at Netflix. His main areas of expertise are Ware House Scale Computing, linux containers, highly available systems, distributed persistence.",
+    "image": "images/speakers/diptanu.jpeg"
+  }]
 }, {
   "time": {
     "start": "13:00",
@@ -126,7 +150,7 @@
     "start": "14:45",
     "end": "15:30"
   },
-  "title": "The business implications of microservices",
+  "title": "The Business Implications of Microservices",
   "type": "panel",
   "panel": true,
   "presenters": [{
@@ -173,6 +197,7 @@
     "title": "Chief Architect",
     "organisation": "ADP Innovation Lab",
     "twitter": "jasonmelo",
+    "github": "jasonmelo",
     "blurb": "Jason is Chief Architect at the ADP Innovation Lab in NYC. A cross-domain technologist & entrepreneur having founded companies in E-Commerce, CRM & Fintech, currently delivering next generation HCM platform solutions @ ADP. Jason’s development & architectural expertise focuses on composable systems, distributed platforms, true enterprise scale computing & mentorship.",
     "image": "images/speakers/jason.jpg"
   }]
