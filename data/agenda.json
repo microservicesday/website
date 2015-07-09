@@ -177,6 +177,14 @@
     "github": "",
     "blurb": "Amit is an entrepreneur, technologist and strategist focused on growth-innovation. In recent years Amit founded and sold several startup companies (Socrative, Lynxminer), defined business and technology strategies for Fortune 500s (as part of his work at McKinsey and Company) and most recently is leading ADP product innovation initiatives out of ADP’s Chelsea Innovation Lab.   Amit completed an MBA from MIT Sloan School of Management and while at MIT served as an advisor for MIT’s online education efforts which resulted in the recent launch of EDx – MIT’s next generation of online learning offerings & partnerships. Alongside his studies at MIT, Amit founded Socrative – a startup providing mobile-based assessment products for K12 schools that now serves over 10 million students across the US and the world.",
     "image": "images/speakers/amit.jpg"
+  }, {
+    "name": "Travell Perkins",
+    "title": "VP of Web Architecture",
+    "organisation": "Fidelity Investments",
+    "twitter": "travellperkins",
+    "github": "tlperkins",
+    "blurb": "Travell is VP of Web Architecture at Fidelity Investments and a leading evangelist for the widespread adoption of Node.js within the organization. He delivered Fidsafe, a virtual safe deposit box to market for the organization and is now applying Node and other JavaScript technologies to more core offerings. Travell has over ten years of experience building systems for financial services. He holds a B.S. in Computer Science from MIT and an M.S. in Business from BU. For fun Travell enjoys distance longboarding along the scenic flats of New England.",
+    "image": "images/speakers/travell.jpg"
   }]
 }, {
   "time": {
