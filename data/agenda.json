@@ -1,6 +1,6 @@
 [{
   "time": {
-    "start": "09:30",
+    "start": "9:30",
     "end": "10:00"
   },
   "title": "Breakfast and Registration",
@@ -25,7 +25,7 @@
     "start": "10:15",
     "end": "10:45"
   },
-  "title": "Microservices at Gilt Group",
+  "title": "Microservices at Gilt Groupe",
   "type": "talk",
   "presenters": [{
     "name": "Sean Smith",
@@ -85,7 +85,7 @@
 }, {
   "time": {
     "start": "12:15",
-    "end": "13:00"
+    "end": "1:00"
   },
   "title": "So What Are Microservices?",
   "type": "panel",
@@ -117,15 +117,15 @@
   }]
 }, {
   "time": {
-    "start": "13:00",
-    "end": "14:00"
+    "start": "1:00",
+    "end": "2:00"
   },
   "title": "Lunch",
   "type": "break"
 }, {
   "time": {
-    "start": "14:00",
-    "end": "14:30"
+    "start": "2:00",
+    "end": "2:30"
   },
   "title": "Measuring Microservices",
   "type": "talk",
@@ -140,15 +140,15 @@
   }]
 }, {
   "time": {
-    "start": "14:30",
-    "end": "14:45"
+    "start": "2:30",
+    "end": "2:45"
   },
   "title": "Coffee",
   "type": "break"
 }, {
   "time": {
-    "start": "14:45",
-    "end": "15:30"
+    "start": "2:45",
+    "end": "3:30"
   },
   "title": "The Business Implications of Microservices",
   "type": "panel",
@@ -188,15 +188,15 @@
   }]
 }, {
   "time": {
-    "start": "15:30",
-    "end": "15:45"
+    "start": "3:30",
+    "end": "3:45"
   },
   "title": "Coffee",
   "type": "break"
 }, {
   "time": {
-    "start": "15:45",
-    "end": "16:15"
+    "start": "3:45",
+    "end": "4:15"
   },
   "title": "Monolith to Microservices",
   "type": "talk",
@@ -211,15 +211,15 @@
   }]
 }, {
   "time": {
-    "start": "16:15",
-    "end": "16:30"
+    "start": "4:15",
+    "end": "4:30"
   },
   "title": "Coffee",
   "type": "break"
 }, {
   "time": {
-    "start": "16:30",
-    "end": "17:00"
+    "start": "4:30",
+    "end": "5:00"
   },
   "title": "Go Faster - Impact on technology, process and organisation",
   "type": "talk",
@@ -234,8 +234,8 @@
   }]
 }, {
   "time": {
-    "start": "17:00",
-    "end": "17:30"
+    "start": "5:00",
+    "end": "5:30"
   },
   "title": "Final Thoughts",
   "type": "talk",
@@ -250,8 +250,8 @@
   }]
 }, {
   "time": {
-    "start": "17:30",
-    "end": "19:00"
+    "start": "5:30",
+    "end": "7:00"
   },
   "title": "Drinks and networking",
   "type": "logistics"
