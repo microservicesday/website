@@ -7,7 +7,10 @@
     "build": "./node_modules/.bin/assemble"
   },
   "author": "Joe Pettersson",
-  "license": "ISC",
+  "license": "MIT",
+  "contributors":[
+    "Matthew O'Connor, github:matt-oc"
+  ],
   "devDependencies": {
     "babelify": "^6.1.2",
     "browserify": "^10.2.4",

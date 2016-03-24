@@ -108,6 +108,25 @@
       margin-top: 0;
     }
   }
+  h5 {
+    font-weight: normal;
+    margin: 0.2rem 0 0;
+    font-size: 1.9rem;
+
+    @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+      font-size: 1rem;
+      margin-top: 0.1rem;
+    }
+
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+      font-size: 1.8rem;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      font-size: 0.9rem;
+      margin-top: 0;
+    }
+  }
 
   #sponsors {
     margin: 5rem auto 0;
