@@ -33,12 +33,13 @@
         <h3>{{ metadata.conf.date }} / {{ metadata.conf.location.human }}</h3>
 
         <div id="sponsors" class="clearfix">
-          <p>Brought to you by</p>
+          <br>
+          <img src="images/redhat.svg" alt="redhat" style="padding-right: 20px">
+          <img src="images/mckinsey.svg" id="mckinsey" alt="McKinsey's Digital Labs" style="padding-right: 50px">
           <img src="images/nearform.svg" alt="NearForm">
-          <img src="images/mckinsey.svg" id="mckinsey" alt="McKinsey's Digital Labs">
         </div>
 
-        <a href="{{ metadata.conf.tickets }}" class="button">Register Now</a>
+        <a href="{{ '#top' }}" class="button">Register Now<br>(coming soon)</a>
 
         <div id="down">&darr;</div>
 
@@ -71,21 +72,23 @@
       <section id="location"></section>
 
       <div id="location-images" class="clearfix">
-        <img src="images/venue/1.jpg" alt="Venue">
-        <img src="images/venue/2.jpg" alt="Venue">
-        <img src="images/venue/3.jpg" alt="Venue">
-        <img src="images/venue/4.jpg" alt="Venue">
+        <img src="images/venue/barb1.jpg" alt="Venue">
+        <img src="images/venue/barb2.jpg" alt="Venue">
+        <img src="images/venue/barb3.jpg" alt="Venue">
+        <img src="images/venue/barb4.jpg" alt="Venue">
       </div>
 
       <div id="hotels">
         <h2>Hotels <a href="#" id="toggleHotelMap">Toggle hotels on map</a></h2>
-        <p id="description">Below you find a selection of unaffiliated hotels near to the event</p>
+        <p id="description">Below you find a selection of unaffiliated hotels near to the event:</p>
+        <br>
         <ul class="clearfix">
           {{#each hotels}}
             <li>
               <h3><a href="{{ href }}">{{ name }}</a></h3>
               <h4>{{ address }}</h4>
-              <p class="price">{{ price }}</p>
+              <p class="postcode">{{ postcode }}</p>
+              <p class="price"><span style="color:#787878;">Cost: </span>{{ price }}</p>
               <p class="des">"{{ description }}"</p>
             </li>
           {{/each}}

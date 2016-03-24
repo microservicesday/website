@@ -23,33 +23,33 @@ class Map {
   }
 
   showHotels() {
-    this.hotel309 = new google.maps.Marker({
-      position: new google.maps.LatLng(40.740301, -74.003049),
+    this.southplacehotel = new google.maps.Marker({
+      position: new google.maps.LatLng(51.5189933, -0.08654409999996915),
       map: this.map,
-      title: 'Hotel 309'
+      title: 'South Place Hotel'
     });
-    this.dream = new google.maps.Marker({
-      position: new google.maps.LatLng(40.7420877, -74.0036235),
+    this.themontcalmlondoncity = new google.maps.Marker({
+      position: new google.maps.LatLng(51.5207792, -0.09092320000002019),
       map: this.map,
-      title: 'Dream Downtown'
+      title: 'The Montcalm'
     });
-    this.jade = new google.maps.Marker({
-      position: new google.maps.LatLng(40.7361131, -73.996635),
+    this.malmaison = new google.maps.Marker({
+      position: new google.maps.LatLng(51.5208945, -0.10024459999999635),
       map: this.map,
-      title: 'The Jade'
+      title: 'Malmaison'
     });
-    this.washington = new google.maps.Marker({
-      position: new google.maps.LatLng(40.7325, -73.998692),
+    this.travelodge = new google.maps.Marker({
+      position: new google.maps.LatLng(51.52269039999999, -0.08680709999998726),
       map: this.map,
-      title: 'Washington Square Hotel'
+      title: 'Travelodge'
     });
   }
 
   hideHotels() {
-    this.hotel309.setMap(null);
-    this.dream.setMap(null);
-    this.jade.setMap(null);
-    this.washington.setMap(null);
+    this.southplacehotel.setMap(null);
+    this.themontcalmlondoncity.setMap(null);
+    this.malmaison.setMap(null);
+    this.travelodge.setMap(null);
   }
 
 }

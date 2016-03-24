@@ -1,25 +1,29 @@
 [{
-  "href": "http://hotel309.com",
-  "name": "Hotel 309",
-  "address": "309 West 14th Street",
-  "price": "$$",
-  "description": "Located in NYC's chic and historic Meatpacking district, bordering both Greenwich Village and Chelsea, Hotel 309 is the perfect choice for the economical traveler seeking a limited service, apartment-style hotel in the heart of downtown Manhattan."
+  "href": "http://www.southplacehotel.com",
+  "name": "South Place Hotel",
+  "address": "3 South Place,",
+  "postcode":"London EC2M 2AF",
+  "price": "£££",
+  "description": "Located where the sophisticated City of London meets the Cultural East End, Liverpool Street and Moorgate Station are on their doorstep; the West End is ten minutes away by tube. During the week South Place exudes stylish business buzz and at the weekend we slip into something more elegant and host Bellini brunches, roof terrace BBQs, live music and cocktail lounges."
 }, {
-  "href": "http://www.dreamhotels.com/downtown/default-en.html",
-  "name": "Dream Downtown",
-  "address": "355 West 16TH Street",
-  "price": "$$$",
-  "description": "While all Dream Hotels are drop-dead gorgeous, Dream Downtown is a show-stopper. A bombshell. A knockout. A perfect 10. Our competition gets left in the dust every time and our (temporary) inhabitants live like they’ve only imagined they could… until now."
+  "href": "http://www.themontcalmlondoncity.co.uk",
+  "name": "The Montcalm",
+  "address": "52 Chiswell Street,",
+  "postcode":"London EC1Y 4SA",
+  "price": "££",
+  "description": "Superbly situated in the heart of The City of London is The Montcalm at The Brewery London City. This exceptional grade II listed building has been stunningly restored into a luxury five star hotel, whilst preserving the heritage values. The Montcalm at The Brewery London City is the perfect location from which to conduct business, pleasure or both, being conveniently located near Barbican and Moorgate stations and easily accessible from Liverpool Street station."
 }, {
-  "href": "http://www.thejadenyc.com",
-  "name": "The Jade",
-  "address": "52 West 13th Street",
-  "price": "$$$",
-  "description": "The Jade Hotel is a charming 113-room boutique hotel in the heart of the wander-worthy Greenwich Village. It’s where you come to let your inner-New Yorker run free—to absorb the magnetic energy of the city, then retreat to a romantic nook with a bustling street view."
+  "href": "https://www.malmaison.com/locations/london",
+  "name": "Malmaison",
+  "address": "18-21 Charterhouse Square,",
+  "postcode":"London EC1M 6AH",
+  "price": "££",
+  "description": "Located on the edge of Clerkenwell in West Smithfield, this is one of the most stylish and conveniently located hotels in Central London. London hotels don't get any closer to the great sights and shops than this; you can just about hear the bells ringing in Great St Bart's and the bubble and bustle of Smithfield Market, which is one of the oldest markets in London."
 }, {
-  "href": "http://washingtonsquarehotel.com",
-  "name": "Washington Square Hotel",
-  "address": "103 Waverly Place",
-  "price": "$$",
-  "description": "The Washington Square Hotel has provided a haven for writers, artists and visitors to Greenwich Village for more than a century. Today, our 152 room boutique hotel provides savvy travelers with stylish accommodations, warm service, fine dining and easy access to the best of lower Manhattan."
+  "href": "https://www.travelodge.co.uk/hotels/340/London-Central-City-Road-hotel?utm_source=google&utm_medium=maps&utm_campaign=London%20City%20Road",
+  "name": "Travelodge",
+  "address": "1-23 City Road,",
+  "postcode":"London EC1Y 1AG",
+  "price": "£",
+  "description": "Conveniently close to several transport links, this picturesque hotel is located in the heart of London and is within easy reach of some of London’s best attractions such as the West End which is famous for its shopping, restaurants and theatres. You’ll find trendy Shoreditch within walking distance of the hotel and the magnificent Queen Elizabeth Olympic Park is just a short journey away, along with iconic landmarks such as St Paul’s Cathedral and the Tower of London just under 2 miles away."
 }]
