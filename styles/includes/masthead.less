@@ -7,10 +7,12 @@
     url(images/hexagons.svg) no-repeat center top fixed,
     url(images/ny-bg.jpg) no-repeat center center fixed; 
   background-size: cover;
-  height: 78vh;
+  height: 100%;
+  width: 100%;
   text-align: center;
   color: #fff;
   padding-top: 23vh;
+  padding-bottom: 15vh;
 
   @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
     padding-top: 28vh;
@@ -131,6 +133,7 @@
   #sponsors {
     margin: 5rem auto 0;
     width: 730px;
+    padding-bottom: 30px;
 
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: 530px;
@@ -166,34 +169,84 @@
       float: left;
 
       &#mckinsey {
-        width: 300px;
-        margin-top: 10px;
+        width: 40%;
+        margin-top: 20px;
         margin-left: 20px;
+        margin-right: 40px;
+        
 
         @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
-          width: 340px;
-          margin-top: 9px;
+          width: 30%;
+          margin-top: 20px;
         }
 
         @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
-          width: 200px;
+          width: 30%;
           margin-top: 1px;
           margin-left: 0;
         }
 
         @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
-          width: 200px;
+          width: 30%;
+          margin-left: 0;
+          margin-top: 30px;
+        }
+      }
+      &#nearform {
+        width: 20%;
+        margin-top: 8px;
+        margin-left: 20px;
+        
+
+        @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+          width: 15%;
+          margin-top: 11px;
+        }
+
+        @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+          width: 15%;
+          margin-top: 1px;
+          margin-left: 0;
+        }
+
+        @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+          width: 15%;
+          margin-left: 0;
+          margin-top: 2px;
+        }
+      }
+      &#redhat {
+        width: 20%;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 35px;
+        
+
+        @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+          width: 15%;
+          margin-top: 9px;
+          margin-left: 20px;
+        }
+
+        @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+          width: 15%;
+          margin-top: 1px;
+          margin-left: 0;
+        }
+
+        @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+          width: 15%;
           margin-left: 0;
           margin-top: 2px;
         }
       }
 
       @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
-        width: 75px;
+        width: 15%;
       }
 
       @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
-        width: 80px;
+        width: 15%;
       }
 
       &:first-of-type {
@@ -203,28 +256,34 @@
   }
 
   a {
-    width: 10%;
+    display:inline-block;
+    width: 100%;
+    max-width: 250px; 
     margin: 3rem auto 0;
     z-index: 2;
     position: relative;
+  
 
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
-      width: 20%;
+      width: 70%;
     }
 
     @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
       margin-top: 1rem;
-      width: 20%;
+      width: 70%;
       padding: 0.5rem;
+    
     }
 
     @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
       margin-top: 2rem;
-      width: 30%;
+      width: 70%;
+    
     }
 
     @media (max-width: @mobile-width-contraint-iphone5) and (orientation: portrait) {
       width: 40%;
+  
     }
   }
 
