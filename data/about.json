@@ -1,4 +1,11 @@
 {
-  "title": "What is Microservices Day",
-  "blurb": "Microservices Day is a conference by the enterprise, for the enterprise. It brings together people from organizations that have adopted (or are planning to adopt) a microservices approach to running their business and focuses on the issues that companies face. It gives participants a forum to discuss and share their experiences with microservices through advice, tips and tricks as well as driving forward both the technology and business community. The event will consist of a range of talks from industry leaders who have deep experience building and operating microservices systems at scale. Panel discussions and active audience participation will be a further part of the event, as the implications of enabling business to innovate at a faster pace than ever before will be a key discussion point."
+  "title": "Digital Transformation with Microservices",
+  "blurb": "Following on from the success of the New York event, Microservices Day is coming to the Barbican, Europe’s largest arts events venue, in the City of London.",
+  "line1": "The day is focused on the business benefits of utilising Microservices, including rapid development, rapid deployment and reduced costs. Learn how leading companies are transforming how they do business.",
+  "line2": "Get real advice and insights on the following areas:",
+  "list1": "Digital Transformation using Microservices & Continuous Delivery",
+  "list2": "From Monolith to New Deployment in 12 weeks",
+  "list3": "Running & Integrating MicroServices on Legacy platforms",
+  "list4": "Using Microservices as a migration technology",
+  "line3": "Hear how leading companies are delivering increased revenues and reduced costs with microservices and other technologies."
 }

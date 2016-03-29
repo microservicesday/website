@@ -38,7 +38,7 @@
     line-height: 140%;
     width: @width;
     margin: 0 auto;
-    padding-bottom: 3.8rem;
+    padding-bottom: 1rem;
     color: darken(@orange, 40%);
 
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
@@ -49,13 +49,48 @@
     @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
       width: @mobile-width;
       font-size: 1rem;
-      padding-bottom: 2rem;
+      padding-bottom: 1rem;
     }
 
     @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
       width: @mobile-width-portrait;
       font-size: 1rem;
-      padding-bottom: 2.5rem;
+      padding-bottom: 1rem;
+    }
+
+    @media (max-width: @mobile-width-contraint-iphone5) and (orientation: portrait) {
+      width: @mobile-width-portrait-iphone5;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: @mobile-width-contraint-iphone5-landscape) and (orientation: landscape) {
+      width: @mobile-width-portrait-iphone5-landscape;
+    }
+  }
+  ul {
+    font-size: 1.3rem;
+    line-height: 140%;
+    width: @width;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+    padding-left: 7%;
+    color: darken(@orange, 40%);
+
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: @tablet-width;
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+      width: @mobile-width;
+      font-size: 1rem;
+      padding-bottom: 1.5rem;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      width: @mobile-width-portrait;
+      font-size: 1rem;
+      padding-bottom: 1.5rem;
     }
 
     @media (max-width: @mobile-width-contraint-iphone5) and (orientation: portrait) {
