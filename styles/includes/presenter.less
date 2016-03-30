@@ -4,6 +4,25 @@
 
   h4 {
     margin: 0.3rem 0;
+    .presenter-image {
+      float: right;
+      width: 17%;
+      border-radius: 100%;
+      border: 2px solid #ccc;
+      @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+        display: none;
+      }
+    }
+    .link {
+      text-decoration: none;
+      color: #444444;
+      opacity: 1;
+      &:hover,
+      &:active {
+        opacity: 0.7;
+        text-decoration: underline;
+      }
+    }
   }
 
   .twitter,
@@ -30,17 +49,6 @@
         width: 100%;
       }
 
-    }
-
-    .presenter-image {
-      float: right;
-      width: 15%;
-      border-radius: 100%;
-      border: 1px solid #ccc;
-
-      @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
-        display: none;
-      }
     }
 
   }

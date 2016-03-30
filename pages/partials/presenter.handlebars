@@ -1,6 +1,7 @@
 <div class="presenter">
-  <h4>{{ name }}{{ title }}{{ organisation }}</h4>
-
+  {{#if title}}
+  <h4>{{ name }}, {{ title }} @ <a href="{{ web }}" class ="link">{{ organisation }}</a><img src="{{ image }}" alt="{{ name }}" class="presenter-image"></h4>
+  {{/if}}
   {{#if twitter}}
   <a href="https://twitter.com/{{ twitter }}" class="twitter"><img src="images/twitter.svg" alt="Twitter"></a>
   {{/if}}
@@ -10,6 +11,6 @@
 
   <div class="bio clearfix">
     <p>{{ blurb }}</p>
-    <img src="{{ image }}" alt="{{ name }}" class="presenter-image">
+    
   </div>
 </div>
