@@ -13,13 +13,14 @@
   "title": "Welcome Keynote",
   "type": "talk",
   "presenters": [{
-    "name": "Cian Ó Maidín",
-    "title": "CEO",
+    "name": "Richard Rodger",
+    "title": "CTO",
     "organisation": "nearForm",
     "web": "http://www.nearform.com/",
-    "twitter": "cianomaidin",
-    "blurb": "Founder and CEO at nearForm, Europe’s leading Node.js consulting compay nearForm focus on server side projects in Node.js optimising for large-scale Mobile and Hardware applications. Founded in 2012, nearForm have developed and deployed over 30 large scale systems in Node. Cian is a peer-to-peer and data-synchronisation enthusiast, and as a result nearForm have pushed the state-of-the-art in the Node eco-system. Cian is Curator of NodeConf.eu, creator of PeerConf and runs Dublin’s monthly Node meet-up.",
-    "image": "images/speakers/cian.jpeg"
+    "twitter": "rjrodger",
+    "github": "rjrodger",
+    "blurb": "Richard Rodger is co-founder and chief technical officer (CTO) of nearForm, a Node.js consultancy that builds large-scale enterprise systems. He is an internationally recognized thought leader and speaker on Node.js and microservices. He is also author of Mobile Application Development in the Cloud (Wiley, 2012), and former CTO of FeedHenry, a mobile applications platform that was recently acquired by RedHat. Richard is creator of a number of open source tools, including Senecajs.org and Nodezoo.com. Richard is a regular contributor to the Sunday Business Post newspaper in Ireland, and holds degrees in Mathematics and Philosophy, and Computer Science.",
+    "image": "images/speakers/richard-roger.jpg"
   }]
 }, {
   "time": {
@@ -29,14 +30,14 @@
   "title": "Tech",
   "type": "tech",
   "presenters": [{
-    "name": "Richard Rodger",
-    "title": "CTO",
-    "organisation": "nearForm",
-    "web": "http://www.nearform.com/",
-    "twitter": "rjrodger",
-    "github": "rjrodger",
-    "blurb": "Richard Rodger is co-founder and chief technical officer (CTO) of nearForm, a Node.js consultancy that builds large-scale enterprise systems. He is an internationally recognized thought leader and speaker on Node.js and microservices. He is also author of Mobile Application Development in the Cloud (Wiley, 2012), and former CTO of FeedHenry, a mobile applications platform that was recently acquired by RedHat. Richard is creator of a number of open source tools, including Senecajs.org and Nodezoo.com. Richard is a regular contributor to the Sunday Business Post newspaper in Ireland, and holds degrees in Mathematics and Philosophy, and Computer Science.",
-    "image": "images/speakers/richard-roger.jpg"
+    "name": "Bill de hÓra",
+    "title": "Software Architect",
+    "organisation": "Zalando",
+    "web": "https://tech.zalando.com/",
+    "twitter": "dehora",
+    "github": "dehora",
+    "blurb": "",
+    "image": "images/speakers/bill-dh.jpeg"
   }]
 }, {
   "time": {
@@ -53,14 +54,14 @@
   "title": "Enterprise",
   "type": "talk",
   "presenters": [{
-    "name": "Peter Elger",
-    "title": "Director of Engineering",
-    "organisation": "nearForm",
-    "web": "http://www.nearform.com/",
-    "twitter": "pelger",
-    "github": "pelger",
-    "blurb": "Director of Engineering at nearForm, Peter started his career working as chief software architect at the Joint-Jet Fusion Undertaking in the UK where he spent 5 years building data acquisition and analysis systems for a Tokamak Fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry in both the research and commercial sectors including nuclear fusion research, software disaster recovery, telecommunications and broadcast media. Companies include BetaPond, TSSG, Waterford Technologies and Indigo Stone. Peter has a B.Sc. in Physics and an M.Sc. in Computer Science. Peter likes lifting really heavy weights and kick-boxing when not mashing the keyboard and delivering projects.",
-    "image": "images/speakers/peterelger.png"
+    "name": "Anne Currie",
+    "title": "Co Founder & Consultant",
+    "organisation": "Force12.io",
+    "web": "http://force12.io/",
+    "twitter": "anne_e_currie",
+    "github": "",
+    "blurb": "Over 20 years experience in the software development and ops sectors.",
+    "image": "images/speakers/anne-currie.jpg"
   }]
 }, {
   "time": {
@@ -70,13 +71,14 @@
   "title": "Tech",
   "type": "tech",
   "presenters": [{
-    "name": " Tech details to be confirmed",
-    "title": "",
-    "organisation": "",
-    "twitter": "",
-    "github": "",
+    "name": "Christian Deger",
+    "title": "Software Architect",
+    "organisation": "AutoScout24 GmbH",
+    "web": "http://www.autoscout24.de.",
+    "twitter": "cdeger",
+    "github": "christiandeger",
     "blurb": "",
-    "image": "images/speakers/placeholder.jpg"
+    "image": "images/speakers/christian-deger.jpg"
   }]
 }, {
   "time": {
@@ -110,13 +112,14 @@
   "title": "Enterprise",
   "type": "talk",
   "presenters": [{
-    "name": "Enterprise details to be confirmed",
-    "title": "",
-    "organisation": "",
-    "twitter": "",
-    "github": "",
-    "blurb": "",
-    "image": "images/speakers/placeholder.jpg"
+    "name": "Fred George",
+    "title": "Principal Consultant",
+    "organisation": "Fred George Consulting",
+    "web":"https://www.linkedin.com/in/fred-george-5965b5",
+    "twitter": "fgeorge52",
+    "github": "fredgeorge",
+    "blurb": "Fred George is an industry consultant, and has been writing code for over 46 years in (by his count) over 70 languages. He has delivered projects and products across his career, and in the last decade alone, has worked in the US, India, China, and the UK. He started ThoughtWorks University in Bangalore, India, based on a commercial programming training program he developed in the 90’s. An early adopter of OO and Agile, Fred continues to impact the industry with his leading​edge ideas, most recently advocating MicroS​ervice. Architectures and flat team structures (under the moniker of Programmer Anarchy). Oh, and he still writes code!",
+    "image": "images/speakers/fred-george.jpg"
   }]
 }, {
   "time": {
@@ -126,13 +129,14 @@
   "title": "Tech",
   "type": "tech",
   "presenters": [{
-    "name": " Tech details to be confirmed",
-    "title": "",
-    "organisation": "",
-    "twitter": "",
-    "github": "",
-    "blurb": "",
-    "image": "images/speakers/placeholder.jpg"
+    "name": "Adrian Trenaman",
+    "title": "Software Engineer",
+    "organisation": "Gilt",
+    "web": "www.gilt.com",
+    "twitter": "adrian_trenaman",
+    "github": "trenaman",
+    "blurb": "Adrian is an experienced, outspoken software engineer, communicator and leader with more than 20 years of experience working with technology teams throughout Europe, US and Asia in diverse industries such as financial services, telecom, retail, and manufacturing. He specializes in high-performance middleware, messaging and application development, and is pragmatic, hard-working, collaborative and results-oriented.",
+    "image": "images/speakers/adrian-trenaman.jpg"
   }]
 }, {
   "time": {
@@ -165,13 +169,14 @@
   "title": "Tech",
   "type": "tech",
   "presenters": [{
-    "name": " Tech details to be confirmed",
-    "title": "",
-    "organisation": "",
-    "twitter": "",
-    "github": "",
-    "blurb": "",
-    "image": "images/speakers/placeholder.jpg"
+    "name": "Peter Elger",
+    "title": "Director of Engineering",
+    "organisation": "nearForm",
+    "web": "http://www.nearform.com/",
+    "twitter": "pelger",
+    "github": "pelger",
+    "blurb": "Director of Engineering at nearForm, Peter started his career working as chief software architect at the Joint-Jet Fusion Undertaking in the UK where he spent 5 years building data acquisition and analysis systems for a Tokamak Fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry in both the research and commercial sectors including nuclear fusion research, software disaster recovery, telecommunications and broadcast media. Companies include BetaPond, TSSG, Waterford Technologies and Indigo Stone. Peter has a B.Sc. in Physics and an M.Sc. in Computer Science. Peter likes lifting really heavy weights and kick-boxing when not mashing the keyboard and delivering projects.",
+    "image": "images/speakers/peterelger.png"
   }]
 }, {
   "time": {
@@ -198,12 +203,12 @@
   "title": "Final Thoughts",
   "type": "talk",
   "presenters": [{
-    "name": "Final thoughts details to be confirmed",
-    "title": "",
-    "organisation": "",
-    "twitter": "",
-    "github": "",
-    "blurb": "",
-    "image": "images/speakers/placeholder.jpg"
+    "name": "Cian Ó Maidín",
+    "title": "CEO",
+    "organisation": "nearForm",
+    "web": "http://www.nearform.com/",
+    "twitter": "cianomaidin",
+    "blurb": "Founder and CEO at nearForm, Europe’s leading Node.js consulting compay nearForm focus on server side projects in Node.js optimising for large-scale Mobile and Hardware applications. Founded in 2012, nearForm have developed and deployed over 30 large scale systems in Node. Cian is a peer-to-peer and data-synchronisation enthusiast, and as a result nearForm have pushed the state-of-the-art in the Node eco-system. Cian is Curator of NodeConf.eu, creator of PeerConf and runs Dublin’s monthly Node meet-up.",
+    "image": "images/speakers/cian.jpeg"
   }]
 }]
