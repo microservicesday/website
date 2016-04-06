@@ -30,15 +30,14 @@
   "title": "Tech",
   "type": "tech",
   "presenters": [{
-    "name": "Bill de hÓra",
-    "title": "Software Architect",
-    "organisation": "Zalando",
-    "web": "https://tech.zalando.com/",
-    "twitter": "dehora",
-    "github": "dehora",
-    "blurb": "",
-    "image": "images/speakers/bill-dh.jpeg"
-  }]
+      "name": "Tech details to be confirmed",
+      "title": "",
+      "organisation": "",
+      "twitter": "",
+      "github": "",
+      "blurb": "",
+      "image": "images/speakers/placeholder.jpg"
+    }]
 }, {
   "time": {
     "start": "10:30",
@@ -77,7 +76,7 @@
     "web": "http://www.autoscout24.de.",
     "twitter": "cdeger",
     "github": "christiandeger",
-    "blurb": "",
+    "blurb": "Christian Deger is a coding architect at AutoScout24. He is deeply involved with 'Tatsu', the project that transforms the matured AutoScout24 IT setup into a nextgen Web-Scale IT platform. He joined AutoScout24 as a developer, later led a team of developers, before the current challenges lured him into his technical role. After many years of software development, Christian is still excited about advances in technology and new ideas and concepts. His current vision is centered around 'You build it, you run it' and includes buzzwords like AWS, Microservices and Event Sourcing. He now believes he is an architect, so don't take him too seriously.",
     "image": "images/speakers/christian-deger.jpg"
   }]
 }, {
