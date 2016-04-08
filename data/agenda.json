@@ -60,6 +60,7 @@
     "twitter": "anne_e_currie",
     "github": "",
     "blurb": "Anne Currie has been in the tech industry for over 20 years working on everything from core server technology to pioneering eCommerce platforms (OK it was online lingerie). She is currently the CTO of Microscaling Systems where she is looking at the convergence of microservices and containers.",
+    "abstract": "Are containers really orders of magnitude faster at instantiating than VMs? Or is that just hype? How might this change future architectures? What will the effect be on Microservices? Come to Anne's talk to find out…",
     "image": "images/speakers/anne-currie.jpg"
   }]
 }, {
@@ -77,6 +78,7 @@
     "twitter": "cdeger",
     "github": "christiandeger",
     "blurb": "Christian Deger is a coding architect at AutoScout24. He is deeply involved with 'Tatsu', the project that transforms the matured AutoScout24 IT setup into a nextgen Web-Scale IT platform. He joined AutoScout24 as a developer, later led a team of developers, before the current challenges lured him into his technical role. After many years of software development, Christian is still excited about advances in technology and new ideas and concepts. His current vision is centered around 'You build it, you run it' and includes buzzwords like AWS, Microservices and Event Sourcing. He now believes he is an architect, so don't take him too seriously.",
+    "abstract": "Fed up with stop and go in your data center? Why not shift into overdrive and pull into the fast lane? Learn how AutoScout24 are building their Autobahn in the cloud to become the market leader in Europe's vehicle listings business. Reinventing themselves by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS and from built by devs and run by ops to a devops mindset. While the current stack keeps running, ever more microservices will go live as you listen to stories from the trenches.",
     "image": "images/speakers/christian-deger.jpg"
   }]
 }, {
