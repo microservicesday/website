@@ -7,12 +7,33 @@
   color: @white;
   font-family: @header-font-family;
   text-decoration: none;
+  opacity: 0.9;
   
+}
+  .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-  &:hover,
-  &:active,
-  &:focus {
-    outline: none;
-    background: darken(#ffe6e6, 1%);
-  }
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button:hover {
+  opacity: 1;
 }

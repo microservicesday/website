@@ -19,7 +19,7 @@
     "web": "http://www.nearform.com/",
     "twitter": "rjrodger",
     "github": "rjrodger",
-    "blurb": "Richard is the co-founder, chief technology officer (CTO) and technology thought leader behind nearForm. A rare combination of successful entrepreneur, public speaker and published author, Richard wrote one of the world’s first books on Node.js. Richard is a regular international conference speaker, with recent appearances at CodeMotion Rome, MicroXchg Berlin and London JS Conf. He is also a prominent figure in the open source software world.",
+    "blurb": "Richard is the co-founder, chief technology officer (CTO) and technology thought leader behind nearForm. An acknowledged early authority on microservices, Richard is the author of The Tao of Microservices and the creator of Seneca, an open source microservices tool kit for Node.js.",
     "image": "images/speakers/richard-roger.jpg"
   }]
 }, {
@@ -76,7 +76,7 @@
     "twitter": "cdeger",
     "github": "christiandeger",
     "blurb": "Christian Deger is a software architect at AutoScout24. He is deeply involved with ‘Tatsu’, the project that is transforming the mature AutoScout24 IT system into a next-generation digital platform. After many years of software development work, Christian’s vision is centered around a 'You build it, you run it' approach, with special focus on AWS, microservices and event sourcing.",
-    "abstract": "Fed up with stop and go in your data center? Why not shift into overdrive and pull into the fast lane? Learn how AutoScout24 are building their Autobahn in the cloud to become the market leader in Europe's vehicle listings business. Reinventing themselves by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS and from built by devs and run by ops to a devops mindset. While the current stack keeps running, ever more microservices will go live as you listen to stories from the trenches.",
+    "abstract": "Christian gives us the inside track on how AutoScout24 is building its ‘Autobahn in the cloud’ to become the market leader in Europe's vehicle listings business. He will explain how his company is reinventing itself by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS, and from ‘built by devs and run by ops’ to a DevOps mindset.",
     "image": "images/speakers/christian-deger.jpg"
   }]
 }, {
@@ -117,7 +117,8 @@
     "web":"https://www.linkedin.com/in/fred-george-5965b5",
     "twitter": "fgeorge52",
     "github": "fredgeorge",
-    "blurb": "Fred George is an industry consultant, and has been writing code for over 46 years in (by his count) over 70 languages. He has delivered projects and products across his career, and in the last decade alone, has worked in the US, India, China, and the UK. He started ThoughtWorks University in Bangalore, India, based on a commercial programming training program he developed in the 90’s. An early adopter of OO and Agile, Fred continues to impact the industry with his leading​edge ideas, most recently advocating MicroS​ervice. Architectures and flat team structures (under the moniker of Programmer Anarchy). Oh, and he still writes code!",
+    "abstract": "A common theme runs through conferences, whether focused on MicroServices, DevOps, Lean Startup, or a myriad of other popular topics: Enabling an organization to Go Faster. I explore the need to go faster (which is hardly new), and three areas inhibitors arise: Technology choices, staid business Processes, and traditional Organization structures and roles. For each, I cite personal experiences in overcoming each.",
+    "blurb": "Fred George is an industry consultant, and has been writing code for over 46 years in (by his count) over 70 languages. He has delivered projects and products across his career, and in the last decade alone, has worked in the US, India, China, and the UK. He started ThoughtWorks University in Bangalore, India, based on a commercial programming training program he developed in the 90’s. An early adopter of OO and Agile, Fred continues to impact the industry with his leading ­edge ideas, most recently advocating MicroService Architectures and flat team structures (under the moniker of Programmer Anarchy). Oh, and he still writes code!",
     "image": "images/speakers/fred-george.jpg"
   }]
 }, {
@@ -158,7 +159,7 @@
     "web": "http://force12.io/",
     "twitter": "anne_e_currie",
     "github": "",
-    "blurb": "Anne Currie has been in the tech industry for over 20 years working on everything from core server technology to pioneering eCommerce platforms (OK it was online lingerie). She is currently the CTO of Microscaling Systems where she is looking at the convergence of microservices and containers.",
+    "blurb": "Anne Currie has been in the tech industry for over 20 years, working on everything from core server technology to pioneering e-commerce platforms. She is currently CTO of Microscaling Systems, with a focus on the convergence of microservices and containers.",
     "abstract": "Are containers really orders of magnitude faster at instantiating than VMs? Or is that just hype? How might this change future architectures? What will the effect be on Microservices? Come to Anne's talk to find out…",
     "image": "images/speakers/anne-currie.jpg"
   }]
