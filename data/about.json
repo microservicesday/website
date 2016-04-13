@@ -1,8 +1,9 @@
 {
   "title": "Digital Transformation with Microservices",
+  "title2": "What Can You Expect?",
   "blurb": "Microservices Day is a one-day, single-track, non-profit event that focuses on the business benefits of utilizing microservices. It is aimed at chief digital officers, chief technical officers, chief information officers, VPs of engineering and senior tech decision makers. Learn how leading enterprises are leveraging digital transformation to achieve rapid delivery and be inspired, not intimidated, by the unicorns.",
-  "line1": "At nearForm, we’ve used our own experience from two years at the front lines of microservices to hand-pick a line-up of high-profile, experienced speakers.",
-  "line2": "The speakers are drawn from all sections of the technology world: established enterprises, unicorns and business. They will give real-world advice on and insights into the following areas:",
+  "line1": "At nearForm, we’ve used our own experience from two years at the front lines of microservices development to hand-pick a line-up of high-profile, experienced speakers.",
+  "line2": "Our speakers are drawn from all sections of the technology world: established enterprises, unicorns and business. They will give real-world advice on and insights into the following areas:",
   "list1": "Using digital transformation to achieve rapid, continuous delivery",
   "list2": "How to go from monolith to new deployment in 12 weeks",
   "list3": "How to go cloud-native",
