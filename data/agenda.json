@@ -30,13 +30,13 @@
   "title": "Tech",
   "type": "tech",
   "presenters": [{
-      "name": "Tech details to be confirmed",
-      "title": "",
-      "organisation": "",
-      "twitter": "",
+      "name": "Jason Melo",
+      "title": "Chief Architect",
+      "organisation": "Lifion by ADP",
+      "twitter": "jasonmelo",
       "github": "",
       "blurb": "",
-      "image": "images/speakers/placeholder.jpg"
+      "image": "images/speakers/jmelo.jpg"
     }]
 }, {
   "time": {
@@ -50,17 +50,16 @@
     "start": "11:00",
     "end": "11:30"
   },
-  "title": "“Microservices and Containers. How much faster than a VM?!”",
+  "title": "Talk",
   "type": "talk",
   "presenters": [{
-    "name": "Anne Currie",
-    "title": "Co Founder & Consultant",
-    "organisation": "Force12.io",
-    "web": "http://force12.io/",
-    "twitter": "anne_e_currie",
-    "github": "",
-    "blurb": "Anne Currie has been in the tech industry for over 20 years working on everything from core server technology to pioneering eCommerce platforms (OK it was online lingerie). She is currently the CTO of Microscaling Systems where she is looking at the convergence of microservices and containers.",
-    "image": "images/speakers/anne-currie.jpg"
+    "name": "Clifton Cunningham ",
+    "title": "CTO",
+    "organisation": "TES Global",
+    "twitter": "clifcunn",
+    "github": "cliftonc",
+    "blurb": "",
+    "image": "images/speakers/ccunningham.jpeg"
   }]
 }, {
   "time": {
@@ -76,7 +75,8 @@
     "web": "http://www.autoscout24.de.",
     "twitter": "cdeger",
     "github": "christiandeger",
-    "blurb": "Christian Deger is a coding architect at AutoScout24. He is deeply involved with 'Tatsu', the project that transforms the matured AutoScout24 IT setup into a nextgen Web-Scale IT platform. He joined AutoScout24 as a developer, later led a team of developers, before the current challenges lured him into his technical role. After many years of software development, Christian is still excited about advances in technology and new ideas and concepts. His current vision is centered around 'You build it, you run it' and includes buzzwords like AWS, Microservices and Event Sourcing. He now believes he is an architect, so don't take him too seriously.",
+    "blurb": "Christian Deger is a software architect at AutoScout24. He is deeply involved with ‘Tatsu’, the project that is transforming the mature AutoScout24 IT system into a next-generation digital platform. After many years of software development work, Christian’s vision is centered around a 'You build it, you run it' approach, with special focus on AWS, microservices and event sourcing.",
+    "abstract": "Fed up with stop and go in your data center? Why not shift into overdrive and pull into the fast lane? Learn how AutoScout24 are building their Autobahn in the cloud to become the market leader in Europe's vehicle listings business. Reinventing themselves by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS and from built by devs and run by ops to a devops mindset. While the current stack keeps running, ever more microservices will go live as you listen to stories from the trenches.",
     "image": "images/speakers/christian-deger.jpg"
   }]
 }, {
@@ -149,16 +149,18 @@
     "start": "3:00",
     "end": "3:30"
   },
-  "title": "Enterprise",
+  "title": "“Microservices and Containers. How much faster than a VM?!”",
   "type": "talk",
   "presenters": [{
-    "name": "Enterprise details to be confirmed",
-    "title": "",
-    "organisation": "",
-    "twitter": "",
+    "name": "Anne Currie",
+    "title": "Co Founder & Consultant",
+    "organisation": "Force12.io",
+    "web": "http://force12.io/",
+    "twitter": "anne_e_currie",
     "github": "",
-    "blurb": "",
-    "image": "images/speakers/placeholder.jpg"
+    "blurb": "Anne Currie has been in the tech industry for over 20 years working on everything from core server technology to pioneering eCommerce platforms (OK it was online lingerie). She is currently the CTO of Microscaling Systems where she is looking at the convergence of microservices and containers.",
+    "abstract": "Are containers really orders of magnitude faster at instantiating than VMs? Or is that just hype? How might this change future architectures? What will the effect be on Microservices? Come to Anne's talk to find out…",
+    "image": "images/speakers/anne-currie.jpg"
   }]
 }, {
   "time": {
@@ -207,7 +209,7 @@
     "organisation": "nearForm",
     "web": "http://www.nearform.com/",
     "twitter": "cianomaidin",
-    "blurb": "Founder and CEO at nearForm, Europe’s leading Node.js consulting company nearForm focus on server side projects in Node.js optimising for large-scale Mobile and Hardware applications. Founded in 2012, nearForm have developed and deployed over 30 large scale systems in Node. Cian is a peer-to-peer and data-synchronisation enthusiast, and as a result nearForm have pushed the state-of-the-art in the Node eco-system. Cian is Curator of NodeConf.eu, creator of PeerConf and runs Dublin’s monthly Node meet-up.",
+    "blurb": "Cian is the co-founder and visionary chief executive officer (CEO) behind nearForm. Very early on, Cian saw how Node.js could help software work better and formulated his vision of bringing the new Node.js technology into the mainstream. He is committed to making that happen through nearForm. He is an established entrepreneur, Node.js community leader, creator of the NodeDublin conference and curator of NodeConf EU, Europe’s annual four-day Node.js conference. In 2012, Cian was voted amongst “Ireland’s top technology leaders”.",
     "image": "images/speakers/cian.jpeg"
   }]
 }]

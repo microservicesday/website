@@ -1,4 +1,8 @@
 <div class="presenter">
+  {{#if abstract}}
+    <em><p>{{ abstract }}</p></em>
+    <br>
+  {{/if}}
   {{#if title}}
   <h4>{{ name }}, {{ title }} @ <a href="{{ web }}" class ="link">{{ organisation }}</a><img src="{{ image }}" alt="{{ name }}" class="presenter-image"></h4>
   {{/if}}
