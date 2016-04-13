@@ -1,11 +1,13 @@
 {
   "title": "Digital Transformation with Microservices",
-  "blurb": "Following on from the success of the New York event, Microservices Day is coming to the Barbican, Europe’s largest arts events venue, in the City of London.",
-  "line1": "The day is focused on the business benefits of utilising Microservices, including rapid development, rapid deployment and reduced costs. Learn how leading companies are transforming how they do business.",
-  "line2": "Get real advice and insights on the following areas:",
-  "list1": "Digital Transformation using Microservices & Continuous Delivery",
-  "list2": "From Monolith to New Deployment in 12 weeks",
-  "list3": "Running & Integrating MicroServices on Legacy platforms",
-  "list4": "Using Microservices as a migration technology",
-  "line3": "Hear how leading companies are delivering increased revenues and reduced costs with microservices and other technologies."
+  "title2": "What Can You Expect?",
+  "blurb": "Microservices Day is a one-day, single-track, non-profit event that focuses on the business benefits of utilizing microservices. It is aimed at chief digital officers, chief technical officers, chief information officers, VPs of engineering and senior tech decision makers. Learn how leading enterprises are leveraging digital transformation to achieve rapid delivery and be inspired, not intimidated, by the unicorns.",
+  "line1": "At nearForm, we’ve used our own experience from two years at the front lines of microservices development to hand-pick a line-up of high-profile, experienced speakers.",
+  "line2": "Our speakers are drawn from all sections of the technology world: established enterprises, unicorns and business. They will give real-world advice on and insights into the following areas:",
+  "list1": "Using digital transformation to achieve rapid, continuous delivery",
+  "list2": "How to go from monolith to new deployment in 12 weeks",
+  "list3": "How to go cloud-native",
+  "list4": "Running and integrating microservices on legacy platforms",
+  "list5": "Using microservices as a migration technology",
+  "list6": "How to transition to a rapid development process"
 }
