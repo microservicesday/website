@@ -35,7 +35,7 @@
       "organisation": "Lifion by ADP",
       "twitter": "jasonmelo",
       "github": "",
-      "blurb": "",
+      "blurb": "Jason is a cross-domain technology entrepreneur who took his startup to a successful exit in 2008. He has created high-performance, scalable, secure web, mobile and enterprise systems for big-name clients such as Warner Music Group and Deloitte.",
       "image": "images/speakers/jmelo.jpg"
     }]
 }, {
@@ -58,7 +58,7 @@
     "organisation": "TES Global",
     "twitter": "clifcunn",
     "github": "cliftonc",
-    "blurb": "",
+    "blurb": "Clifton started up and sold his first software company before he was 25. His passion is for technology as a tool for transformational change. He has had a distinguished career in some of the world’s largest corporations including Accenture, CapGemini and Mail Online.",
     "image": "images/speakers/ccunningham.jpeg"
   }]
 }, {
@@ -66,7 +66,7 @@
     "start": "11:30",
     "end": "12:00"
   },
-  "title": "Tech",
+  "title": "“Autobahn in the cloud”",
   "type": "tech",
   "presenters": [{
     "name": "Christian Deger",
@@ -75,7 +75,7 @@
     "web": "http://www.autoscout24.de.",
     "twitter": "cdeger",
     "github": "christiandeger",
-    "blurb": "Christian Deger is a software architect at AutoScout24. He is deeply involved with ‘Tatsu’, the project that is transforming the mature AutoScout24 IT system into a next-generation digital platform. After many years of software development work, Christian’s vision is centered around a 'You build it, you run it' approach, with special focus on AWS, microservices and event sourcing.",
+    "blurb": "Christian Deger is a software architect at AutoScout24. He is deeply involved with ‘Tatsu’, the project that is transforming the mature AutoScout24 IT system into a next-generation digital platform.",
     "abstract": "Christian gives us the inside track on how AutoScout24 is building its ‘Autobahn in the cloud’ to become the market leader in Europe's vehicle listings business. He will explain how his company is reinventing itself by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS, and from ‘built by devs and run by ops’ to a DevOps mindset.",
     "image": "images/speakers/christian-deger.jpg"
   }]
@@ -117,8 +117,8 @@
     "web":"https://www.linkedin.com/in/fred-george-5965b5",
     "twitter": "fgeorge52",
     "github": "fredgeorge",
-    "abstract": "A common theme runs through conferences, whether focused on MicroServices, DevOps, Lean Startup, or a myriad of other popular topics: Enabling an organization to Go Faster. I explore the need to go faster (which is hardly new), and three areas inhibitors arise: Technology choices, staid business Processes, and traditional Organization structures and roles. For each, I cite personal experiences in overcoming each.",
-    "blurb": "Fred George is an industry consultant, and has been writing code for over 46 years in (by his count) over 70 languages. He has delivered projects and products across his career, and in the last decade alone, has worked in the US, India, China, and the UK. He started ThoughtWorks University in Bangalore, India, based on a commercial programming training program he developed in the 90’s. An early adopter of OO and Agile, Fred continues to impact the industry with his leading ­edge ideas, most recently advocating MicroService Architectures and flat team structures (under the moniker of Programmer Anarchy). Oh, and he still writes code!",
+    "abstract": "A common theme runs through conferences, whether focused on microservices, DevOps, lean startup, or a myriad of other popular topics: how to enable an organization to go faster. I explore the need to go faster (which is hardly new), and three areas inhibitors arise: Technology choices, staid business processes, and traditional organization structures and roles. For each, I cite personal experiences in overcoming each.",
+    "blurb": "Fred George is an industry consultant and has been writing code for over 46 years in over 70 languages. An early adopter of OO and Agile, Fred continues to impact the industry with his leading-­edge ideas.",
     "image": "images/speakers/fred-george.jpg"
   }]
 }, {
@@ -135,7 +135,7 @@
     "web": "www.gilt.com",
     "twitter": "adrian_trenaman",
     "github": "trenaman",
-    "blurb": "As SVP Engineering, Ade leads the engineering teams for Gilt in New York and Dublin. He is an experienced, outspoken software engineer, communicator and leader with over 20 years of experience working with teams throughout Europe, US and Asia in diverse industries such as financial services, telecoms, retail, and manufacturing. In the past, he has held the positions of CTO of Gilt Japan, Tech Lead at Gilt Groupe Ireland, Distinguished Consultant at FuseSource, Progress Software and IONA Technologies, and Lecturer at the National University of Ireland in Maynooth. He became a committer for the Apache Software Foundation in 2010, has acted as an expert reviewer to the European Commission.",
+    "blurb": "Adrian is a software engineer, communicator and leader with over 20 years of experience throughout Europe, US and Asia in diverse industries. He became a committer for the Apache Software Foundation in 2010 and has acted as an expert reviewer to the European Commission.",
     "image": "images/speakers/adrian-trenaman.jpg"
   }]
 }, {
@@ -177,7 +177,7 @@
     "web": "http://www.nearform.com/",
     "twitter": "pelger",
     "github": "pelger",
-    "blurb": "Director of Engineering at nearForm, Peter started his career working as chief software architect at the Joint-Jet Fusion Undertaking in the UK where he spent 5 years building data acquisition and analysis systems for a Tokamak Fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry in both the research and commercial sectors including nuclear fusion research, software disaster recovery, telecommunications and broadcast media. Companies include BetaPond, TSSG, Waterford Technologies and Indigo Stone. Peter has a B.Sc. in Physics and an M.Sc. in Computer Science. Peter likes lifting really heavy weights and kick-boxing when not mashing the keyboard and delivering projects.",
+    "blurb": "Peter started his 20-year career at the Joint Jet Fusion Undertaking in the UK, building data acquisition and analysis systems for a Tokamak fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry, in both the research and commercial sectors.",
     "image": "images/speakers/peterelger.png"
   }]
 }, {
@@ -210,7 +210,7 @@
     "organisation": "nearForm",
     "web": "http://www.nearform.com/",
     "twitter": "cianomaidin",
-    "blurb": "Cian is the co-founder and visionary chief executive officer (CEO) behind nearForm. Very early on, Cian saw how Node.js could help software work better and formulated his vision of bringing the new Node.js technology into the mainstream. He is committed to making that happen through nearForm. He is an established entrepreneur, Node.js community leader, creator of the NodeDublin conference and curator of NodeConf EU, Europe’s annual four-day Node.js conference. In 2012, Cian was voted amongst “Ireland’s top technology leaders”.",
+    "blurb": "Cian is the co-founder and visionary chief executive officer (CEO) behind nearForm. Very early on, Cian saw how Node.js could help software work better. He is a Node.js community leader, creator of the NodeDublin conference and curator of NodeConf EU.",
     "image": "images/speakers/cian.jpeg"
   }]
 }]
