@@ -4,18 +4,25 @@
 
   h4 {
     margin: 0.3rem 0;
+    color: #787878;
     .presenter-image {
       float: right;
       width: 17%;
       border-radius: 100%;
-      border: 2px solid #ccc;
+      opacity: 0.9;
+      &:hover,
+      &:active {
+        opacity: 1;
+        width: 17.5%;
+        
+      }
       @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
         display: none;
       }
     }
     .link {
       text-decoration: none;
-      color: #444444;
+      color: #787878;
       opacity: 1;
       &:hover,
       &:active {
@@ -25,6 +32,21 @@
     }
   }
   
+  p {
+    color: #787878;
+
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      float: none;
+      width: 100%;
+    }
+
+  }
+
+  
   hr {
     width: 70%;
     opacity: 0.2;
@@ -32,6 +54,7 @@
 
   .twitter,
   .github {
+    width: 20px;
     opacity: 0.7;
     &:hover,
     &:active {
@@ -42,6 +65,7 @@
   .bio {
     
     p {
+      color: #787878;
       float: left;
       width: 75%;
 

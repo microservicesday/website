@@ -135,6 +135,7 @@
     "web": "www.gilt.com",
     "twitter": "adrian_trenaman",
     "github": "trenaman",
+    "abstract": "Gilt has taken the architecture of gilt.com from monolith to about 300 cloud-based micro-services, all working tirelessly to handle the hordes of vistors we see every day at noon. There are problems and unanticipated side-effects, however: deployment, software ownership, staging, testing, dependency management, alerting and IO. Adrian will talk about the microservices architecture that he and his team have implemented, and how they are tackling its problems.",
     "blurb": "Adrian is a software engineer, communicator and leader with over 20 years of experience throughout Europe, US and Asia in diverse industries. He became a committer for the Apache Software Foundation in 2010 and has acted as an expert reviewer to the European Commission.",
     "image": "images/speakers/adrian-trenaman.jpg"
   }]
