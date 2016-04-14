@@ -1,6 +1,20 @@
 #benefits {
-  background: darken(@orange, 14%);
-
+  background: 
+    linear-gradient(
+      fadeout(#557CBC, 22%), 
+      fadeout(#557CBC, 10%)
+    ),
+      
+    url(images/hexagons.svg) no-repeat center top fixed,
+    url(images/bg.png) no-repeat center center fixed;
+     
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: #557CBC;
+   
+  
+  
   h2 {
     color: darken(@white, 10%);
     margin: 0 auto 0;
@@ -43,8 +57,8 @@
   
   #ghost {
     float: right;
-    width: 400px;
-    opacity: 0.2;
+    width: 75px;
+    margin-right:8px;
   }
 
   p {
