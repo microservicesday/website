@@ -19,6 +19,7 @@
     "web": "http://www.nearform.com/",
     "twitter": "rjrodger",
     "github": "rjrodger",
+    "linkedin": "https://www.linkedin.com/in/richardrodger",
     "blurb": "Richard is the co-founder, chief technology officer (CTO) and technology thought leader behind nearForm. An acknowledged early authority on microservices, Richard is the author of The Tao of Microservices and the creator of Seneca, an open source microservices tool kit for Node.js.",
     "image": "images/speakers/richard-roger.jpg"
   }]
@@ -33,8 +34,10 @@
       "name": "Jason Melo",
       "title": "Chief Architect",
       "organisation": "Lifion by ADP",
+      "web": "http://www.lifion.com/",
       "twitter": "jasonmelo",
       "github": "",
+      "linkedin": "https://www.linkedin.com/in/jasonmelo",
       "blurb": "Jason is a cross-domain technology entrepreneur who took his startup to a successful exit in 2008. He has created high-performance, scalable, secure web, mobile and enterprise systems for big-name clients such as Warner Music Group and Deloitte.",
       "image": "images/speakers/jmelo.jpg"
     }]
@@ -56,8 +59,10 @@
     "name": "Clifton Cunningham ",
     "title": "CTO",
     "organisation": "TES Global",
+    "web": "https://www.tesglobal.com/",
     "twitter": "clifcunn",
     "github": "cliftonc",
+    "linkedin": "https://www.linkedin.com/in/cliftonc",
     "blurb": "Clifton started up and sold his first software company before he was 25. His passion is for technology as a tool for transformational change. He has had a distinguished career in some of the world’s largest corporations including Accenture, CapGemini and Mail Online.",
     "image": "images/speakers/ccunningham.jpeg"
   }]
@@ -72,9 +77,10 @@
     "name": "Christian Deger",
     "title": "Software Architect",
     "organisation": "AutoScout24 GmbH",
-    "web": "http://www.autoscout24.de.",
+    "web": "http://www.autoscout24.de",
     "twitter": "cdeger",
     "github": "christiandeger",
+    "linkedin": "https://de.linkedin.com/in/christiandeger1",
     "blurb": "Christian Deger is a software architect at AutoScout24. He is deeply involved with ‘Tatsu’, the project that is transforming the mature AutoScout24 IT system into a next-generation digital platform.",
     "abstract": "Christian gives us the inside track on how AutoScout24 is building its ‘Autobahn in the cloud’ to become the market leader in Europe's vehicle listings business. He will explain how his company is reinventing itself by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS, and from ‘built by devs and run by ops’ to a DevOps mindset.",
     "image": "images/speakers/christian-deger.jpg"
@@ -117,6 +123,7 @@
     "web":"https://www.linkedin.com/in/fred-george-5965b5",
     "twitter": "fgeorge52",
     "github": "fredgeorge",
+    "linkedin": "https://www.linkedin.com/in/fred-george-5965b5",
     "abstract": "A common theme runs through conferences, whether focused on microservices, DevOps, lean startup, or a myriad of other popular topics: how to enable an organization to go faster. I explore the need to go faster (which is hardly new), and three areas inhibitors arise: Technology choices, staid business processes, and traditional organization structures and roles. For each, I cite personal experiences in overcoming each.",
     "blurb": "Fred George is an industry consultant and has been writing code for over 46 years in over 70 languages. An early adopter of OO and Agile, Fred continues to impact the industry with his leading-­edge ideas.",
     "image": "images/speakers/fred-george.jpg"
@@ -132,9 +139,10 @@
     "name": "Adrian Trenaman",
     "title": "Software Engineer",
     "organisation": "Gilt",
-    "web": "www.gilt.com",
+    "web": "http://gilt.com/",
     "twitter": "adrian_trenaman",
     "github": "trenaman",
+    "linkedin": "https://ie.linkedin.com/in/adriantrenaman",
     "abstract": "Gilt has taken the architecture of gilt.com from monolith to about 300 cloud-based micro-services, all working tirelessly to handle the hordes of vistors we see every day at noon. There are problems and unanticipated side-effects, however: deployment, software ownership, staging, testing, dependency management, alerting and IO. Adrian will talk about the microservices architecture that he and his team have implemented, and how they are tackling its problems.",
     "blurb": "Adrian is a software engineer, communicator and leader with over 20 years of experience throughout Europe, US and Asia in diverse industries. He became a committer for the Apache Software Foundation in 2010 and has acted as an expert reviewer to the European Commission.",
     "image": "images/speakers/adrian-trenaman.jpg"
@@ -160,6 +168,7 @@
     "web": "http://force12.io/",
     "twitter": "anne_e_currie",
     "github": "",
+    "linkedin": "https://uk.linkedin.com/in/annecurrie",
     "blurb": "Anne Currie has been in the tech industry for over 20 years, working on everything from core server technology to pioneering e-commerce platforms. She is currently CTO of Microscaling Systems, with a focus on the convergence of microservices and containers.",
     "abstract": "Are containers really orders of magnitude faster at instantiating than VMs? Or is that just hype? How might this change future architectures? What will the effect be on Microservices? Come to Anne's talk to find out…",
     "image": "images/speakers/anne-currie.jpg"
@@ -178,6 +187,7 @@
     "web": "http://www.nearform.com/",
     "twitter": "pelger",
     "github": "pelger",
+    "linkedin": "https://ie.linkedin.com/in/peterelger",
     "blurb": "Peter started his 20-year career at the Joint Jet Fusion Undertaking in the UK, building data acquisition and analysis systems for a Tokamak fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry, in both the research and commercial sectors.",
     "image": "images/speakers/peterelger.png"
   }]
@@ -211,6 +221,7 @@
     "organisation": "nearForm",
     "web": "http://www.nearform.com/",
     "twitter": "cianomaidin",
+    "linkedin": "https://ie.linkedin.com/in/cianomaidin",
     "blurb": "Cian is the co-founder and visionary chief executive officer (CEO) behind nearForm. Very early on, Cian saw how Node.js could help software work better. He is a Node.js community leader, creator of the NodeDublin conference and curator of NodeConf EU.",
     "image": "images/speakers/cian.jpeg"
   }]
