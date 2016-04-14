@@ -7,7 +7,7 @@ background: darken(@white, 3%);
     width: @width;
 
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
-      width: @tablet-width;
+      width: 100%;
     }
 
     @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
@@ -121,15 +121,18 @@ background: darken(@white, 3%);
       width: 25%;
 
       @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
-        width: 50%;
+        width: 55%;
+        margin-left: 5%;
       }
 
       @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
-        width: 50%;
+        width: 55%;
+        margin-left: 5%;
       }
 
       @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
         width: 100%;
+        margin-left: 5%;
       }
 
       h3 {
