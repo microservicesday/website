@@ -10,7 +10,9 @@
     
     <h3>{{#if panel}}Panel: {{/if}}{{ title }}</h3>
 
-    
+    {{#if abstract}}
+      <p>{{ abstract }}</p>
+    {{/if}}
     
     {{#if blurb}}
       <p>{{ blurb }}</p>
