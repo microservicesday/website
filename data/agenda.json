@@ -1,12 +1,5 @@
 [{
   "time": {
-    "start": "9:00",
-    "end": "9:30"
-  },
-  "title": "Registration",
-  "type": "logistics"
-}, {
-  "time": {
     "start": "9:30",
     "end": "10:00"
   },
@@ -38,16 +31,9 @@
       "twitter": "jasonmelo",
       "github": "",
       "linkedin": "https://www.linkedin.com/in/jasonmelo",
-      "blurb": "Jason is a cross-domain technology entrepreneur who took his startup to a successful exit in 2008. He has created high-performance, scalable, secure web, mobile and enterprise systems for big-name clients such as Warner Music Group and Deloitte.",
+      "blurb": "Jason is chief architect at Lifion by ADP. He is a cross-domain technology entrepreneur who took his startup to a successful exit in 2008. He has created high-performance, scalable, secure web, mobile and enterprise systems for big-name clients such as Warner Music Group and Deloitte.",
       "image": "images/speakers/jmelo.jpg"
     }]
-}, {
-  "time": {
-    "start": "10:30",
-    "end": "11:00"
-  },
-  "title": "Morning Break",
-  "type": "break"
 }, {
   "time": {
     "start": "11:00",
@@ -63,7 +49,7 @@
     "twitter": "clifcunn",
     "github": "cliftonc",
     "linkedin": "https://www.linkedin.com/in/cliftonc",
-    "blurb": "Clifton started up and sold his first software company before he was 25. His passion is for technology as a tool for transformational change. He has had a distinguished career in some of the world’s largest corporations including Accenture, CapGemini and Mail Online.",
+    "blurb": "Clifton is CTO of TES Global. He started up and sold his first software company before he was 25. His passion is for technology as a tool for transformational change. He has had a distinguished career in some of the world’s largest corporations including Accenture, CapGemini and Mail Online.",
     "image": "images/speakers/ccunningham.jpeg"
   }]
 }, {
@@ -104,17 +90,10 @@
   }]
 }, {
   "time": {
-    "start": "12:30",
-    "end": "1:30"
-  },
-  "title": "Lunch",
-  "type": "break"
-}, {
-  "time": {
     "start": "1:30",
     "end": "2:00"
   },
-  "title": "“Remove the Inhibitors to Innovation”",
+  "title": "“How to enable organizations to go faster”",
   "type": "talk",
   "presenters": [{
     "name": "Fred George",
@@ -124,7 +103,7 @@
     "twitter": "fgeorge52",
     "github": "fredgeorge",
     "linkedin": "https://www.linkedin.com/in/fred-george-5965b5",
-    "abstract": "A common theme runs through conferences, whether focused on microservices, DevOps, lean startup, or a myriad of other popular topics: how to enable an organization to go faster. I explore the need to go faster (which is hardly new), and three areas inhibitors arise: Technology choices, staid business processes, and traditional organization structures and roles. For each, I cite personal experiences in overcoming each.",
+    "abstract": "Fred explores this hugely popular topic from the viewpoint of three inhibitors, drawing heavily on his own extensive experience: technology choices, staid business processes, and traditional organizational structures and roles.",
     "blurb": "Fred George is an industry consultant and has been writing code for over 46 years in over 70 languages. An early adopter of OO and Agile, Fred continues to impact the industry with his leading-­edge ideas.",
     "image": "images/speakers/fred-george.jpg"
   }]
@@ -133,7 +112,7 @@
     "start": "2:00",
     "end": "2:30"
   },
-  "title": "“300: Fighting the Good Fight at the Hot Gates of Micro-Services”",
+  "title": "“Fighting the Good Fight at the Hot Gates of Micro-Services”",
   "type": "tech",
   "presenters": [{
     "name": "Adrian Trenaman",
@@ -144,16 +123,9 @@
     "github": "trenaman",
     "linkedin": "https://ie.linkedin.com/in/adriantrenaman",
     "abstract": "Gilt has taken the architecture of gilt.com from monolith to about 300 cloud-based micro-services, all working tirelessly to handle the hordes of vistors we see every day at noon. There are problems and unanticipated side-effects, however: deployment, software ownership, staging, testing, dependency management, alerting and IO. Adrian will talk about the microservices architecture that he and his team have implemented, and how they are tackling its problems.",
-    "blurb": "Adrian is a software engineer, communicator and leader with over 20 years of experience throughout Europe, US and Asia in diverse industries. He became a committer for the Apache Software Foundation in 2010 and has acted as an expert reviewer to the European Commission.",
+    "blurb": "Adrian is SVP of engineering at HBC Digital / Gilt. He is a software engineer, communicator and leader with over 20 years of experience throughout Europe, US and Asia in diverse industries. He became a committer for the Apache Software Foundation in 2010 and has acted as an expert reviewer to the European Commission.",
     "image": "images/speakers/adrian-trenaman.jpg"
   }]
-}, {
-  "time": {
-    "start": "2:30",
-    "end": "3:00"
-  },
-  "title": "Afternoon break",
-  "type": "break"
 }, {
   "time": {
     "start": "3:00",
@@ -188,7 +160,7 @@
     "twitter": "pelger",
     "github": "pelger",
     "linkedin": "https://ie.linkedin.com/in/peterelger",
-    "blurb": "Peter started his 20-year career at the Joint Jet Fusion Undertaking in the UK, building data acquisition and analysis systems for a Tokamak fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry, in both the research and commercial sectors.",
+    "blurb": "Peter is head of engineering at nearForm. He started his 20-year career at the Joint Jet Fusion Undertaking in the UK, building data acquisition and analysis systems for a Tokamak fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry, in both the research and commercial sectors.",
     "image": "images/speakers/peterelger.png"
   }]
 }, {
@@ -216,13 +188,14 @@
   "title": "Final Thoughts",
   "type": "logistics",
   "presenters": [{
-    "name": "Cian Ó Maidín",
-    "title": "CEO",
-    "organisation": "nearForm",
-    "web": "http://www.nearform.com/",
-    "twitter": "cianomaidin",
-    "linkedin": "https://ie.linkedin.com/in/cianomaidin",
-    "blurb": "Cian is the co-founder and visionary chief executive officer (CEO) behind nearForm. Very early on, Cian saw how Node.js could help software work better. He is a Node.js community leader, creator of the NodeDublin conference and curator of NodeConf EU.",
-    "image": "images/speakers/cian.jpeg"
+    "name": "Joe Drumgoole",
+    "title": "Director of Developer Advocacy EMEA",
+    "organisation": "mongoDB",
+    "web": "https://www.mongodb.org/",
+    "twitter": "jdrumgoole",
+    "github": "jdrumgoole",
+    "linkedin": "https://ie.linkedin.com/in/jdrumgoole",
+    "blurb": "Joe Drumgoole is Director of Developer Advocacy EMEA at MongoDB. At MongoDB he helps developers to understand and utilise MongoDB in order to unleash the power of software and data for innovators everywhere. He is a software entrepreneur with over 25 years experience of successful product delivery at Digital Equipment Corporation, Nomura, Oracle Corporation, CR2 and Cape Clear Software. He has founded three software startups. Joe is a regular speaker at technical conferences and has provided mentoring and advice to many Startups over the past ten years.",
+    "image": "images/speakers/jdrumgoole.jpg"
   }]
 }]
