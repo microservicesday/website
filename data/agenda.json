@@ -30,7 +30,7 @@
       "organisation": "Lifion by ADP",
       "web": "http://www.lifion.com/",
       "twitter": "jasonmelo",
-      "github": "",
+      "github": "jasonmelo",
       "linkedin": "https://www.linkedin.com/in/jasonmelo",
       "blurb": "Jason is chief architect at Lifion by ADP. He is a cross-domain technology entrepreneur who took his startup to a successful exit in 2008. He has created high-performance, scalable, secure web, mobile and enterprise systems for big-name clients such as Warner Music Group and Deloitte.",
       "abstract": "You’ve strangled your monolith down to a number of services. However, you could still be facing a very coupled and synchronous application in your new ‘microlith’. Jason describes some key approaches that technology organizations can use to help them make organizational mind-shifts.",
