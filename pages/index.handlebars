@@ -34,7 +34,9 @@
         <br>
         
         <div id="sponsors" class="clearfix">
+          <p>Knowledge Partner</p>
           <a href="https://www.redhat.com/en"><img src="images/redhat.svg" id="redhat" alt="redhat"></a>
+          <a href="http://www.mckinsey.com/business-functions/mckinsey-digital/how-we-help-clients/digital-labs"><img src="images/mckinsey.svg" id="mckinsey" alt="McKinsey's Digital Labs"></a>
           <a href="http://www.nearform.com/"><img src="images/nearform.svg" id="nearform" alt="NearForm"></a>
         </div>
         <a href="https://www.eventbrite.com/e/microservices-day-london-tickets-23795518035" class="button" id="button"><span>REGISTER NOW</span></a>
@@ -73,15 +75,6 @@
 
       </section>
 
-      <section id="conduct">
-
-        <h2><img src="images/logo.svg">{{ conduct.title }}</h2>
-        <HR>
-        <p>{{ conduct.blurb }}</p>
-        <br><br>
-
-      </section>
-
       <section id="location"></section>
 
       <div id="location-images" class="clearfix">
@@ -107,7 +100,14 @@
           {{/each}}
         </ul>
       </div>
+      <section id="conduct">
 
+        <h2><img src="images/logo.svg">{{ conduct.title }}</h2>
+        <HR>
+        <p>{{ conduct.blurb }}</p>
+        <br>
+
+      </section>
       <div id="infowindow-template">
         <h3><a href="{{ metadata.conf.location.link }}">{{ metadata.conf.location.name }}</a></h3>
         <p>{{ metadata.conf.location.address }}</p>
