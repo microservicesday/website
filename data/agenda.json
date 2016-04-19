@@ -3,7 +3,7 @@
     "start": "9:30",
     "end": "10:00"
   },
-  "title": "Welcome Keynote",
+  "title": "“Solving service discovery: how Node.js microservices can find each other without a registry”",
   "type": "talk",
   "presenters": [{
     "name": "Richard Rodger",
@@ -13,7 +13,8 @@
     "twitter": "rjrodger",
     "github": "rjrodger",
     "linkedin": "https://www.linkedin.com/in/richardrodger",
-    "blurb": "Richard is the co-founder, chief technology officer (CTO) and technology thought leader behind nearForm. An acknowledged early authority on microservices, Richard is the author of The Tao of Microservices and the creator of Seneca, an open source microservices tool kit for Node.js.",
+    "blurb": "Richard is the co-founder, chief technology officer (CTO) and technology thought leader behind nearForm. An acknowledged early authority on microservices, Richard is the author of The Tao of Microservices and the creator of Seneca, an open source microservices tool kit for Node.js. He is the host of the Dublin Microservices Meetup.",
+    "abstract": "The microservices architecture brings with it all the challenges of distributed systems, not least the need for services to find each other. Gossip protocol algorithms such as SWIM mean that microservices can do away with the service discovery issue altogether, relying instead on an evolving, dynamic map of their local network. This talk examines the use of the SWIM algorithm to build a Twitter clone in Node.js, one microservice at a time.",
     "image": "images/speakers/richard-roger.jpg"
   }]
 }, {
@@ -21,7 +22,7 @@
     "start": "10:00",
     "end": "10:30"
   },
-  "title": "Tech",
+  "title": "“Microliths: how to avoid traps in your stack and your culture”",
   "type": "tech",
   "presenters": [{
       "name": "Jason Melo",
@@ -32,6 +33,7 @@
       "github": "",
       "linkedin": "https://www.linkedin.com/in/jasonmelo",
       "blurb": "Jason is chief architect at Lifion by ADP. He is a cross-domain technology entrepreneur who took his startup to a successful exit in 2008. He has created high-performance, scalable, secure web, mobile and enterprise systems for big-name clients such as Warner Music Group and Deloitte.",
+      "abstract": "You’ve strangled your monolith down to a number of services. However, you could still be facing a very coupled and synchronous application in your new ‘microlith’. Jason describes some key approaches that technology organizations can use to help them make organizational mind-shifts.",
       "image": "images/speakers/jmelo.jpg"
     }]
 }, {
@@ -70,23 +72,6 @@
     "blurb": "Christian Deger is a software architect at AutoScout24. He is deeply involved with ‘Tatsu’, the project that is transforming the mature AutoScout24 IT system into a next-generation digital platform.",
     "abstract": "Christian gives us the inside track on how AutoScout24 is building its ‘Autobahn in the cloud’ to become the market leader in Europe's vehicle listings business. He will explain how his company is reinventing itself by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS, and from ‘built by devs and run by ops’ to a DevOps mindset.",
     "image": "images/speakers/christian-deger.jpg"
-  }]
-}, {
-  "time": {
-    "start": "12:00",
-    "end": "12:30"
-  },
-  "title": "Panel",
-  "type": "panel",
-  "panel": true,
-  "presenters": [{
-    "name": "Panel details to be confirmed",
-    "title": "",
-    "organisation": "",
-    "twitter": "",
-    "github": "",
-    "blurb": "",
-    "image": "images/speakers/placeholder.jpg"
   }]
 }, {
   "time": {
@@ -150,7 +135,7 @@
     "start": "3:30",
     "end": "4:00"
   },
-  "title": "Tech",
+  "title": "Talk",
   "type": "tech",
   "presenters": [{
     "name": "Peter Elger",
@@ -165,27 +150,10 @@
   }]
 }, {
   "time": {
-    "start": "4.00",
-    "end": "4:30"
-  },
-  "title": "Panel",
-  "type": "panel",
-  "panel": true,
-  "presenters": [{
-    "name": "Panel details to be confirmed",
-    "title": "",
-    "organisation": "",
-    "twitter": "",
-    "github": "",
-    "blurb": "",
-    "image": "images/speakers/placeholder.jpg"
-  }]
-}, {
-  "time": {
     "start": "4:30",
     "end": "5:00"
   },
-  "title": "Final Thoughts",
+  "title": "Talk",
   "type": "logistics",
   "presenters": [{
     "name": "Joe Drumgoole",
