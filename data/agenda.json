@@ -41,7 +41,7 @@
     "start": "11:00",
     "end": "11:30"
   },
-  "title": "Talk",
+  "title": "Microservices Talk",
   "type": "talk",
   "presenters": [{
     "name": "Clifton Cunningham ",
@@ -166,7 +166,7 @@
     "start": "3:30",
     "end": "4:00"
   },
-  "title": "Talk",
+  "title": "Microservices Talk",
   "type": "tech",
   "presenters": [{
     "name": "Peter Elger",
@@ -184,7 +184,7 @@
     "start": "4:30",
     "end": "5:00"
   },
-  "title": "Talk",
+  "title": "Microservices Talk",
   "type": "logistics",
   "presenters": [{
     "name": "Joe Drumgoole",
