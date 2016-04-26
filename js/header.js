@@ -1,7 +1,7 @@
 
 class Header {
 
-  constructor({el = '#header', offset = '#about'} = {}) {
+  constructor({el = '#header', offset = '#microservices'} = {}) {
     this.libInstance = new Headhesive(el, {offset});
   }
 
