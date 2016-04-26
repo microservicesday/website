@@ -8,5 +8,12 @@
   "line3": "Technology unicorns RedHat, Zalando, AutoScout 24, Netflix, Uber and Groupon will be talking about the speed they have been able to achieve as cloud-native technology companies, and about the state-of-the art of technologies they’re creating using the microservice architecture.",
   "line4": "Traditional enterprises such as McKinsey, ADP, and TES will be talking about their transformations from traditional enterprises where technology is an enabler to technology companies where technology is a differentiator. These companies will be sharing real world lessons learned during this transition. Each company will talk about the journey they have been on from a business perspective as they transition to applying an engineering mindset to their business.",
   "line5": "The discussions during microservices day will focus on where the microservice architecture is going as a technology, and how enterprises can use it for competitive advantage.",
-  "microservices": "Microservices are an emerging software architecture that has delivered high impact results for early adopters like Netflix and Amazon. The architecture offers a new way to build enterprise software that makes it easier to deliver on rapidly changing requirements, easier to scale and cope with faults, and easier to avoid technical debt. But microservices are also highly controversial, with many software architects questioning the soundness of the approach, and whether it is truly new or just a variant of traditional service-oriented architecture. Microservices Day will help you answer those questions for yourself."
+  "microservices": "A microservice is a small, self-contained software program of between 10 and 100 lines of code that performs a single function. Microservices architectures are software systems made up of hundreds or even thousands of these independent but interacting programs. They have delivered high-impact results for early adopters like Netflix and Amazon.",
+  "microservices2":"The key business benefits of microservices are as follows:",
+  "microlist1":"Fast, continuous delivery",
+  "microlist2":"Fast responses to changing requirements",
+  "microlist3":"Fast innovation for large enterprises",
+  "microlist4":"Fast digital transformation",
+  "microservices3":"Microservices are also highly controversial. Many software architects question the soundness of the approach, and whether it is truly new or just a variant of the traditional service-oriented architecture. Microservices Day helps you answer these questions for yourself."
 }
+
