@@ -161,31 +161,14 @@
     "abstract": "Are containers really orders of magnitude faster at instantiating than VMs? Or is that just hype? How might this change future architectures? What will the effect be on Microservices? Come to Anne's talk to find out…",
     "image": "images/speakers/anne-currie.jpg"
   }]
-}, {
-  "time": {
-    "start": "3:30",
-    "end": "4:00"
-  },
-  "title": "Microservices Talk",
-  "type": "tech",
-  "presenters": [{
-    "name": "Peter Elger",
-    "title": "Director of Engineering",
-    "organisation": "nearForm",
-    "web": "http://www.nearform.com/",
-    "twitter": "pelger",
-    "github": "pelger",
-    "linkedin": "https://ie.linkedin.com/in/peterelger",
-    "blurb": "Peter is head of engineering at nearForm. He started his 20-year career at the Joint Jet Fusion Undertaking in the UK, building data acquisition and analysis systems for a Tokamak fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry, in both the research and commercial sectors.",
-    "image": "images/speakers/peterelger.png"
-  }]
-}, {
+},  {
   "time": {
     "start": "4:30",
     "end": "5:00"
   },
-  "title": "Microservices Talk",
-  "type": "logistics",
+  "title": "“Microservices Talk” with Panel",
+  "type": "panel",
+  "panel": true,
   "presenters": [{
     "name": "Joe Drumgoole",
     "title": "Director of Developer Advocacy EMEA",
@@ -196,5 +179,27 @@
     "linkedin": "https://ie.linkedin.com/in/jdrumgoole",
     "blurb": "Joe Drumgoole is Director of Developer Advocacy EMEA at MongoDB. At MongoDB he helps developers to understand and utilise MongoDB in order to unleash the power of software and data for innovators everywhere. He is a software entrepreneur with over 25 years experience of successful product delivery at Digital Equipment Corporation, Nomura, Oracle Corporation, CR2 and Cape Clear Software. He has founded three software startups. Joe is a regular speaker at technical conferences and has provided mentoring and advice to many Startups over the past ten years.",
     "image": "images/speakers/jdrumgoole.jpg"
+  },
+  {
+    "name": "Peter Elger",
+    "title": "Director of Engineering",
+    "organisation": "nearForm",
+    "web": "http://www.nearform.com/",
+    "twitter": "pelger",
+    "github": "pelger",
+    "linkedin": "https://ie.linkedin.com/in/peterelger",
+    "blurb": "Peter is head of engineering at nearForm. He started his 20-year career at the Joint Jet Fusion Undertaking in the UK, building data acquisition and analysis systems for a Tokamak fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry, in both the research and commercial sectors.",
+    "image": "images/speakers/peterelger.png"
+  },
+  {
+    "name": "Keith Lynch",
+    "title": "Head of AppDev Platforms",
+    "organisation": "Red Hat UK",
+    "web": "https://www.redhat.com",
+    "twitter": "",
+    "github": "keithlynch",
+    "linkedin": "https://www.linkedin.com/in/keithlynch",
+    "blurb": "Software industry professional with over 15 years experience.",
+    "image": "images/speakers/klynch.jpg"
   }]
 }]
