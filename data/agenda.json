@@ -202,4 +202,23 @@
     "blurb": "Software industry professional with over 15 years experience.",
     "image": "images/speakers/klynch.jpg"
   }]
+}, {
+  "time": {
+    "start": "5:30",
+    "end": "6:00"
+  },
+  "title": "“Engineering principles beyond technology”",
+  "type": "talk",
+  "presenters": [{
+    "name": "Mike Jones",
+    "title": "CTO",
+    "organisation": "USwitch",
+    "web": "http://www.uswitch.com/",
+    "twitter": "michael_jones",
+    "github": "",
+    "linkedin": "https://www.linkedin.com/in/mikedjones",
+    "blurb": "",
+    "abstract": "Decomposing the business helped increase organisation resilience, faster experimentation and reduce reaction times. Although microservice architectures have been recently popular in technology uSwitch has benefited from changing the architecture of the whole organisation. In 6 years the business has been rejuvenated and increased its value 38x. This talk will discuss the real-world conditions and changes that helped deliver significant growth as well as the difficulties such decomposition and decentralisation introduce.",
+    "image": "images/speakers/mjones.jpg"
+  }]
 }]
