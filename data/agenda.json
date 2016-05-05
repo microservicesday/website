@@ -1,225 +1,275 @@
 [{
-  "time": {
-    "start": "9:30",
-    "end": "10:00"
-  },
-  "title": "“Solving service discovery: how Node.js microservices can find each other without a registry”",
-  "type": "talk",
-  "presenters": [{
-    "name": "Richard Rodger",
-    "title": "CTO",
-    "organisation": "nearForm",
-    "web": "http://www.nearform.com/",
-    "twitter": "rjrodger",
-    "github": "rjrodger",
-    "linkedin": "https://www.linkedin.com/in/richardrodger",
-    "blurb": "Richard is the co-founder, chief technology officer (CTO) and technology thought leader behind nearForm. An acknowledged early authority on microservices, Richard is the author of The Tao of Microservices and the creator of Seneca, an open source microservices tool kit for Node.js. He is the host of the Dublin Microservices Meetup.",
-    "abstract": "The microservices architecture brings with it all the challenges of distributed systems, not least the need for services to find each other. Gossip protocol algorithms such as SWIM mean that microservices can do away with the service discovery issue altogether, relying instead on an evolving, dynamic map of their local network. This talk examines the use of the SWIM algorithm to build a Twitter clone in Node.js, one microservice at a time.",
-    "image": "images/speakers/richard-roger.jpg"
-  }]
+	"time": {
+		"start": "8:30",
+		"end": "9:30"
+	},
+	"title": "Registration",
+	"type": "break"
 }, {
-  "time": {
-    "start": "10:00",
-    "end": "10:30"
-  },
-  "title": "“Microliths: how to avoid traps in your stack and your culture”",
-  "type": "tech",
-  "presenters": [{
-      "name": "Jason Melo",
-      "title": "Chief Architect",
-      "organisation": "Lifion by ADP",
-      "web": "http://www.lifion.com/",
-      "twitter": "jasonmelo",
-      "github": "jasonmelo",
-      "linkedin": "https://www.linkedin.com/in/jasonmelo",
-      "blurb": "Jason is chief architect at Lifion by ADP. He is a cross-domain technology entrepreneur who took his startup to a successful exit in 2008. He has created high-performance, scalable, secure web, mobile and enterprise systems for big-name clients such as Warner Music Group and Deloitte.",
-      "abstract": "You’ve strangled your monolith down to a number of services. However, you could still be facing a very coupled and synchronous application in your new ‘microlith’. Jason describes some key approaches that technology organizations can use to help them make organizational mind-shifts.",
-      "image": "images/speakers/jmelo.jpg"
-    }]
+	"time": {
+		"start": "9:30",
+		"end": "9:55"
+	},
+	"title": "“How to enable organizations to go faster”",
+	"type": "talk",
+	"presenters": [{
+		"name": "Fred George",
+		"title": "Principal Consultant",
+		"organisation": "Fred George Consulting",
+		"web": "https://www.linkedin.com/in/fred-george-5965b5",
+		"twitter": "fgeorge52",
+		"github": "fredgeorge",
+		"linkedin": "https://www.linkedin.com/in/fred-george-5965b5",
+		"abstract": "Fred explores this hugely popular topic from the viewpoint of three inhibitors, drawing heavily on his own extensive experience: technology choices, staid business processes, and traditional organizational structures and roles.",
+		"blurb": "Fred George is an industry consultant and has been writing code for over 46 years in over 70 languages. An early adopter of OO and Agile, Fred continues to impact the industry with his leading-­edge ideas.",
+		"image": "images/speakers/fred-george.jpg"
+	}]
 }, {
-  "time": {
-    "start": "11:00",
-    "end": "11:30"
-  },
+	"time": {
+		"start": "10:00",
+		"end": "10:25"
+	},
+	"title": "“Fighting the Good Fight at the Hot Gates of Micro-Services”",
+	"type": "tech",
+	"presenters": [{
+		"name": "Adrian Trenaman",
+		"title": "Software Engineer",
+		"organisation": "Gilt",
+		"web": "http://gilt.com/",
+		"twitter": "adrian_trenaman",
+		"github": "trenaman",
+		"linkedin": "https://ie.linkedin.com/in/adriantrenaman",
+		"abstract": "Gilt has taken the architecture of gilt.com from monolith to about 300 cloud-based micro-services, all working tirelessly to handle the hordes of vistors we see every day at noon. There are problems and unanticipated side-effects, however: deployment, software ownership, staging, testing, dependency management, alerting and IO. Adrian will talk about the microservices architecture that he and his team have implemented, and how they are tackling its problems.",
+		"blurb": "Adrian is SVP of engineering at HBC Digital / Gilt. He is a software engineer, communicator and leader with over 20 years of experience throughout Europe, US and Asia in diverse industries. He became a committer for the Apache Software Foundation in 2010 and has acted as an expert reviewer to the European Commission.",
+		"image": "images/speakers/adrian-trenaman.jpg"
+	}]
+}, {
+	"time": {
+		"start": "10:30",
+		"end": "10:55"
+	},
+	"title": "“Solving service discovery: how Node.js microservices can find each other without a registry”",
+	"type": "talk",
+	"presenters": [{
+		"name": "Richard Rodger",
+		"title": "CTO",
+		"organisation": "nearForm",
+		"web": "http://www.nearform.com/",
+		"twitter": "rjrodger",
+		"github": "rjrodger",
+		"linkedin": "https://www.linkedin.com/in/richardrodger",
+		"blurb": "Richard is the co-founder, chief technology officer (CTO) and technology thought leader behind nearForm. An acknowledged early authority on microservices, Richard is the author of The Tao of Microservices and the creator of Seneca, an open source microservices tool kit for Node.js. He is the host of the Dublin Microservices Meetup.",
+		"abstract": "The microservices architecture brings with it all the challenges of distributed systems, not least the need for services to find each other. Gossip protocol algorithms such as SWIM mean that microservices can do away with the service discovery issue altogether, relying instead on an evolving, dynamic map of their local network. This talk examines the use of the SWIM algorithm to build a Twitter clone in Node.js, one microservice at a time.",
+		"image": "images/speakers/richard-roger.jpg"
+	}]
+}, {
+	"time": {
+		"start": "11:00",
+		"end": "11:25"
+	},
+	"title": "Morning Break",
+	"type": "break"
+}, {
+	"time": {
+		"start": "11:30",
+		"end": "11:55"
+	},
+	"title": "“Microliths: how to avoid traps in your stack and your culture”",
+	"type": "tech",
+	"presenters": [{
+		"name": "Jason Melo",
+		"title": "Chief Architect",
+		"organisation": "Lifion by ADP",
+		"web": "http://www.lifion.com/",
+		"twitter": "jasonmelo",
+		"github": "jasonmelo",
+		"linkedin": "https://www.linkedin.com/in/jasonmelo",
+		"blurb": "Jason is chief architect at Lifion by ADP. He is a cross-domain technology entrepreneur who took his startup to a successful exit in 2008. He has created high-performance, scalable, secure web, mobile and enterprise systems for big-name clients such as Warner Music Group and Deloitte.",
+		"abstract": "You’ve strangled your monolith down to a number of services. However, you could still be facing a very coupled and synchronous application in your new ‘microlith’. Jason describes some key approaches that technology organizations can use to help them make organizational mind-shifts.",
+		"image": "images/speakers/jmelo.jpg"
+	}]
+}, {
+	"time": {
+		"start": "12:00",
+		"end": "12:25"
+	},
   "title": "“Micro-transformation”",
-  "type": "talk",
+	"type": "talk",
   "presenters": [{
-    "name": "Clifton Cunningham ",
-    "title": "CTO",
-    "organisation": "TES Global",
-    "web": "https://www.tesglobal.com/",
-    "twitter": "clifcunn",
-    "github": "cliftonc",
-    "abstract": "I'll be talking about five of the key things I've used at TES to move from what was a traditional 'Enterprise IT' culture to a fast moving, modern and creative engineering team, while rebuilding the entire digital technology platform, in less than 18 months.  Adopting any one of these techniques will start you on that journey, adopting all 5 will get you there quickly:  Programmer Anarchy, Immutable Infrastructure, Continuous Delivery, Micro-service Architecture and Open Source Process.",
-    "linkedin": "https://www.linkedin.com/in/cliftonc",
-    "blurb": "Clifton is CTO of TES Global. He started up and sold his first software company before he was 25. His passion is for technology as a tool for transformational change. He has had a distinguished career in some of the world’s largest corporations including Accenture, CapGemini and Mail Online.",
-    "image": "images/speakers/ccunningham.jpeg"
-  }]
+	"name": "Keith Lynch",
+	"title": "Head of AppDev Platforms",
+	"organisation": "Red Hat UK",
+	"web": "https://www.redhat.com",
+	"twitter": "",
+	"github": "keithlynch",
+	"linkedin": "https://www.linkedin.com/in/keithlynch",
+	"blurb": "Software industry professional with over 15 years experience.",
+	"image": "images/speakers/klynch.jpg"
+}]
 }, {
-  "time": {
-    "start": "11:30",
-    "end": "12:00"
-  },
-  "title": "“Autobahn in the cloud”",
-  "type": "tech",
-  "presenters": [{
-    "name": "Christian Deger",
-    "title": "Software Architect",
-    "organisation": "AutoScout24 GmbH",
-    "web": "http://www.autoscout24.de",
-    "twitter": "cdeger",
-    "github": "christiandeger",
-    "linkedin": "https://de.linkedin.com/in/christiandeger1",
-    "blurb": "Christian Deger is a software architect at AutoScout24. He is deeply involved with ‘Tatsu’, the project that is transforming the mature AutoScout24 IT system into a next-generation digital platform.",
-    "abstract": "Christian gives us the inside track on how AutoScout24 is building its ‘Autobahn in the cloud’ to become the market leader in Europe's vehicle listings business. He will explain how his company is reinventing itself by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS, and from ‘built by devs and run by ops’ to a DevOps mindset.",
-    "image": "images/speakers/christian-deger.jpg"
-  }]
+	"time": {
+		"start": "12:30",
+		"end": "13:30"
+	},
+	"title": "Lunch",
+	"type": "break"
 }, {
-  "time": {
-    "start": "1:30",
-    "end": "2:00"
-  },
-  "title": "“How to enable organizations to go faster”",
-  "type": "talk",
-  "presenters": [{
-    "name": "Fred George",
-    "title": "Principal Consultant",
-    "organisation": "Fred George Consulting",
-    "web":"https://www.linkedin.com/in/fred-george-5965b5",
-    "twitter": "fgeorge52",
-    "github": "fredgeorge",
-    "linkedin": "https://www.linkedin.com/in/fred-george-5965b5",
-    "abstract": "Fred explores this hugely popular topic from the viewpoint of three inhibitors, drawing heavily on his own extensive experience: technology choices, staid business processes, and traditional organizational structures and roles.",
-    "blurb": "Fred George is an industry consultant and has been writing code for over 46 years in over 70 languages. An early adopter of OO and Agile, Fred continues to impact the industry with his leading-­edge ideas.",
-    "image": "images/speakers/fred-george.jpg"
-  }]
-},{
-  "time": {
-    "start": "4:30",
-    "end": "5:00"
-  },
-  "title": "“Data integration in the world of microservices”",
-  "type": "panel",
-  "panel": true,
-  "presenters": [{
-    "name": "Valentine Gogichashvili",
-    "title": "Head of Data Engineering",
-    "organisation": "Zalando",
-    "web": "https://tech.zalando.com/",
-    "twitter": "valgog",
-    "github": "valgog",
-    "linkedin": "https://www.linkedin.com/in/valentine-gogichashvili-7a18b812",
-    "abstract": "In this talk, Fabian and Valentine share what Zalando has learned from the past year of digging deeper into data integration in a microservices-based environment. Their teams have created Saiki, a scalable, cloud­-based data integration infrastructure that makes data from the company’s many microservices readily available to analytical teams. This talk includes a complete overview of the Saiki infrastructure, its possibilities (such as stream processing) and a deep dive into an example PostgreSQL DB replication into the data lake.",
-    "blurb": "As Head of Data Engineering at Zalando, Valentine’s main goal is to create a data integration platform that enables data science and business intelligence teams to access and process data easily and efficiently. One of his primary activities in this job was to help the company’s growing team of engineers to migrate from MySQL to PostgreSQL. He served as head of Zalando’s database team for several years.",
-    "image": "images/speakers/vgogichashvili.jpg"
-  },{
-    "name": "Fabian Wollert",
-    "title": "Business Intelligence Big Data Manager",
-    "organisation": "Zalando",
-    "web": "https://tech.zalando.com/",
-    "twitter": "",
-    "github": "drummerwolli",
-    "linkedin": "https://www.linkedin.com/in/fabian-wollert-47915aa0",
-    "blurb": "Fabian Wollert is Business Intelligence Big Data Manager at Zalando, an e-commerce company based in Berlin. At Zalando, Fabian is working on new concepts to address business intelligence challenges in an agile and scalable infrastructure to ensure reporting and analytic capabilities for the future. Whether it’s data lakes or stream processing, Fabian is enthusiastic about embracing new technologies.",
-    "image": "images/speakers/fwollert.jpg"
-  }]
-  },
- {
-  "time": {
-    "start": "2:00",
-    "end": "2:30"
-  },
-  "title": "“Fighting the Good Fight at the Hot Gates of Micro-Services”",
-  "type": "tech",
-  "presenters": [{
-    "name": "Adrian Trenaman",
-    "title": "Software Engineer",
-    "organisation": "Gilt",
-    "web": "http://gilt.com/",
-    "twitter": "adrian_trenaman",
-    "github": "trenaman",
-    "linkedin": "https://ie.linkedin.com/in/adriantrenaman",
-    "abstract": "Gilt has taken the architecture of gilt.com from monolith to about 300 cloud-based micro-services, all working tirelessly to handle the hordes of vistors we see every day at noon. There are problems and unanticipated side-effects, however: deployment, software ownership, staging, testing, dependency management, alerting and IO. Adrian will talk about the microservices architecture that he and his team have implemented, and how they are tackling its problems.",
-    "blurb": "Adrian is SVP of engineering at HBC Digital / Gilt. He is a software engineer, communicator and leader with over 20 years of experience throughout Europe, US and Asia in diverse industries. He became a committer for the Apache Software Foundation in 2010 and has acted as an expert reviewer to the European Commission.",
-    "image": "images/speakers/adrian-trenaman.jpg"
-  }]
+	"time": {
+		"start": "13:30",
+		"end": "13:55"
+	},
+	"title": "“Micro-transformation”",
+	"type": "talk",
+	"presenters": [{
+		"name": "Clifton Cunningham ",
+		"title": "CTO",
+		"organisation": "TES Global",
+		"web": "https://www.tesglobal.com/",
+		"twitter": "clifcunn",
+		"github": "cliftonc",
+		"abstract": "I'll be talking about five of the key things I've used at TES to move from what was a traditional 'Enterprise IT' culture to a fast moving, modern and creative engineering team, while rebuilding the entire digital technology platform, in less than 18 months.  Adopting any one of these techniques will start you on that journey, adopting all 5 will get you there quickly:  Programmer Anarchy, Immutable Infrastructure, Continuous Delivery, Micro-service Architecture and Open Source Process.",
+		"linkedin": "https://www.linkedin.com/in/cliftonc",
+		"blurb": "Clifton is CTO of TES Global. He started up and sold his first software company before he was 25. His passion is for technology as a tool for transformational change. He has had a distinguished career in some of the world’s largest corporations including Accenture, CapGemini and Mail Online.",
+		"image": "images/speakers/ccunningham.jpeg"
+	}]
 }, {
-  "time": {
-    "start": "3:00",
-    "end": "3:30"
-  },
-  "title": "“Microservices and Containers. How much faster than a VM?!”",
-  "type": "talk",
-  "presenters": [{
-    "name": "Anne Currie",
-    "title": "Co Founder & Consultant",
-    "organisation": "Microscaling Systems",
-    "web": "https://microscaling.com/",
-    "twitter": "anne_e_currie",
-    "github": "",
-    "linkedin": "https://uk.linkedin.com/in/annecurrie",
-    "blurb": "Anne Currie has been in the tech industry for over 20 years, working on everything from core server technology to pioneering e-commerce platforms. She is currently CTO of Microscaling Systems, with a focus on the convergence of microservices and containers.",
-    "abstract": "Are containers really orders of magnitude faster at instantiating than VMs? Or is that just hype? How might this change future architectures? What will the effect be on Microservices? Come to Anne's talk to find out…",
-    "image": "images/speakers/anne-currie.jpg"
-  }]
-},  {
-  "time": {
-    "start": "4:30",
-    "end": "5:00"
-  },
-  "title": "Panel",
-  "type": "panel",
-  "panel": true,
-  "presenters": [{
-    "name": "Joe Drumgoole",
-    "title": "Director of Developer Advocacy EMEA",
-    "organisation": "mongoDB",
-    "web": "https://www.mongodb.org/",
-    "twitter": "jdrumgoole",
-    "github": "jdrumgoole",
-    "linkedin": "https://ie.linkedin.com/in/jdrumgoole",
-    "blurb": "Joe Drumgoole is Director of Developer Advocacy EMEA at MongoDB. At MongoDB he helps developers to understand and utilise MongoDB in order to unleash the power of software and data for innovators everywhere. He is a software entrepreneur with over 25 years experience of successful product delivery at Digital Equipment Corporation, Nomura, Oracle Corporation, CR2 and Cape Clear Software. He has founded three software startups. Joe is a regular speaker at technical conferences and has provided mentoring and advice to many Startups over the past ten years.",
-    "image": "images/speakers/jdrumgoole.jpg"
-  },
-  {
-    "name": "Peter Elger",
-    "title": "Director of Engineering",
-    "organisation": "nearForm",
-    "web": "http://www.nearform.com/",
-    "twitter": "pelger",
-    "github": "pelger",
-    "linkedin": "https://ie.linkedin.com/in/peterelger",
-    "blurb": "Peter is head of engineering at nearForm. He started his 20-year career at the Joint Jet Fusion Undertaking in the UK, building data acquisition and analysis systems for a Tokamak fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry, in both the research and commercial sectors.",
-    "image": "images/speakers/peterelger.png"
-  },
-  {
-    "name": "Keith Lynch",
-    "title": "Head of AppDev Platforms",
-    "organisation": "Red Hat UK",
-    "web": "https://www.redhat.com",
-    "twitter": "",
-    "github": "keithlynch",
-    "linkedin": "https://www.linkedin.com/in/keithlynch",
-    "blurb": "Software industry professional with over 15 years experience.",
-    "image": "images/speakers/klynch.jpg"
-  }]
+	"time": {
+		"start": "14:00",
+		"end": "14:25"
+	},
+	"title": "“Microservices and Containers. How much faster than a VM?!”",
+	"type": "tech",
+	"presenters": [{
+		"name": "Anne Currie",
+		"title": "Co Founder & Consultant",
+		"organisation": "Microscaling Systems",
+		"web": "https://microscaling.com/",
+		"twitter": "anne_e_currie",
+		"github": "",
+		"linkedin": "https://uk.linkedin.com/in/annecurrie",
+		"blurb": "Anne Currie has been in the tech industry for over 20 years, working on everything from core server technology to pioneering e-commerce platforms. She is currently CTO of Microscaling Systems, with a focus on the convergence of microservices and containers.",
+		"abstract": "Are containers really orders of magnitude faster at instantiating than VMs? Or is that just hype? How might this change future architectures? What will the effect be on Microservices? Come to Anne's talk to find out…",
+		"image": "images/speakers/anne-currie.jpg"
+	}]
 }, {
-  "time": {
-    "start": "5:30",
-    "end": "6:00"
-  },
-  "title": "“Engineering principles beyond technology”",
-  "type": "talk",
-  "presenters": [{
-    "name": "Mike Jones",
-    "title": "CTO",
-    "organisation": "USwitch",
-    "web": "http://www.uswitch.com/",
-    "twitter": "michael_jones",
-    "github": "",
-    "linkedin": "https://www.linkedin.com/in/mikedjones",
-    "blurb": "",
-    "abstract": "Decomposing the business helped increase organisation resilience, faster experimentation and reduce reaction times. Although microservice architectures have been recently popular in technology uSwitch has benefited from changing the architecture of the whole organisation. In 6 years the business has been rejuvenated and increased its value 38x. This talk will discuss the real-world conditions and changes that helped deliver significant growth as well as the difficulties such decomposition and decentralisation introduce.",
-    "image": "images/speakers/mjones.jpg"
-  }]
+	"time": {
+		"start": "14:30",
+		"end": "14:55"
+	},
+	"title": "“Data integration in the world of microservices”",
+	"type": "panel",
+	"panel": true,
+	"presenters": [{
+		"name": "Valentine Gogichashvili",
+		"title": "Head of Data Engineering",
+		"organisation": "Zalando",
+		"web": "https://tech.zalando.com/",
+		"twitter": "valgog",
+		"github": "valgog",
+		"linkedin": "https://www.linkedin.com/in/valentine-gogichashvili-7a18b812",
+		"abstract": "In this talk, Fabian and Valentine share what Zalando has learned from the past year of digging deeper into data integration in a microservices-based environment. Their teams have created Saiki, a scalable, cloud­-based data integration infrastructure that makes data from the company’s many microservices readily available to analytical teams. This talk includes a complete overview of the Saiki infrastructure, its possibilities (such as stream processing) and a deep dive into an example PostgreSQL DB replication into the data lake.",
+		"blurb": "As Head of Data Engineering at Zalando, Valentine’s main goal is to create a data integration platform that enables data science and business intelligence teams to access and process data easily and efficiently. One of his primary activities in this job was to help the company’s growing team of engineers to migrate from MySQL to PostgreSQL. He served as head of Zalando’s database team for several years.",
+		"image": "images/speakers/vgogichashvili.jpg"
+	}, {
+		"name": "Fabian Wollert",
+		"title": "Business Intelligence Big Data Manager",
+		"organisation": "Zalando",
+		"web": "https://tech.zalando.com/",
+		"twitter": "",
+		"github": "drummerwolli",
+		"linkedin": "https://www.linkedin.com/in/fabian-wollert-47915aa0",
+		"blurb": "Fabian Wollert is Business Intelligence Big Data Manager at Zalando, an e-commerce company based in Berlin. At Zalando, Fabian is working on new concepts to address business intelligence challenges in an agile and scalable infrastructure to ensure reporting and analytic capabilities for the future. Whether it’s data lakes or stream processing, Fabian is enthusiastic about embracing new technologies.",
+		"image": "images/speakers/fwollert.jpg"
+	}]
+}, {
+	"time": {
+		"start": "15:00",
+		"end": "15:25"
+	},
+	"title": "Afternoon Break",
+	"type": "break"
+}, {
+	"time": {
+		"start": "15:30",
+		"end": "15:55"
+	},
+	"title": "“Engineering principles beyond technology”",
+	"type": "talk",
+	"presenters": [{
+		"name": "Mike Jones",
+		"title": "CTO",
+		"organisation": "USwitch",
+		"web": "http://www.uswitch.com/",
+		"twitter": "michael_jones",
+		"github": "",
+		"linkedin": "https://www.linkedin.com/in/mikedjones",
+		"blurb": "",
+		"abstract": "Decomposing the business helped increase organisation resilience, faster experimentation and reduce reaction times. Although microservice architectures have been recently popular in technology uSwitch has benefited from changing the architecture of the whole organisation. In 6 years the business has been rejuvenated and increased its value 38x. This talk will discuss the real-world conditions and changes that helped deliver significant growth as well as the difficulties such decomposition and decentralisation introduce.",
+		"image": "images/speakers/mjones.jpg"
+	}]
+}, {
+	"time": {
+		"start": "16:00",
+		"end": "16:25"
+	},
+	"title": "“Autobahn in the cloud”",
+	"type": "tech",
+	"presenters": [{
+		"name": "Christian Deger",
+		"title": "Software Architect",
+		"organisation": "AutoScout24 GmbH",
+		"web": "http://www.autoscout24.de",
+		"twitter": "cdeger",
+		"github": "christiandeger",
+		"linkedin": "https://de.linkedin.com/in/christiandeger1",
+		"blurb": "Christian Deger is a software architect at AutoScout24. He is deeply involved with ‘Tatsu’, the project that is transforming the mature AutoScout24 IT system into a next-generation digital platform.",
+		"abstract": "Christian gives us the inside track on how AutoScout24 is building its ‘Autobahn in the cloud’ to become the market leader in Europe's vehicle listings business. He will explain how his company is reinventing itself by making a radical transition from monoliths to microservices, from .NET on Windows to Scala on Linux, from datacenter to AWS, and from ‘built by devs and run by ops’ to a DevOps mindset.",
+		"image": "images/speakers/christian-deger.jpg"
+	}]
+}, {
+	"time": {
+		"start": "16:30",
+		"end": "16:55"
+	},
+	"title": "“Lessons Learned from the Field”",
+	"type": "panel",
+	"panel": true,
+	"presenters": [{
+		"name": "Joe Drumgoole",
+		"title": "Director of Developer Advocacy EMEA",
+		"organisation": "mongoDB",
+		"web": "https://www.mongodb.org/",
+		"twitter": "jdrumgoole",
+		"github": "jdrumgoole",
+		"linkedin": "https://ie.linkedin.com/in/jdrumgoole",
+		"blurb": "Joe Drumgoole is Director of Developer Advocacy EMEA at MongoDB. At MongoDB he helps developers to understand and utilise MongoDB in order to unleash the power of software and data for innovators everywhere. He is a software entrepreneur with over 25 years experience of successful product delivery at Digital Equipment Corporation, Nomura, Oracle Corporation, CR2 and Cape Clear Software. He has founded three software startups. Joe is a regular speaker at technical conferences and has provided mentoring and advice to many Startups over the past ten years.",
+		"image": "images/speakers/jdrumgoole.jpg"
+	}, {
+		"name": "Peter Elger",
+		"title": "Director of Engineering",
+		"organisation": "nearForm",
+		"web": "http://www.nearform.com/",
+		"twitter": "pelger",
+		"github": "pelger",
+		"linkedin": "https://ie.linkedin.com/in/peterelger",
+		"blurb": "Peter is head of engineering at nearForm. He started his 20-year career at the Joint Jet Fusion Undertaking in the UK, building data acquisition and analysis systems for a Tokamak fusion reactor. Peter has held technical leadership roles across a broad base of the IT industry, in both the research and commercial sectors.",
+		"image": "images/speakers/peterelger.png"
+	}, {
+		"name": "Keith Lynch",
+		"title": "Head of AppDev Platforms",
+		"organisation": "Red Hat UK",
+		"web": "https://www.redhat.com",
+		"twitter": "",
+		"github": "keithlynch",
+		"linkedin": "https://www.linkedin.com/in/keithlynch",
+		"blurb": "Software industry professional with over 15 years experience.",
+		"image": "images/speakers/klynch.jpg"
+	}]
+}, {
+	"time": {
+		"start": "17:30",
+		"end": "19:30"
+	},
+	"title": "Evening Drinks",
+	"type": "break"
 }]
