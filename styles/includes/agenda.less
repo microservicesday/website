@@ -90,8 +90,8 @@ background: darken(@white, 3%);
     &.type-talk {
       .type {
         background: linear-gradient(
-          fadeout(#ccc, 40%), 
-          fadeout(#ccc, 10%)
+          fadeout(#ccc, 70%), 
+          fadeout(#ccc, 20%)
         ),
         url(images/hexagons.svg) no-repeat center top fixed,
         url(images/bg.png) no-repeat center center fixed;
@@ -107,15 +107,15 @@ background: darken(@white, 3%);
       .type {
         background: 
           linear-gradient(
-            fadeout(#557CBC, 40%), 
-            fadeout(#557CBC, 10%)
+            fadeout(#FBE3E4, 40%), 
+            fadeout(#262C47, 20%)
           ),
           url(images/hexagons.svg) no-repeatcenter top fixed,
           url(images/bg.png) no-repeat center center fixed;
         background-size: cover;
         height: 100%;
         width: 5%;
-        color: #557CBC;
+        color: #FBE3E4;
       }
     }
 
@@ -132,17 +132,16 @@ background: darken(@white, 3%);
 
     .time {
       float: left;
-      width: 3%;
-      margin-left: 8%;
+      width: 13%;
+      margin-left: 7%;
       font-size: 1.1rem;
       color: #aaa;
-      opacity: 0.0;
 
       @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
         float: none;
         width: 100%;
         margin-bottom: 0.3rem;
-        margin-left: 3%;
+        margin-left: 10%;
       }
     }
 
