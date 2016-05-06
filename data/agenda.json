@@ -98,12 +98,13 @@
   "presenters": [{
 	"name": "Keith Lynch",
 	"title": "Head of AppDev Platforms",
-	"organisation": "Red Hat UK",
+	"organisation": "RedHat",
 	"web": "https://www.redhat.com",
 	"twitter": "",
 	"github": "keithlynch",
 	"linkedin": "https://www.linkedin.com/in/keithlynch",
-	"blurb": "Software industry professional with over 15 years experience.",
+	"blurb": "Keith Lynch is the leader of Red Hat's Application Development business in the UK. When not being a farther he spends more time than he should on front of a keyboard. He’s an open source fanatic and likes to talk about how Red Hat can help businesses to build solutions on top of open source software. He has a background rich in consulting, software development, integration and business rules.",
+	"abstract": "During this talk Keith will be explaining what containers mean to microservices and why they’re an important abstraction layer and enabler for moving to this kind of software architecture. He will also cover some of the trends he’s seeing across the industry and highlight the effects this is having. He will be using current examples he’s seeing from the field to illustrate this.",
 	"image": "images/speakers/klynch.jpg"
 }]
 }, {
@@ -196,16 +197,16 @@
 	"title": "“Engineering principles beyond technology”",
 	"type": "talk",
 	"presenters": [{
-		"name": "Mike Jones",
-		"title": "CTO",
+		"name": "Paul Ingles",
+		"title": "Principal Developer",
 		"organisation": "USwitch",
 		"web": "http://www.uswitch.com/",
-		"twitter": "michael_jones",
-		"github": "",
-		"linkedin": "https://www.linkedin.com/in/mikedjones",
-		"blurb": "",
+		"twitter": "pingles",
+		"github": "pingles",
+		"linkedin": "https://uk.linkedin.com/in/pingles",
+		"blurb": "Software Developer specialising in data tools and infrastructure.",
 		"abstract": "Decomposing the business helped increase organisation resilience, faster experimentation and reduce reaction times. Although microservice architectures have been recently popular in technology uSwitch has benefited from changing the architecture of the whole organisation. In 6 years the business has been rejuvenated and increased its value 38x. This talk will discuss the real-world conditions and changes that helped deliver significant growth as well as the difficulties such decomposition and decentralisation introduce.",
-		"image": "images/speakers/mjones.jpg"
+		"image": "images/speakers/pingles.jpg"
 	}]
 }, {
 	"time": {
@@ -257,12 +258,12 @@
 	}, {
 		"name": "Keith Lynch",
 		"title": "Head of AppDev Platforms",
-		"organisation": "Red Hat UK",
+		"organisation": "RedHat",
 		"web": "https://www.redhat.com",
 		"twitter": "",
 		"github": "keithlynch",
 		"linkedin": "https://www.linkedin.com/in/keithlynch",
-		"blurb": "Software industry professional with over 15 years experience.",
+		"blurb": "Keith Lynch is the leader of Red Hat's Application Development business in the UK. When not being a farther he spends more time than he should on front of a keyboard. He’s an open source fanatic and likes to talk about how Red Hat can help businesses to build solutions on top of open source software. He has a background rich in consulting, software development, integration and business rules.",
 		"image": "images/speakers/klynch.jpg"
 	}]
 }, {
