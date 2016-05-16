@@ -93,7 +93,7 @@
 		"start": "12:00",
 		"end": "12:25"
 	},
-  "title": "“Micro-transformation”",
+  "title": "“Containers as an enabler for microservices and what it means for our industry”",
 	"type": "talk",
   "presenters": [{
 	"name": "Keith Lynch",
@@ -168,7 +168,7 @@
 		"twitter": "valgog",
 		"github": "valgog",
 		"linkedin": "https://www.linkedin.com/in/valentine-gogichashvili-7a18b812",
-		"abstract": "In this talk, Fabian and Valentine share what Zalando has learned from the past year of digging deeper into data integration in a microservices-based environment. Their teams have created Saiki, a scalable, cloud­-based data integration infrastructure that makes data from the company’s many microservices readily available to analytical teams. This talk includes a complete overview of the Saiki infrastructure, its possibilities (such as stream processing) and a deep dive into an example PostgreSQL DB replication into the data lake.",
+		"abstract": "In this talk, Fabian and Valentine share what Zalando has learned from the past year of digging deeper into data integration in a microservices-based environment. Their teams have created Saiki, a scalable, cloud­-based data integration infrastructure that makes data from the company’s many microservices readily available to analytical teams. This talk includes a complete overview of the Saiki infrastructure, its possibilities (such as stream processing).",
 		"blurb": "As Head of Data Engineering at Zalando, Valentine’s main goal is to create a data integration platform that enables data science and business intelligence teams to access and process data easily and efficiently. One of his primary activities in this job was to help the company’s growing team of engineers to migrate from MySQL to PostgreSQL. He served as head of Zalando’s database team for several years.",
 		"image": "images/speakers/vgogichashvili.jpg"
 	}, {
