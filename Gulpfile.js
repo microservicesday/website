@@ -20,7 +20,6 @@ var source      = require('vinyl-source-stream');
 var templateData = {
   metadata: require('./data/metadata'),
   about:    require('./data/about'),
-  speakers: require('./data/speakers'),
   agenda:   require('./data/agenda'),
   conduct:  require('./data/conduct'),
   hotels:   require('./data/hotels') 

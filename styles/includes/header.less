@@ -3,25 +3,25 @@ header {
   top: 0;
   right: 0;
   left: 0;
-
+  
   @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
     display: none;
   }
-
+  
   @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
     display: none;
   }
-
+  
   #toggler {
     display: none;
   }
-
+  
   @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
     #twitter {
       display: none !important;
     }
   }
-
+  
   &.headhesive {
     position: fixed;
     z-index: 1;
@@ -30,13 +30,13 @@ header {
     background: #557cbc;
     transform: translateY(-100%);
     transition: all 300ms ease-in-out;
-
+    
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       nav {
         margin-left: 1rem;
       }
     }
-
+    
     #register {
       a {
         background: @red;
@@ -53,38 +53,38 @@ header {
     }
     #twitter {
       img {
-      width:23px;
-      &:hover,
-      &:active,
-      &:focus {
-        width:25px;
-        margin-bottom: -1px;
+        width:23px;
+        &:hover,
+        &:active,
+        &:focus {
+          width:25px;
+          margin-bottom: -1px;
+        }
       }
     }
-    }
   } 
-
+  
   &.headhesive--stick {
     transform: translateY(0%);
   }
-
+  
   nav {
     width: @width;
     margin: 0 auto;
-
+    
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: @tablet-width;
     }
-
+    
     ul {
       list-style: none;
       margin: 0;
       padding: 0;
-
+      
       li {
         display: block;
         float: right;
-
+        
         @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
           float: left;
           margin-top: -1px;
@@ -117,7 +117,7 @@ header {
           text-transform: lowercase;
           display: block;
           margin: 2rem 1rem;
-
+          
           &:hover,
           &:active,
           &:focus {
@@ -128,14 +128,14 @@ header {
     }
     #twitter {
       img {
-      width:23px;
-      &:hover,
-      &:active,
-      &:focus {
-        width:25px;
-        margin-bottom: -0px;
+        width:23px;
+        &:hover,
+        &:active,
+        &:focus {
+          width:25px;
+          margin-bottom: -0px;
+        }
       }
-    }
     }
   }
 }

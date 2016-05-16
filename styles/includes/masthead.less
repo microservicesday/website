@@ -173,7 +173,7 @@
     }
     img {
       width: 150px;
-      display: block;
+      display: inline-block;
       float: left;
 
       &#mckinsey {
@@ -282,12 +282,17 @@
   #button {
     display:inline-block;
     width: 80%;
-    max-width: 200px; 
+    max-width: 210px; 
     margin: 3rem auto 0;
     z-index: 2;
+    margin-right: 3%;
+    margin-left: 3%;
     position: relative;
   
-
+     img {
+       vertical-align:-30%;
+       margin-right: 7px;
+     }
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: 70%;
     }

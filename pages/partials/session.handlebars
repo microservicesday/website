@@ -1,36 +1,31 @@
 <article class="clearfix type-{{ type }}">
-
+  
   <div class="type"></div>
-          
+  
   <div class="time">
     {{ time.start }} - {{ time.end }}
   </div>
-
+  
   <div class="content">
     
     <h3>{{ title }}</h3>
-
+    
     {{#if abstract}}
-      <p>{{ abstract }}</p>
+    <p>{{ abstract }}</p>
     {{/if}}
     
     {{#if blurb}}
-      <p>{{ blurb }}</p>
-      
+    <p>{{ blurb }}</p>
     {{/if}}
-
+    
     {{#if presenters}}
-
-      <div class="presenters">
-      
-        {{#each presenters}}
-          {{> presenter}}
-        {{/each}}
-
-      </div>
-
+    <div class="presenters">
+      {{#each presenters}}
+      {{> presenter}}
+      {{/each}}
+    </div>
     {{/if}}
-
+    
   </div>
-
+  
 </article>
