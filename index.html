@@ -19,6 +19,15 @@
   <meta property="og:author" content="@microserviceday" />
   
   <link rel="stylesheet" href="microservices-day.css">
+  <script type="text/javascript">
+    function PopUp(hideOrshow) {
+    if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+    else document.getElementById('ac-wrapper').removeAttribute('style');
+}
+window.onload = function () {
+        PopUp('show');
+}
+</script>
 </head>
 <body>
   
@@ -39,7 +48,13 @@
     </nav>
   </header>  
   <section id="masthead">
-    
+    <div id="ac-wrapper" style='display:none'>
+    <div id="popup">
+        <center>
+             <h6>This event is now over. If you missed it why not check out our blog and livestream of the whole day?</h6>    
+        </center>
+    </div>
+</div>
     <img src="images/logo.svg" alt="Microservices Day">
     <h2>Microservices Day London</h2>
     <h3>May 10th, 2016 / The Barbican Centre, London</h3>
