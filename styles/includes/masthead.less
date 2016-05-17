@@ -11,16 +11,16 @@
   width: 100%;
   text-align: center;
   color: #fff;
-  padding-top: 23vh;
+  padding-top: 10vh;
   padding-bottom: 15vh;
 
   @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
-    padding-top: 28vh;
+    padding-top: 10vh;
     height: 73vh;
   }
 
   @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
-    padding-top: 20vh;
+    padding-top: 5vh;
     height: 80vh;
 
     img {
@@ -29,8 +29,8 @@
   }
 
   @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
-    padding-top: 25vh;
-    height: 75vh;
+    padding-top: 5vh;
+    height: 85vh;
 
     img {
       width: 20%;
@@ -39,12 +39,12 @@
 
   @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
     padding-top: 8vh;
-    height: 92vh;
+    height: 120vh;
   }
 
   @media (max-width: @mobile-width-contraint-iphone5) and (orientation: portrait) {
-    padding-top: 15vh;
-    height: 85vh;
+    padding-top: 5vh;
+    height: 100vh;
   }
 
   h4 {
@@ -128,6 +128,41 @@
       font-size: 0.9rem;
       margin-top: 0;
     }
+  }
+  h6 {
+    font-weight: normal;
+    margin: 0.2rem 0 0;
+    font-size: 1.2rem;
+
+    @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+      font-size: 1rem;
+      margin-top: 0.1rem;
+    }
+
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+      font-size: 1.8rem;
+    }
+
+    @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
+      font-size: 0.9rem;
+      margin-top: 0;
+    }
+  }
+  
+  #popup {
+    background-color: @red;
+    opacity: 0.9;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border: solid 1px @red;
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     border-radius: 6px;
+     padding: 14px 20px;
+    
   }
 
   #sponsors {
