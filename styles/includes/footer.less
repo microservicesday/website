@@ -2,13 +2,15 @@ footer {
   background: #141D28;
   color: #fff;
   width:100%;
+  height:auto;
 
   #colophon {
     width: 80%;
-    padding: 2rem 0;
+    padding: 0.7rem 0;
     margin: 0 auto;
     font-size: 0.9rem;
     line-height: 10%;
+    height: auto;
 
     @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
       width: 95%;
@@ -41,18 +43,37 @@ footer {
     opacity: 0.7;
   }
   p {
-    margin-top: 0.0%;
     font-size: 0.7rem;
-    opacity: 0.5;
-    margin-bottom: 0;
-    text-align: center;
-
-    @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
-      margin-bottom: 0.5rem;
+    opacity: 1;
+    line-height: 100%;
+    width: 85%;
+    margin: 0;
+    color: darken(@white, 10%);
+    
+    @media (max-width: @tablet-width-contraint) and (orientation: portrait) {
+      width: 85%;
+      font-size: 0.8rem;
     }
-
+    
+    @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
+      width: @mobile-width;
+      font-size: 0.8rem;
+      padding-bottom: 1rem;
+    }
+    
     @media (max-width: @mobile-width-contraint) and (orientation: portrait) {
-      margin-bottom: 0.5rem;
+      width: @mobile-width-portrait;
+      font-size: 0.8rem;
+      padding-bottom: 1rem;
+    }
+    
+    @media (max-width: @mobile-width-contraint-iphone5) and (orientation: portrait) {
+      width: @mobile-width-portrait-iphone5;
+      font-size: 0.8rem;
+    }
+    
+    @media (max-width: @mobile-width-contraint-iphone5-landscape) and (orientation: landscape) {
+      width: @mobile-width-portrait-iphone5-landscape;
     }
   }
   #footer {
@@ -61,6 +82,7 @@ footer {
     opacity: 0.5;
     margin-bottom: 0;
     text-align: center;
+    padding-bottom: 0;
 
     @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
       margin-bottom: 0.5rem;
