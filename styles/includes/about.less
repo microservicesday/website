@@ -1,8 +1,18 @@
 #about {
   
-  background: #262C47;
-  width: 100%;
-  overflow:visible;
+  background:linear-gradient(
+    fadeout(#5E8EB5, 22%), 
+    fadeout(#5E8EB5, 10%)
+    ),
+    url(images/hexagons.svg) no-repeat center top fixed,
+    url(images/bg.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: #5E8EB5;
+    
+    border-top: 1px solid #5C8AB6;
+    border-bottom: 1px solid #ccc;
 
   h2 {
     color: darken(@white, 10%);

@@ -1,11 +1,10 @@
 #masthead {
   background: 
     linear-gradient(
-      fadeout(@image-overlay, 70%), 
-      fadeout(@image-overlay, 30%)
+      fadeout(@image-overlay, 90%), 
+      fadeout(@image-overlay, 1%)
     ), 
-    url(images/hexagons.svg) no-repeat center top fixed,
-    url(images/london.jpg) no-repeat center center fixed; 
+    url(images/nyn.jpg) no-repeat center center fixed; 
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -95,6 +94,7 @@
     font-weight: normal;
     margin: 0.2rem 0 0;
     font-size: 1.9rem;
+    padding-bottom: 8%;
 
     @media (max-width: @mobile-width-contraint-landscape) and (orientation: landscape) {
       font-size: 1rem;
@@ -150,8 +150,8 @@
   }
   
   #popup {
-    background-color: @red;
-    opacity: 0.9;
+    background-color: #EA6153;
+    opacity: 1;
     width: 60%;
     text-align: center;
     margin-left: auto;

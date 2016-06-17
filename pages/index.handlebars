@@ -19,15 +19,6 @@
   <meta property="og:author" content="{{ metadata.opengraph.twitter.author }}" />
   
   <link rel="stylesheet" href="microservices-day.css">
-  <script type="text/javascript">
-    function PopUp(hideOrshow) {
-    if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
-    else document.getElementById('ac-wrapper').removeAttribute('style');
-}
-window.onload = function () {
-        PopUp('show');
-}
-</script>
 </head>
 <body>
   
@@ -36,24 +27,25 @@ window.onload = function () {
   {{> header}}
   
   <section id="masthead">
-    <div id="ac-wrapper" style='display:none'>
+    <div id="ac-wrapper">
     <div id="popup">
         <center>
-             <h6>This event is now over. If you missed it why not check out our blog and livestream of the whole day?</h6>    
+             <h6>New York event info coming soon! Why not check out our London Event Below</h6>    
         </center>
     </div>
 </div>
     <img src="images/logo.svg" alt="Microservices Day">
     <h2>{{ metadata.conf.name }}</h2>
-    <h3>{{ metadata.conf.date }} / The Barbican Centre, London</h3>
+    <h3>{{ metadata.conf.date }} / ADP, New York</h3>
     <br>
     
-    <div id="sponsors" class="clearfix">
+  <!--  <div id="sponsors" class="clearfix">
       <p>Knowledge Partner</p>
       <a href="https://www.redhat.com/en"><img src="images/redhat.svg" id="redhat" alt="redhat"></a>
       <a href="http://www.mckinsey.com/business-functions/mckinsey-digital/how-we-help-clients/digital-labs"><img src="images/mckinsey.svg" id="mckinsey" alt="McKinsey's Digital Labs"></a>
       <a href="http://www.nearform.com/"><img src="images/nearform.svg" id="nearform" alt="NearForm"></a>
     </div>
+  -->
     <a href="http://www.nearform.com/nodecrunch/microservices-day-london-live-blog/" target="_blank" class="button" id="button"><img src="images/nFlogo.svg" height="23" width="23"><span>VIEW EVENT BLOG</span></a>
     <a href="http://www.nearform.com/nodecrunch/live-stream-microservices-day-london/" target="_blank" class="button" id="button"><img src="images/play.svg" height="23" width="23"><span>VIEW LIVESTREAM</span></a>
     
@@ -70,12 +62,13 @@ window.onload = function () {
     
     <section id="benefits">
       
-      <h2><img src="images/logo.svg">{{ about.title2 }}</h2>
+      <h2><img src="images/logo-color.svg">{{ about.title2 }}</h2>
       <HR>
         <p>{{about.line2}}</p>
-        <p>{{about.line3}}</p>
+        <!--<p>{{about.line3}}</p>
         <p>{{about.line4}}</p>
         <p>{{about.line5}}</p>
+      -->
         <br><br>
         
       </section>
@@ -94,24 +87,24 @@ window.onload = function () {
         
         <section id="agenda">
           
-          <h2>Speakers</h2>
+          <h2>Speakers & Schedule Information Will be Available Shortly</h2>
           
-          {{#each agenda}}
+        <!--  {{#each agenda}}
           {{> session}}
           {{/each}}
-          
+        -->
         </section>
         
         <section id="location"></section>
         
         <div id="location-images" class="clearfix">
-          <img src="images/venue/barb1.jpg" alt="Venue">
-          <img src="images/venue/barb2.jpg" alt="Venue">
-          <img src="images/venue/barb3.jpg" alt="Venue">
-          <img src="images/venue/barb4.jpg" alt="Venue">
+          <img src="images/venue/barb5.jpg" alt="Venue">
+          <img src="images/venue/barb6.jpg" alt="Venue">
+          <img src="images/venue/barb7.jpg" alt="Venue">
+          <img src="images/venue/barb8.jpg" alt="Venue">
         </div>
         
-        <div id="hotels">
+      <!--  <div id="hotels">
           <h2>Hotels <a href="#" id="toggleHotelMap">Toggle hotels on map</a></h2>
           <p id="description">Below you find a selection of unaffiliated hotels near to the event:</p>
           <br>
@@ -127,6 +120,7 @@ window.onload = function () {
             {{/each}}
           </ul>
         </div>
+      -->
         <section id="conduct">
           
           <h2><img src="images/logo.svg">{{ conduct.title }}</h2>
