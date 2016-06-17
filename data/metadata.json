@@ -1,9 +1,9 @@
 {
-  "title": "Microservices Day London - Tuesday 10th May - Barbican Centre - Silk Street London, EC2Y 8DS",
+  "title": "Microservices Day New York",
   "description": "Microservices Day will have a range of talks and panels from industry leaders who have deep experience building and operating microservices systems at scale",
   "github": "https://github.com/microservicesday/website",
   "opengraph": {
-    "title": "Microservices Day London",
+    "title": "Microservices Day New York",
     "url": "http://microservicesday.com",
     "type": "website",
     "description": "Microservices Day will have a range of talks and panels from industry leaders who have deep experience building and operating microservices systems at scale",
@@ -17,19 +17,19 @@
   },
   "conf": {
     "tagline": "The Microservices conference for the enterprise, by the enterprise",
-    "name": "Microservices Day London",
-    "date": "May 10th, 2016",
+    "name": "Microservices Day Ney York",
+    "date": "15th September 2016",
     "time": "9:00 AM - 5:00 PM",
     "timestamp": "2016-05-10T08:00",
     "tickets": "",
-    "hashtag": "msdaylondon",
+    "hashtag": "msdayNewYork",
     "location": {
-      "human": "Silk Street London, EC2Y 8DS",
-      "name": "Barbican Centre",
-      "address": "Silk Street London, EC2Y 8DS, Uk",
-      "link": "http://www.barbican.org.uk/",
-      "lat": 51.5198117,
-      "lng": -0.09391860000005181
+      "human": "Lifion, by ADP, 4th Floor, 135 West 18th Street, New York, NY 10011, United States",
+      "name": "TBC",
+      "address": "Lifion, by ADP, 4th Floor, 135 West 18th Street, New York, NY 10011, United States",
+      "link": "",
+      "lat": 40.742187, 
+      "lng": -73.995766
     }
   }
 }
