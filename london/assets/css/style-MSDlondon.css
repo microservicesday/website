@@ -27,12 +27,12 @@ Headers:		'Roboto', sans-serif;
 /* 1. Elements Styling */
 body, html {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 14px;
   overflow: hidden;
   position: relative;
   color: white;
-  background-color: #191919;
+  background-color: #0b2a4a;
   margin-right: 0 !important;
 }
 
@@ -1210,7 +1210,7 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-content {
   display: table;
-  height: 70%;
+  height: 85%;
   width: 100%;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-content #navigation-wrapper {

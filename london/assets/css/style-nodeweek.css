@@ -1210,7 +1210,7 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-content {
   display: table;
-  height: 70%;
+  height: 80%;
   width: 100%;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-content #navigation-wrapper {
