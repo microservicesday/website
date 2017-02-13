@@ -32,7 +32,7 @@ body, html {
   overflow: hidden;
   position: relative;
   color: white;
-  background-color: #191919;
+  background-color: #0b2a4a;
   margin-right: 0 !important;
 }
 
@@ -41,11 +41,16 @@ a {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   outline: none !important;
-  color: white;
+  color: #719fef;
+  text-decoration: underline;
+  font-weight: bold;
+  
 }
 a:hover, a:focus, a:active {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: bold;
+  
 }
 a.icon i {
   margin-right: 6px;
