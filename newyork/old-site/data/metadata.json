@@ -1,0 +1,35 @@
+{
+  "title": "Microservices Day London - Tuesday 10th May - Barbican Centre - Silk Street London, EC2Y 8DS",
+  "description": "Microservices Day will have a range of talks and panels from industry leaders who have deep experience building and operating microservices systems at scale",
+  "github": "https://github.com/microservicesday/website",
+  "opengraph": {
+    "title": "Microservices Day London",
+    "url": "http://microservicesday.com",
+    "type": "website",
+    "description": "Microservices Day will have a range of talks and panels from industry leaders who have deep experience building and operating microservices systems at scale",
+    "image": "http://www.microservicesday.com/images/opengraph-image.jpg",
+    "logo": "http://www.microservicesday.com/images/opengraph-logo.png",
+    "twitter": {
+      "card": "summary",
+      "site": "@microserviceday",
+      "author": "@microserviceday"
+    }
+  },
+  "conf": {
+    "tagline": "The Microservices conference for the enterprise, by the enterprise",
+    "name": "Microservices Day London",
+    "date": "May 10th, 2016",
+    "time": "9:00 AM - 5:00 PM",
+    "timestamp": "2016-05-10T08:00",
+    "tickets": "",
+    "hashtag": "msdaylondon",
+    "location": {
+      "human": "Silk Street London, EC2Y 8DS",
+      "name": "Barbican Centre",
+      "address": "Silk Street London, EC2Y 8DS, Uk",
+      "link": "http://www.barbican.org.uk/",
+      "lat": 51.5198117,
+      "lng": -0.09391860000005181
+    }
+  }
+}

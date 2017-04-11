@@ -1,0 +1,19 @@
+{
+  "title": "Why Attend?",
+  "title2": "Aims of the Event",
+  "title3": "What are Microservices?",
+  "blurb": "Microservices Day is a one-day, single-track, non-profit event that focuses on the business benefits of utilizing microservices. It is aimed at chief digital officers, chief technical officers, chief information officers, VPs of engineering and senior tech decision makers. Learn how leading enterprises are leveraging digital transformation to achieve rapid delivery and be inspired, not intimidated, by the unicorns.",
+  "line1": "At nearForm, we’ve used our own experience from two years at the front lines of microservices development to hand-pick a line-up of high-profile, experienced speakers.",
+  "line2": "The event aims to bring together two worlds: technology unicorns and traditional enterprises.",
+  "line3": "Technology unicorns RedHat, Zalando, AutoScout 24 and Uber will be talking about the speed they have been able to achieve as cloud-native technology companies, and about the state-of-the art of technologies they’re creating using the microservice architecture.",
+  "line4": "Traditional enterprises such as McKinsey, ADP, and TES will be talking about their transformations from traditional enterprises where technology is an enabler to technology companies where technology is a differentiator. These companies will be sharing real world lessons learned during this transition. Each company will talk about the journey they have been on from a business perspective as they transition to applying an engineering mindset to their business.",
+  "line5": "The discussions during microservices day will focus on where the microservice architecture is going as a technology, and how enterprises can use it for competitive advantage.",
+  "microservices": "A microservice is a small, self-contained software program of between 10 and 100 lines of code that performs a single function. Microservices architectures are software systems made up of hundreds or even thousands of these independent but interacting programs. They have delivered high-impact results for early adopters like Netflix and Amazon.",
+  "microservices2":"The key business benefits of microservices are as follows:",
+  "microlist1":"Fast, continuous delivery",
+  "microlist2":"Fast responses to changing requirements",
+  "microlist3":"Fast innovation for large enterprises",
+  "microlist4":"Fast digital transformation",
+  "microservices3":"Microservices are also highly controversial. Many software architects question the soundness of the approach, and whether it is truly new or just a variant of the traditional service-oriented architecture. Microservices Day helps you answer these questions for yourself."
+}
+

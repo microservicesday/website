@@ -1,0 +1,93 @@
+@mixin translate-z-in($time){
+
+}
+
+.animation-parent { @include perspective(1000px); }
+
+.animate { @include transition-cubic-bezier(.4s);
+  &.translate-z-in { @include opacity(0); @include transform( translateZ(10px) ); @include transition-cubic-bezier(1.5s);
+    &.in { @include opacity(1); @include transform( translateZ(0px) ); }
+  }
+  &.translate-z-out { @include opacity(0); @include transform( translateZ(-10px) ); @include transition-cubic-bezier(1.5s);
+    &.in { @include opacity(1); @include transform( translateZ(0px) ); }
+  }
+  &.scale-out { @include opacity(0); @include transform( scale(.98) ); @include transition-cubic-bezier(1.5s);
+    &.in { @include opacity(1); @include transform( scale(1) ); }
+  }
+  &.scale-in { @include opacity(0); @include transform( scale(1.02) ); @include transition-cubic-bezier(.5s);
+    &.in { @include opacity(1); @include transform( scale(1) ); }
+  }
+  &.fade-in { @include opacity(0);
+    &.in { @include opacity(1); }
+  }
+  &.fade-out { @include opacity(1);
+    &.in { @include opacity(0); }
+  }
+
+  //&.animation-time-1s { @include transition-duration(1s); }
+  &.animation-time-01s { @include transition-cubic-bezier(.1s); }
+  &.animation-time-02s { @include transition-cubic-bezier(.2s); }
+  &.animation-time-03s { @include transition-cubic-bezier(.3s); }
+  &.animation-time-04s { @include transition-cubic-bezier(.4s); }
+  &.animation-time-05s { @include transition-cubic-bezier(.5s); }
+  &.animation-time-06s { @include transition-cubic-bezier(.6s); }
+  &.animation-time-07s { @include transition-cubic-bezier(.7s); }
+  &.animation-time-08s { @include transition-cubic-bezier(.8s); }
+  &.animation-time-09s { @include transition-cubic-bezier(.9s); }
+  &.animation-time-1s { @include transition-cubic-bezier(1s); }
+  &.animation-time-1-5s { @include transition-cubic-bezier(1.5s); }
+  &.animation-time-2s { @include transition-cubic-bezier(2s); }
+  &.animation-time-2-5s { @include transition-cubic-bezier(2.5s); }
+  &.animation-time-3s { @include transition-cubic-bezier(3s); }
+
+  &.delay-01s { @include transition-delay(.1s); }
+  &.delay-02s { @include transition-delay(.2s); }
+  &.delay-03s { @include transition-delay(.3s); }
+  &.delay-04s { @include transition-delay(.4s); }
+  &.delay-05s { @include transition-delay(.5s); }
+  &.delay-06s { @include transition-delay(.6s); }
+  &.delay-07s { @include transition-delay(.7s); }
+  &.delay-08s { @include transition-delay(.8s); }
+  &.delay-09s { @include transition-delay(.9s); }
+  &.delay-1s { @include transition-delay(1s); }
+  &.delay-1-5s { @include transition-delay(1.5s); }
+  &.delay-2s { @include transition-delay(2s); }
+  &.delay-2-5s { @include transition-delay(2.5s); }
+}
+
+@include keyframe(scaleout-scalein) {
+  0% {
+    @include  transform( scale(1) );
+  }
+  50% {
+    @include  transform( scale(1.5) );
+  }
+
+  100% {
+    @include  transform( scale(1) );
+  }
+}
+
+@include keyframe(scalein) {
+  0% {
+    @include opacity(0);
+    @include  transform( scale(.8) );
+  }
+  100% {
+    @include opacity(1);
+    @include  transform( scale(1) );
+  }
+}
+
+@include keyframe(fadeout-fadein) {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

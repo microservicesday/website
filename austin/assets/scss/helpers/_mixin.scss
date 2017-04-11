@@ -1,0 +1,66 @@
+@mixin elegant-font { @include text-shadow(none); -webkit-font-smoothing: antialiased; font-family: 'ElegantIcons'; speak: none; font-weight: normal; font-variant: normal; line-height: 1; text-transform: none; }
+@mixin font-awesome { @include text-shadow(none); -webkit-font-smoothing: antialiased; font-family: 'fontawesome'; speak: none; font-weight: normal; font-variant: normal; line-height: 1; text-transform: none; }
+//@mixin transit { @include transition( 0.4s cubic-bezier(.69,.01,.1,1.01) ); }
+@mixin transition-cubic-bezier($time){
+  @include transition( $time cubic-bezier(.69,.01,.1,1.01) );
+}
+@mixin transit { @include transition( 0.5s ease ); }
+@mixin shadow { @include box-shadow(1px 1px 8px rgba(0,0,0,.07)); }
+@mixin uppercase { text-transform: uppercase; font-size: 10px; font-weight: 700; }
+@mixin frame { border: 2px solid rgba(#000, .2); display: inline-block; }
+@mixin shadow-big { @include box-shadow(0px 1px 40px rgba(0, 0, 0, 0.2)); }
+
+@mixin gradient-white {
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+@mixin gradient-black {
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
+}
+
+@mixin keyframe ($animation_name) {
+  @-webkit-keyframes $animation_name {
+    @content;
+  }
+  @-moz-keyframes $animation_name {
+    @content;
+  }
+  @-o-keyframes $animation_name {
+    @content;
+  }
+  @keyframes $animation_name {
+    @content;
+  }
+}
+
+@mixin animation ($delay, $duration, $animation, $forwards, $iteration-count) {
+  -webkit-animation-delay: $delay;
+  -webkit-animation-duration: $duration;
+  -webkit-animation-name: $animation;
+  -webkit-animation-fill-mode: $forwards; /* this prevents the animation from restarting! */
+  -webkit-animation-iteration-count: $iteration-count;
+
+  -moz-animation-delay: $delay;
+  -moz-animation-duration: $duration;
+  -moz-animation-name: $animation;
+  -moz-animation-fill-mode: $forwards; /* this prevents the animation from restarting! */
+  -moz-animation-iteration-count: $iteration-count;
+
+  -o-animation-delay: $delay;
+  -o-animation-duration: $duration;
+  -o-animation-name: $animation;
+  -o-animation-fill-mode: $forwards; /* this prevents the animation from restarting! */
+  -o-animation-iteration-count: $iteration-count;
+
+  animation-delay: $delay;
+  animation-duration: $duration;
+  animation-name: $animation;
+  animation-fill-mode: $forwards; /* this prevents the animation from restarting! */
+  -animation-iteration-count: $iteration-count;
+}

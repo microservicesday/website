@@ -1,0 +1,58 @@
+input[type="text"],input[type="email"], input[type="date"], input[type="time"], input[type="search"], input[type="password"], input[type="number"], input[type="tel"], textarea.form-control { @include border-radius(0px); @include transition(.3s); @include box-shadow(none); -webkit-appearance: none; background-color: rgba($color-white,.02); border: 2px solid rgba($color-white, .3); color: $color-white; outline: none !important; padding-top: 13px; padding-bottom: 13px; padding-left: 13px; padding-right: 13px; width: 100%; height: inherit; font-size: 13px;
+  &:active, &:focus { @include box-shadow(none); background-color: rgba($color-white,.15); border-color: rgba($color-white,.2); }
+  &:hover { @include box-shadow(none); background-color: rgba($color-white,.1); }
+}
+
+form {
+  &.has-background { @include border-radius(5px); background-color: rgba($color-black, .3); padding: 20px; }
+  &.submitted {
+    .status { @include scale(1); }
+    .form-group, .input-group { pointer-events: none; }
+  }
+  .status { @include scale(.1); @include transit; top: -20px; right: -20px; position: absolute;
+    .status-icon { @include border-radius(50%); @include transit; @include shadow-big; width: 40px; height: 40px; background-color: grey; color: #fff; text-align: center; line-height: 40px;
+      &.valid { background-color: #50aa8d; }
+      &.invalid { background-color: #e45544; }
+    }
+    i { font-size: 18px; }
+  }
+}
+
+.form {
+  ::-webkit-input-placeholder { color: rgba($color-white, .7); }
+  :-moz-placeholder { color: rgba($color-white, .7); }
+  ::-moz-placeholder { color: rgba($color-white, .7); }
+  :-ms-input-placeholder { color: rgba($color-white, .7); }
+}
+
+.input-group { width: 100%;
+  .input-group-btn { position: absolute; height: 100%; right: 0; width: auto; z-index: 5;
+    .btn { @include transit; height: 100%; background-color: transparent; }
+  }
+}
+.form-group {
+  .btn { padding-top: 14px; padding-bottom: 13px; }
+}
+
+.btn { @include transit; outline: none !important; padding-bottom: 5px; margin-bottom: 5px;
+  &:active, &:focus, &:hover { outline: none !important; color: $color-white; }
+  &.btn-default { border-color: $color-white; border-style: solid; border-width: 2px; background-color: $color-white; font-size: 12px; font-weight: bold; text-transform: uppercase; }
+  &.btn-framed { background-color: transparent; color: $color-white; border-color: rgba( $color-white, .3 );
+    &:hover, &:active, &:focus { background-color: transparent; color: $color-white; border-color: rgba( $color-white, 1 ); }
+  }
+  &.circle { @include border-radius(100%); padding: 0; }
+  &.icon-only { display: inline-block; width: 35px; height: 35px; color: $color-white; text-align: center; line-height: 33px;
+    i { font-size: 18px; }
+    &.btn-xl { width: 50px; height: 50px; line-height: 48px; }
+  }
+  &.btn-framed-dashed { border-style: dashed; }
+}
+
+.mailchimp-inside-button {
+  form {
+    > div { position: relative; }
+    input[type=submit]{ position: absolute; padding: 14px; bottom: 0; right: 0; background-color: transparent; border: none; }
+  }
+}
+
+.mc-field-group { margin-bottom: 15px;  }
